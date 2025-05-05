@@ -699,7 +699,7 @@ __attribute__((swift_name("Activation")))
 @property (readonly) NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable data __attribute__((swift_name("data")));
 @property (readonly) SSCLong * _Nullable externalId __attribute__((swift_name("externalId")));
 @property (readonly) SSCKotlinx_serialization_jsonJsonPrimitive * _Nullable id __attribute__((swift_name("id")));
-@property (readonly) NSArray<SSCInstance *> * _Nullable instances __attribute__((swift_name("instances")));
+@property NSArray<SSCInstance *> * _Nullable instances __attribute__((swift_name("instances")));
 @property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
 
 /**
