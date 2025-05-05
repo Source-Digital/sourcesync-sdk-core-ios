@@ -404,10 +404,11 @@ __attribute__((swift_name("AppGroupIdentifier")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AppKeyPayload")))
 @interface SSCAppKeyPayload : SSCBase
-- (instancetype)initWithValue:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)value organization:(SSCOrganization * _Nullable)organization legacyOrganizationId:(NSString * _Nullable)legacyOrganizationId name:(NSString * _Nullable)name __attribute__((swift_name("init(value:organization:legacyOrganizationId:name:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithValue:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)value organization:(SSCOrganization * _Nullable)organization legacyOrganizationId:(NSString * _Nullable)legacyOrganizationId name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("init(value:organization:legacyOrganizationId:name:settings:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SSCAppKeyPayloadCompanion *companion __attribute__((swift_name("companion")));
-- (SSCAppKeyPayload *)doCopyValue:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)value organization:(SSCOrganization * _Nullable)organization legacyOrganizationId:(NSString * _Nullable)legacyOrganizationId name:(NSString * _Nullable)name __attribute__((swift_name("doCopy(value:organization:legacyOrganizationId:name:)")));
+- (SSCAppKeyPayload *)doCopyValue:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)value organization:(SSCOrganization * _Nullable)organization legacyOrganizationId:(NSString * _Nullable)legacyOrganizationId name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("doCopy(value:organization:legacyOrganizationId:name:settings:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (SSCInt * _Nullable)getContextFrequency __attribute__((swift_name("getContextFrequency()")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable legacyOrganizationId __attribute__((swift_name("legacyOrganizationId")));
@@ -418,6 +419,7 @@ __attribute__((swift_name("AppKeyPayload")))
  *   kotlinx.serialization.Serializable(with=NormalClass(value=io/sourcesync/sdk/app/OrganizationDeserializer))
 */
 @property (readonly) SSCOrganization * _Nullable organization __attribute__((swift_name("organization")));
+@property (readonly) NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable settings __attribute__((swift_name("settings")));
 @property (readonly) NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable value __attribute__((swift_name("value")));
 @end
 
@@ -765,7 +767,7 @@ __attribute__((swift_name("ActivationsEffectsSource")))
 
 __attribute__((swift_name("BaseContent")))
 @interface SSCBaseContent : SSCBase
-- (instancetype)initWithMomentSelector:(id<SSCMomentSelector>)momentSelector sourceApiClient:(SSCDefaultSourceApiClient *)sourceApiClient contextApiClient:(id<SSCContextApiClient>)contextApiClient activationResolver:(id<SSCActivationResolver>)activationResolver config:(id<SSCBaseContentConfig>)config indexData:(SSCExperienceIndexData *)indexData __attribute__((swift_name("init(momentSelector:sourceApiClient:contextApiClient:activationResolver:config:indexData:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMomentSelector:(id<SSCMomentSelector>)momentSelector sourceApiClient:(SSCDefaultSourceApiClient *)sourceApiClient contextApiClient:(id<SSCContextApiClient>)contextApiClient activationResolver:(id<SSCActivationResolver>)activationResolver config:(id<SSCBaseContentConfig>)config indexData:(SSCExperienceIndexData *)indexData platformApp:(id<SSCPlatformApp>)platformApp __attribute__((swift_name("init(momentSelector:sourceApiClient:contextApiClient:activationResolver:config:indexData:platformApp:)"))) __attribute__((objc_designated_initializer));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -822,7 +824,8 @@ __attribute__((swift_name("BaseContentConfig")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Content")))
 @interface SSCContent : SSCBaseContent
-- (instancetype)initWithMomentSelector:(id<SSCMomentSelector>)momentSelector sourceApiClient:(SSCDefaultSourceApiClient *)sourceApiClient contextApiClient:(id<SSCContextApiClient>)contextApiClient activationResolver:(id<SSCActivationResolver>)activationResolver config:(id<SSCBaseContentConfig>)config indexData:(SSCExperienceIndexData *)indexData __attribute__((swift_name("init(momentSelector:sourceApiClient:contextApiClient:activationResolver:config:indexData:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMomentSelector:(id<SSCMomentSelector>)momentSelector sourceApiClient:(SSCDefaultSourceApiClient *)sourceApiClient contextApiClient:(id<SSCContextApiClient>)contextApiClient activationResolver:(id<SSCActivationResolver>)activationResolver config:(id<SSCBaseContentConfig>)config indexData:(SSCExperienceIndexData *)indexData app:(id<SSCPlatformApp>)app __attribute__((swift_name("init(momentSelector:sourceApiClient:contextApiClient:activationResolver:config:indexData:app:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMomentSelector:(id<SSCMomentSelector>)momentSelector sourceApiClient:(SSCDefaultSourceApiClient *)sourceApiClient contextApiClient:(id<SSCContextApiClient>)contextApiClient activationResolver:(id<SSCActivationResolver>)activationResolver config:(id<SSCBaseContentConfig>)config indexData:(SSCExperienceIndexData *)indexData platformApp:(id<SSCPlatformApp>)platformApp __attribute__((swift_name("init(momentSelector:sourceApiClient:contextApiClient:activationResolver:config:indexData:platformApp:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @end
 
 __attribute__((swift_name("IContentFactory")))
