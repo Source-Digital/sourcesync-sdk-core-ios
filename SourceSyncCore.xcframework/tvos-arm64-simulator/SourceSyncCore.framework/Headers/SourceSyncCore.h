@@ -843,6 +843,12 @@ __attribute__((swift_name("IContentFactory")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)createApp:(id<SSCPlatformApp>)app block:(void (^)(SSCGetContentConfig *))block completionHandler:(void (^)(SSCContent * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("create(app:block:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)createApp:(id<SSCPlatformApp>)app config:(SSCGetContentConfig *)config type:(NSString *)type os:(NSString *)os city:(NSString *)city completionHandler:(void (^)(SSCContent * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("create(app:config:type:os:city:completionHandler:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -864,6 +870,12 @@ __attribute__((swift_name("ContentFactory")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)createApp:(id<SSCPlatformApp>)app block:(void (^)(SSCGetContentConfig *))block completionHandler:(void (^)(SSCContent * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("create(app:block:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)createApp:(id<SSCPlatformApp>)app config:(SSCGetContentConfig *)config type:(NSString *)type os:(NSString *)os city:(NSString *)city completionHandler:(void (^)(SSCContent * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("create(app:config:type:os:city:completionHandler:)")));
 @end
 
 __attribute__((swift_name("PlatformMomentConfig")))
