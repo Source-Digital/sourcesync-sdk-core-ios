@@ -1,5 +1,6 @@
 framework module "SourceSyncCore" {
     umbrella header "SourceSyncCore.h"
+
     export *
     module * { export * }
 }
