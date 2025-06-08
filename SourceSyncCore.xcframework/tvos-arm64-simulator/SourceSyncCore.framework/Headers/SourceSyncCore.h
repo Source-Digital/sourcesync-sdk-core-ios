@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class SSCKotlinx_coroutines_coreCoroutineDispatcher, SSCKotlinThrowable, SSCDefaultPulseConfig, SSCTrackEvent, SSCKotlinx_serialization_jsonJsonElement, SSCKotlinArray<T>, SSCKotlinException, SSCKotlinRuntimeException, SSCPulseException, SSCPulseConfigCompanion, SSCPulseFactory, SSCPulse, SSCTrackEventCompanion, SSCUtmParametersCompanion, SSCUtmParameters, SSCAppGroupIdentifier, SSCOrganization, SSCAppKeyPayloadCompanion, SSCAppKeyPayload, SSCKtor_client_coreHttpClient, SSCKotlinx_serialization_jsonJson, SSCKotlinEnumCompanion, SSCKotlinEnum<E>, SSCDefaultPlatformAppStatus, SSCPlatformApiUrlsMap, SSCKtor_httpUrl, SSCOrganizationDeserializer, SSCPlatformApiUrlsMapCompanion, SSCPlatformAppConfigCompanion, SSCPlatformAppFactory, SSCGetPlatformPulseConfig, SSCPlatformPulseConfig, SSCKotlinx_datetimeTimeZone, SSCDeviceInfo, SSCKotlinx_serialization_jsonJsonPrimitive, SSCInstance, SSCActivationCompanion, SSCActivation, SSCActivationInterval, SSCDataTrackQuery, SSCEffect, SSCDefaultSourceApiClient, SSCExperienceIndexData, SSCMetadata, SSCEnvironment, SSCBaseContent, SSCGetContentConfig, SSCContent, SSCContentFactory, SSCDistributionIdentifier, SSCProductionIdentifier, SSCTimeWindow, SSCInstanceCompanion, SSCTimeWindowCompanion, SSCContextMomentInterval, SSCContextCompanion, SSCDefaultContext, SSCContextMomentIntervalCompanion, SSCEffectsResponse, SSCContextApiClientCompanion, SSCKotlinx_serialization_jsonJsonContentPolymorphicSerializer<T>, SSCContextSerializer, SSCTimeWindowContext, SSCDefaultContextCompanion, SSCStrategy, SSCEffectContent, SSCEffectCompanion, SSCEffectContentCompanion, SSCEffectContentActivationCompanion, SSCEffectContentActivation, SSCEffectContentActivationResolvedCompanion, SSCEffectContentActivationResolved, SSCEffectContentUnknownCompanion, SSCEffectContentUnknown, SSCEffectContentUnknownSerializer, SSCEffectsResponseCompanion, SSCStrategyCompanion, SSCTimeWindowContextCompanion, SSCAudienceCompanion, SSCAudience, SSCDeviceCompanion, SSCDevice, SSCDistribution, SSCProduction, SSCMedia, SSCUser, SSCEnvironmentCompanion, SSCLocationCompanion, SSCLocation, SSCMediaCompanion, SSCUserCompanion, SSCCategoryItemCompanion, SSCCategoryItem, SSCChapterItemCompanion, SSCChapterItem, SSCContentSafetyCategoryItemCompanion, SSCContentSafetyCategoryItem, SSCKeywordItemCompanion, SSCKeywordItem, SSCTranscriptItem, SSCSentimentItem, SSCMetadataCompanion, SSCSentimentItemCompanion, SSCTranscriptItemCompanion, SSCDataTrackDefaults, SSCDataTrackCompanion, SSCDataTrackDefaultsCompanion, SSCDataTrackImplCompanion, SSCDataTrackIndexItem, SSCDataTrackIndexCompanion, SSCDataTrackIndex, SSCDataTrackIndexItemCompanion, SSCDataTrackItemRefs, SSCDataTrackItemCompanion, SSCDataTrackItemImplCompanion, SSCDataTrackItemImpl<TData>, SSCDataTrackItemRefsCompanion, SSCDataTrackStandardCategoryCompanion, SSCDataTrackStandardCategory, SSCDataTrackStandardCategoryContentSafetyCompanion, SSCDataTrackStandardCategoryContentSafety, SSCDataTrackStandardCategoryContentSafetyDataItemCompanion, SSCDataTrackStandardCategoryContentSafetyDataItem, SSCDataTrackStandardCategoryDataItemCompanion, SSCDataTrackStandardCategoryDataItem, SSCDataTrackStandardChapterCompanion, SSCDataTrackStandardChapter, SSCDataTrackStandardChapterDataCompanion, SSCDataTrackStandardChapterData, SSCDataTrackStandardKeywordCompanion, SSCDataTrackStandardKeyword, SSCDataTrackStandardKeywordDataItemCompanion, SSCDataTrackStandardKeywordDataItem, SSCDataTrackStandardSentimentCompanion, SSCDataTrackStandardSentiment, SSCDataTrackStandardSentimentDataCompanion, SSCDataTrackStandardSentimentData, SSCDataTrackStandardTranscriptCompanion, SSCDataTrackStandardTranscript, SSCDataTrackStandardTranscriptDataCompanion, SSCDataTrackStandardTranscriptData, SSCDoubleToLongSerializer, SSCJsonDataTrackCompanion, SSCJsonDataTrack, SSCDistributionCompanion, SSCExperienceIdentifier, SSCExperienceIdentifierDistributionId, SSCExperienceIdentifierProductionId, SSCResourceLayers, SSCExperienceIndexConfigContent, SSCExperienceIndexConfigCompanion, SSCExperienceIndexConfig, SSCExperienceIndexConfigCoverContent, SSCExperienceIndexConfigContentCompanion, SSCExperienceIndexConfigCoverContentCompanion, SSCExperienceIndexDataBuild, SSCResourceInfo, SSCExperienceIndexDataCompanion, SSCExperienceIndexDataBuildCompanion, SSCProductionCompanion, SSCResourceInfoCompanion, SSCResourceLayersCompanion, SSCResourceSettingsCompanion, SSCResourceSettings, SSCMediaIdentifier, SSCMediaIdentifierResolvedCompanion, SSCMediaIdentifierResolved, SSCMediaIdentifierResolvedExtMediaId, SSCMediaIdentifierResolvedMediaId, SSCCdnDataTrackApiClientCompanion, SSCMomentState, SSCDefaultMomentOptions, SSCTimeInterval, SSCMomentCompanion, SSCMomentPluginEvent, SSCMomentPluginHook, SSCPluginCore<E, H>, SSCCdnDataTrackApiClient, SSCMomentApiClientMediaResponse, SSCMomentApiClientMediaResponseCompanion, SSCMomentSelectorCompanion, SSCMomentApiClient, SSCDataTrackTreeNodeData<T>, SSCTimeIntervalCompanion, SSCMomentPluginEventContextUpdated, SSCMomentPluginEventError, SSCMomentPluginHookContextCreate, SSCMomentPluginHookContextCreateAfter, SSCMomentPluginHookContextUpdate, SSCMomentPluginHookDataTracksReceived, SSCMomentPluginHookDataTracksRequest, SSCStandardDataTracksToContextPluginCompanion, SSCTransformContext<TDataTrackItem, TDataTrack>, SSCDataTrackCache, SSCBaseDataTrackClient, SSCKacheInMemoryKache<K, V>, SSCDataTrackIntervalTree, SSCDataTrackCacheOptions, SSCDataTrackIntervalTreeOptions, SSCStaticIntervalTreeSearchOptions, SSCDataTrackTreeNode<T>, SSCMediaIdentifierResolverCompanion, SSCOrganizationCompanion, SSCDefaultSourceApiClientPlatformResponseCompanion, SSCDefaultSourceApiClientPlatformResponse<TData>, SSCCoreUUID, SSCPlatformUUIDCompanion, SSCStaticIntervalTreeCompanion, SSCStaticIntervalTree<T>, SSCPluginCoreCompanion, SSCPluginCorePluginCoreCompanion, SSCKotlinByteArray, SSCKermitLogger, SSCKtor_client_coreHttpClientConfig<T>, SSCKotlinAbstractCoroutineContextElement, SSCKotlinx_coroutines_coreCoroutineDispatcherKey, SSCKotlinIllegalStateException, SSCKotlinx_serialization_jsonJsonElementCompanion, SSCKtor_client_coreHttpClientEngineConfig, SSCKtor_eventsEvents, SSCKtor_client_coreHttpReceivePipeline, SSCKtor_client_coreHttpRequestPipeline, SSCKtor_client_coreHttpResponsePipeline, SSCKtor_client_coreHttpSendPipeline, SSCKotlinx_serialization_coreSerializersModule, SSCKotlinx_serialization_jsonJsonDefault, SSCKotlinx_serialization_jsonJsonConfiguration, SSCKtor_httpUrlCompanion, SSCKtor_httpURLProtocol, SSCKotlinx_serialization_coreSerialKind, SSCKotlinNothing, SSCKotlinx_datetimeTimeZoneCompanion, SSCKotlinx_datetimeInstant, SSCKotlinx_datetimeLocalDateTime, SSCKotlinx_serialization_jsonJsonPrimitiveCompanion, SSCKacheKacheKeys<K>, SSCKotlinCancellationException, SSCKotlinByteIterator, SSCKermit_coreSeverity, SSCKermit_coreBaseLogger, SSCKermitLoggerCompanion, SSCKotlinAbstractCoroutineContextKey<B, E>, SSCKtor_client_coreHttpRequestData, SSCKtor_client_coreHttpResponseData, SSCKtor_client_coreProxyConfig, SSCKtor_utilsAttributeKey<T>, SSCKtor_eventsEventDefinition<T>, SSCKtor_utilsPipelinePhase, SSCKtor_utilsPipeline<TSubject, TContext>, SSCKtor_client_coreHttpReceivePipelinePhases, SSCKtor_client_coreHttpResponse, SSCKotlinUnit, SSCKtor_client_coreHttpRequestPipelinePhases, SSCKtor_client_coreHttpRequestBuilder, SSCKtor_client_coreHttpResponsePipelinePhases, SSCKtor_client_coreHttpResponseContainer, SSCKtor_client_coreHttpClientCall, SSCKtor_client_coreHttpSendPipelinePhases, SSCKotlinx_serialization_jsonClassDiscriminatorMode, SSCKtor_httpURLProtocolCompanion, SSCKotlinx_datetimeFixedOffsetTimeZone, SSCKotlinx_datetimeInstantCompanion, SSCKotlinx_datetimeLocalDate, SSCKotlinx_datetimeLocalTime, SSCKotlinx_datetimeMonth, SSCKotlinx_datetimeLocalDateTimeCompanion, SSCKotlinx_datetimeDayOfWeek, SSCKermit_coreLogWriter, SSCKtor_httpHttpMethod, SSCKtor_httpOutgoingContent, SSCKtor_httpHttpStatusCode, SSCKtor_utilsGMTDate, SSCKtor_httpHttpProtocolVersion, SSCKtor_utilsTypeInfo, SSCKtor_httpHeadersBuilder, SSCKtor_client_coreHttpRequestBuilderCompanion, SSCKtor_httpURLBuilder, SSCKtor_client_coreHttpClientCallCompanion, SSCKotlinx_datetimeUtcOffset, SSCKotlinx_datetimeFixedOffsetTimeZoneCompanion, SSCKotlinx_datetimeLocalDateCompanion, SSCKotlinx_datetimeLocalTimeCompanion, SSCKtor_httpHttpMethodCompanion, SSCKtor_httpContentType, SSCKtor_httpHttpStatusCodeCompanion, SSCKtor_utilsWeekDay, SSCKtor_utilsMonth, SSCKtor_utilsGMTDateCompanion, SSCKtor_httpHttpProtocolVersionCompanion, SSCKtor_utilsStringValuesBuilderImpl, SSCKtor_httpURLBuilderCompanion, SSCKotlinx_datetimeUtcOffsetCompanion, SSCKotlinx_datetimePadding, SSCKotlinx_datetimeDayOfWeekNames, SSCKotlinx_datetimeMonthNames, SSCKtor_httpHeaderValueParam, SSCKtor_httpHeaderValueWithParametersCompanion, SSCKtor_httpHeaderValueWithParameters, SSCKtor_httpContentTypeCompanion, SSCKtor_utilsWeekDayCompanion, SSCKtor_utilsMonthCompanion, SSCKotlinKTypeProjection, SSCKotlinx_io_coreBuffer, SSCKotlinx_datetimeDayOfWeekNamesCompanion, SSCKotlinx_datetimeMonthNamesCompanion, SSCKotlinKVariance, SSCKotlinKTypeProjectionCompanion;
+@class SSCKotlinx_coroutines_coreCoroutineDispatcher, SSCKotlinThrowable, SSCDefaultPulseConfig, SSCTrackEvent, SSCKotlinx_serialization_jsonJsonElement, SSCKotlinArray<T>, SSCKotlinException, SSCKotlinRuntimeException, SSCPulseException, SSCPulseConfigCompanion, SSCPulseFactory, SSCPulse, SSCTrackEventCompanion, SSCUtmParametersCompanion, SSCUtmParameters, SSCAppGroupIdentifier, SSCAppKeyPayloadCompanion, SSCAppKeyPayload, SSCOrganization, SSCKtor_client_coreHttpClient, SSCKotlinx_serialization_jsonJson, SSCKotlinEnumCompanion, SSCKotlinEnum<E>, SSCDefaultPlatformAppStatus, SSCPlatformApiUrlsMap, SSCKtor_httpUrl, SSCPlatformApiUrlsMapCompanion, SSCPlatformAppConfigCompanion, SSCPlatformAppFactory, SSCGetPlatformPulseConfig, SSCPlatformPulseConfig, SSCKotlinx_datetimeTimeZone, SSCDeviceInfo, SSCKotlinx_serialization_jsonJsonPrimitive, SSCInstance, SSCActivationCompanion, SSCActivation, SSCActivationInterval, SSCDataTrackQuery, SSCEffect, SSCDefaultSourceApiClient, SSCExperienceIndexData, SSCMetadata, SSCEnvironment, SSCBaseContent, SSCGetContentConfig, SSCContent, SSCContentFactory, SSCDistributionIdentifier, SSCProductionIdentifier, SSCTimeWindow, SSCInstanceCompanion, SSCTimeWindowCompanion, SSCContextMomentInterval, SSCContextCompanion, SSCDefaultContext, SSCContextMomentIntervalCompanion, SSCEffectsResponse, SSCContextApiClientCompanion, SSCKotlinx_serialization_jsonJsonContentPolymorphicSerializer<T>, SSCContextSerializer, SSCTimeWindowContext, SSCDefaultContextCompanion, SSCStrategy, SSCEffectContent, SSCEffectCompanion, SSCEffectContentCompanion, SSCEffectContentActivationCompanion, SSCEffectContentActivation, SSCEffectContentActivationResolvedCompanion, SSCEffectContentActivationResolved, SSCEffectContentUnknownCompanion, SSCEffectContentUnknown, SSCEffectContentUnknownSerializer, SSCEffectsResponseCompanion, SSCStrategyCompanion, SSCTimeWindowContextCompanion, SSCAudienceCompanion, SSCAudience, SSCDeviceCompanion, SSCDevice, SSCDistribution, SSCProduction, SSCMedia, SSCUser, SSCEnvironmentCompanion, SSCLocationCompanion, SSCLocation, SSCMediaCompanion, SSCUserCompanion, SSCCategoryItemCompanion, SSCCategoryItem, SSCChapterItemCompanion, SSCChapterItem, SSCContentSafetyCategoryItemCompanion, SSCContentSafetyCategoryItem, SSCKeywordItemCompanion, SSCKeywordItem, SSCTranscriptItem, SSCSentimentItem, SSCMetadataCompanion, SSCSentimentItemCompanion, SSCTranscriptItemCompanion, SSCDataTrackDefaults, SSCDataTrackCompanion, SSCDataTrackDefaultsCompanion, SSCDataTrackImplCompanion, SSCDataTrackIndexItem, SSCDataTrackIndexCompanion, SSCDataTrackIndex, SSCDataTrackIndexItemCompanion, SSCDataTrackItemRefs, SSCDataTrackItemCompanion, SSCDataTrackItemImplCompanion, SSCDataTrackItemImpl<TData>, SSCDataTrackItemRefsCompanion, SSCDataTrackStandardCategoryCompanion, SSCDataTrackStandardCategory, SSCDataTrackStandardCategoryContentSafetyCompanion, SSCDataTrackStandardCategoryContentSafety, SSCDataTrackStandardCategoryContentSafetyDataItemCompanion, SSCDataTrackStandardCategoryContentSafetyDataItem, SSCDataTrackStandardCategoryDataItemCompanion, SSCDataTrackStandardCategoryDataItem, SSCDataTrackStandardChapterCompanion, SSCDataTrackStandardChapter, SSCDataTrackStandardChapterDataCompanion, SSCDataTrackStandardChapterData, SSCDataTrackStandardKeywordCompanion, SSCDataTrackStandardKeyword, SSCDataTrackStandardKeywordDataItemCompanion, SSCDataTrackStandardKeywordDataItem, SSCDataTrackStandardSentimentCompanion, SSCDataTrackStandardSentiment, SSCDataTrackStandardSentimentDataCompanion, SSCDataTrackStandardSentimentData, SSCDataTrackStandardTranscriptCompanion, SSCDataTrackStandardTranscript, SSCDataTrackStandardTranscriptDataCompanion, SSCDataTrackStandardTranscriptData, SSCDoubleToLongSerializer, SSCJsonDataTrackCompanion, SSCJsonDataTrack, SSCDistributionCompanion, SSCExperienceIdentifier, SSCExperienceIdentifierDistributionId, SSCExperienceIdentifierProductionId, SSCResourceLayers, SSCExperienceIndexConfigContent, SSCExperienceIndexConfigCompanion, SSCExperienceIndexConfig, SSCExperienceIndexConfigCoverContent, SSCExperienceIndexConfigContentCompanion, SSCExperienceIndexConfigCoverContentCompanion, SSCExperienceIndexDataBuild, SSCResourceInfo, SSCExperienceIndexDataCompanion, SSCExperienceIndexDataBuildCompanion, SSCProductionCompanion, SSCResourceInfoCompanion, SSCResourceLayersCompanion, SSCResourceSettingsCompanion, SSCResourceSettings, SSCMediaIdentifier, SSCMediaIdentifierResolvedCompanion, SSCMediaIdentifierResolved, SSCMediaIdentifierResolvedExtMediaId, SSCMediaIdentifierResolvedMediaId, SSCCdnDataTrackApiClientCompanion, SSCMomentState, SSCDefaultMomentOptions, SSCTimeInterval, SSCMomentCompanion, SSCMomentPluginEvent, SSCMomentPluginHook, SSCPluginCore<E, H>, SSCCdnDataTrackApiClient, SSCMomentApiClientMediaResponse, SSCMomentApiClientMediaResponseCompanion, SSCMomentSelectorCompanion, SSCMomentApiClient, SSCDataTrackTreeNodeData<T>, SSCTimeIntervalCompanion, SSCMomentPluginEventContextUpdated, SSCMomentPluginEventError, SSCMomentPluginHookContextCreate, SSCMomentPluginHookContextCreateAfter, SSCMomentPluginHookContextUpdate, SSCMomentPluginHookDataTracksReceived, SSCMomentPluginHookDataTracksRequest, SSCStandardDataTracksToContextPluginCompanion, SSCTransformContext<TDataTrackItem, TDataTrack>, SSCDataTrackCache, SSCBaseDataTrackClient, SSCKacheInMemoryKache<K, V>, SSCDataTrackIntervalTree, SSCDataTrackCacheOptions, SSCDataTrackIntervalTreeOptions, SSCStaticIntervalTreeSearchOptions, SSCDataTrackTreeNode<T>, SSCMediaIdentifierResolverCompanion, SSCOrganizationCompanion, SSCDefaultSourceApiClientPlatformResponseCompanion, SSCDefaultSourceApiClientPlatformResponse<TData>, SSCCoreUUID, SSCPlatformUUIDCompanion, SSCStaticIntervalTreeCompanion, SSCStaticIntervalTree<T>, SSCPluginCoreCompanion, SSCPluginCorePluginCoreCompanion, SSCKotlinByteArray, SSCKermitLogger, SSCKtor_client_coreHttpClientConfig<T>, SSCKotlinAbstractCoroutineContextElement, SSCKotlinx_coroutines_coreCoroutineDispatcherKey, SSCKotlinIllegalStateException, SSCKotlinx_serialization_jsonJsonElementCompanion, SSCKtor_client_coreHttpClientEngineConfig, SSCKtor_eventsEvents, SSCKtor_client_coreHttpReceivePipeline, SSCKtor_client_coreHttpRequestPipeline, SSCKtor_client_coreHttpResponsePipeline, SSCKtor_client_coreHttpSendPipeline, SSCKotlinx_serialization_coreSerializersModule, SSCKotlinx_serialization_jsonJsonDefault, SSCKotlinx_serialization_jsonJsonConfiguration, SSCKtor_httpUrlCompanion, SSCKtor_httpURLProtocol, SSCKotlinx_datetimeTimeZoneCompanion, SSCKotlinx_datetimeInstant, SSCKotlinx_datetimeLocalDateTime, SSCKotlinx_serialization_jsonJsonPrimitiveCompanion, SSCKotlinx_serialization_coreSerialKind, SSCKotlinNothing, SSCKacheKacheKeys<K>, SSCKotlinCancellationException, SSCKotlinByteIterator, SSCKermit_coreSeverity, SSCKermit_coreBaseLogger, SSCKermitLoggerCompanion, SSCKotlinAbstractCoroutineContextKey<B, E>, SSCKtor_client_coreHttpRequestData, SSCKtor_client_coreHttpResponseData, SSCKtor_client_coreProxyConfig, SSCKtor_utilsAttributeKey<T>, SSCKtor_eventsEventDefinition<T>, SSCKtor_utilsPipelinePhase, SSCKtor_utilsPipeline<TSubject, TContext>, SSCKtor_client_coreHttpReceivePipelinePhases, SSCKtor_client_coreHttpResponse, SSCKotlinUnit, SSCKtor_client_coreHttpRequestPipelinePhases, SSCKtor_client_coreHttpRequestBuilder, SSCKtor_client_coreHttpResponsePipelinePhases, SSCKtor_client_coreHttpResponseContainer, SSCKtor_client_coreHttpClientCall, SSCKtor_client_coreHttpSendPipelinePhases, SSCKotlinx_serialization_jsonClassDiscriminatorMode, SSCKtor_httpURLProtocolCompanion, SSCKotlinx_datetimeFixedOffsetTimeZone, SSCKotlinx_datetimeInstantCompanion, SSCKotlinx_datetimeLocalDate, SSCKotlinx_datetimeLocalTime, SSCKotlinx_datetimeMonth, SSCKotlinx_datetimeLocalDateTimeCompanion, SSCKotlinx_datetimeDayOfWeek, SSCKermit_coreLogWriter, SSCKtor_httpHttpMethod, SSCKtor_httpOutgoingContent, SSCKtor_httpHttpStatusCode, SSCKtor_utilsGMTDate, SSCKtor_httpHttpProtocolVersion, SSCKtor_utilsTypeInfo, SSCKtor_httpHeadersBuilder, SSCKtor_client_coreHttpRequestBuilderCompanion, SSCKtor_httpURLBuilder, SSCKtor_client_coreHttpClientCallCompanion, SSCKotlinx_datetimeUtcOffset, SSCKotlinx_datetimeFixedOffsetTimeZoneCompanion, SSCKotlinx_datetimeLocalDateCompanion, SSCKotlinx_datetimeLocalTimeCompanion, SSCKtor_httpHttpMethodCompanion, SSCKtor_httpContentType, SSCKtor_httpHttpStatusCodeCompanion, SSCKtor_utilsWeekDay, SSCKtor_utilsMonth, SSCKtor_utilsGMTDateCompanion, SSCKtor_httpHttpProtocolVersionCompanion, SSCKtor_utilsStringValuesBuilderImpl, SSCKtor_httpURLBuilderCompanion, SSCKotlinx_datetimeUtcOffsetCompanion, SSCKotlinx_datetimePadding, SSCKotlinx_datetimeDayOfWeekNames, SSCKotlinx_datetimeMonthNames, SSCKtor_httpHeaderValueParam, SSCKtor_httpHeaderValueWithParametersCompanion, SSCKtor_httpHeaderValueWithParameters, SSCKtor_httpContentTypeCompanion, SSCKtor_utilsWeekDayCompanion, SSCKtor_utilsMonthCompanion, SSCKotlinKTypeProjection, SSCKotlinx_io_coreBuffer, SSCKotlinx_datetimeDayOfWeekNamesCompanion, SSCKotlinx_datetimeMonthNamesCompanion, SSCKotlinKVariance, SSCKotlinKTypeProjectionCompanion;
 
-@protocol SSCPulsePlugin, SSCPulseConfig, SSCKotlinAutoCloseable, SSCKotlinx_serialization_coreKSerializer, SSCPlatformApp, SSCKtor_ioCloseable, SSCPlatformAppConfig, SSCKotlinComparable, SSCKotlinx_serialization_coreEncoder, SSCKotlinx_serialization_coreSerialDescriptor, SSCKotlinx_serialization_coreSerializationStrategy, SSCKotlinx_serialization_coreDecoder, SSCKotlinx_serialization_coreDeserializationStrategy, SSCEffectsSource, SSCMomentSelector, SSCContextApiClient, SSCActivationResolver, SSCBaseContentConfig, SSCContext, SSCIContentFactory, SSCMomentPlugin, SSCDataTrackClient, SSCPlatformMomentConfig, SSCKotlinKClass, SSCMetadataItem, SSCDataTrackItem, SSCDataTrack, SSCMoment, SSCPluginEvent, SSCPluginHook, SSCPlugin, SSCKotlinx_coroutines_coreDeferred, SSCSourceApiClient, SSCKotlinSuspendFunction1, SSCKotlinCoroutineContextKey, SSCKotlinCoroutineContextElement, SSCKotlinCoroutineContext, SSCKotlinContinuation, SSCKotlinContinuationInterceptor, SSCKotlinx_coroutines_coreRunnable, SSCKotlinIterator, SSCKotlinx_coroutines_coreCoroutineScope, SSCKtor_client_coreHttpClientEngine, SSCKtor_client_coreHttpClientEngineCapability, SSCKtor_utilsAttributes, SSCKotlinx_serialization_coreSerialFormat, SSCKotlinx_serialization_coreStringFormat, SSCKtor_httpParameters, SSCKotlinx_serialization_coreCompositeEncoder, SSCKotlinAnnotation, SSCKotlinx_serialization_coreCompositeDecoder, SSCKotlinKDeclarationContainer, SSCKotlinKAnnotatedElement, SSCKotlinKClassifier, SSCKacheObjectKache, SSCKotlinx_coroutines_coreSelectClause1, SSCKotlinx_coroutines_coreChildHandle, SSCKotlinx_coroutines_coreChildJob, SSCKotlinx_coroutines_coreDisposableHandle, SSCKotlinx_coroutines_coreJob, SSCKotlinSequence, SSCKotlinx_coroutines_coreSelectClause0, SSCKotlinFunction, SSCKermit_coreLoggerConfig, SSCKermit_coreMutableLoggerConfig, SSCKtor_client_coreHttpClientPlugin, SSCKotlinSuspendFunction2, SSCKotlinx_serialization_coreSerializersModuleCollector, SSCKotlinx_serialization_jsonJsonNamingStrategy, SSCKotlinMapEntry, SSCKtor_utilsStringValues, SSCKotlinx_coroutines_coreSelectInstance, SSCKotlinx_coroutines_coreSelectClause, SSCKotlinx_coroutines_coreParentJob, SSCKtor_httpHeaders, SSCKtor_httpHttpMessage, SSCKtor_ioByteReadChannel, SSCKtor_httpHttpMessageBuilder, SSCKtor_client_coreHttpRequest, SSCKotlinx_datetimeDateTimeFormat, SSCKotlinx_datetimeDateTimeFormatBuilderWithDateTime, SSCKotlinKType, SSCKotlinx_io_coreSource, SSCKtor_utilsStringValuesBuilder, SSCKtor_httpParametersBuilder, SSCKotlinAppendable, SSCKotlinx_datetimeDateTimeFormatBuilderWithDate, SSCKotlinx_datetimeDateTimeFormatBuilderWithTime, SSCKotlinx_datetimeDateTimeFormatBuilder, SSCKotlinx_io_coreRawSink, SSCKotlinx_io_coreRawSource, SSCKotlinx_datetimeDateTimeFormatBuilderWithUtcOffset, SSCKotlinx_io_coreSink;
+@protocol SSCPulsePlugin, SSCPulseConfig, SSCKotlinAutoCloseable, SSCKotlinx_serialization_coreKSerializer, SSCPlatformApp, SSCKtor_ioCloseable, SSCPlatformAppConfig, SSCKotlinComparable, SSCEffectsSource, SSCMomentSelector, SSCContextApiClient, SSCActivationResolver, SSCBaseContentConfig, SSCContext, SSCIContentFactory, SSCMomentPlugin, SSCDataTrackClient, SSCPlatformMomentConfig, SSCKotlinx_serialization_coreEncoder, SSCKotlinx_serialization_coreSerialDescriptor, SSCKotlinx_serialization_coreSerializationStrategy, SSCKotlinx_serialization_coreDecoder, SSCKotlinx_serialization_coreDeserializationStrategy, SSCKotlinKClass, SSCMetadataItem, SSCDataTrackItem, SSCDataTrack, SSCMoment, SSCPluginEvent, SSCPluginHook, SSCPlugin, SSCKotlinx_coroutines_coreDeferred, SSCSourceApiClient, SSCKotlinSuspendFunction1, SSCKotlinCoroutineContextKey, SSCKotlinCoroutineContextElement, SSCKotlinCoroutineContext, SSCKotlinContinuation, SSCKotlinContinuationInterceptor, SSCKotlinx_coroutines_coreRunnable, SSCKotlinIterator, SSCKotlinx_coroutines_coreCoroutineScope, SSCKtor_client_coreHttpClientEngine, SSCKtor_client_coreHttpClientEngineCapability, SSCKtor_utilsAttributes, SSCKotlinx_serialization_coreSerialFormat, SSCKotlinx_serialization_coreStringFormat, SSCKtor_httpParameters, SSCKotlinx_serialization_coreCompositeEncoder, SSCKotlinAnnotation, SSCKotlinx_serialization_coreCompositeDecoder, SSCKotlinKDeclarationContainer, SSCKotlinKAnnotatedElement, SSCKotlinKClassifier, SSCKacheObjectKache, SSCKotlinx_coroutines_coreSelectClause1, SSCKotlinx_coroutines_coreChildHandle, SSCKotlinx_coroutines_coreChildJob, SSCKotlinx_coroutines_coreDisposableHandle, SSCKotlinx_coroutines_coreJob, SSCKotlinSequence, SSCKotlinx_coroutines_coreSelectClause0, SSCKotlinFunction, SSCKermit_coreLoggerConfig, SSCKermit_coreMutableLoggerConfig, SSCKtor_client_coreHttpClientPlugin, SSCKotlinSuspendFunction2, SSCKotlinx_serialization_coreSerializersModuleCollector, SSCKotlinx_serialization_jsonJsonNamingStrategy, SSCKotlinMapEntry, SSCKtor_utilsStringValues, SSCKotlinx_coroutines_coreSelectInstance, SSCKotlinx_coroutines_coreSelectClause, SSCKotlinx_coroutines_coreParentJob, SSCKtor_httpHeaders, SSCKtor_httpHttpMessage, SSCKtor_ioByteReadChannel, SSCKtor_httpHttpMessageBuilder, SSCKtor_client_coreHttpRequest, SSCKotlinx_datetimeDateTimeFormat, SSCKotlinx_datetimeDateTimeFormatBuilderWithDateTime, SSCKotlinKType, SSCKotlinx_io_coreSource, SSCKtor_utilsStringValuesBuilder, SSCKtor_httpParametersBuilder, SSCKotlinAppendable, SSCKotlinx_datetimeDateTimeFormatBuilderWithDate, SSCKotlinx_datetimeDateTimeFormatBuilderWithTime, SSCKotlinx_datetimeDateTimeFormatBuilder, SSCKotlinx_io_coreRawSink, SSCKotlinx_io_coreRawSource, SSCKotlinx_datetimeDateTimeFormatBuilderWithUtcOffset, SSCKotlinx_io_coreSink;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -404,21 +404,17 @@ __attribute__((swift_name("AppGroupIdentifier")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AppKeyPayload")))
 @interface SSCAppKeyPayload : SSCBase
-- (instancetype)initWithValue:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)value organization:(SSCOrganization * _Nullable)organization legacyOrganizationId:(NSString * _Nullable)legacyOrganizationId name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("init(value:organization:legacyOrganizationId:name:settings:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithValue:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)value organization:(NSString * _Nullable)organization legacyOrganizationId:(NSString * _Nullable)legacyOrganizationId name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("init(value:organization:legacyOrganizationId:name:settings:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SSCAppKeyPayloadCompanion *companion __attribute__((swift_name("companion")));
-- (SSCAppKeyPayload *)doCopyValue:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)value organization:(SSCOrganization * _Nullable)organization legacyOrganizationId:(NSString * _Nullable)legacyOrganizationId name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("doCopy(value:organization:legacyOrganizationId:name:settings:)")));
+- (SSCAppKeyPayload *)doCopyValue:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)value organization:(NSString * _Nullable)organization legacyOrganizationId:(NSString * _Nullable)legacyOrganizationId name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("doCopy(value:organization:legacyOrganizationId:name:settings:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (SSCInt * _Nullable)getContextFrequency __attribute__((swift_name("getContextFrequency()")));
+- (SSCOrganization * _Nullable)getOrganizationObject __attribute__((swift_name("getOrganizationObject()")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable legacyOrganizationId __attribute__((swift_name("legacyOrganizationId")));
 @property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable(with=NormalClass(value=io/sourcesync/sdk/app/OrganizationDeserializer))
-*/
-@property (readonly) SSCOrganization * _Nullable organization __attribute__((swift_name("organization")));
+@property (readonly) NSString * _Nullable organization __attribute__((swift_name("organization")));
 @property (readonly) NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable settings __attribute__((swift_name("settings")));
 @property (readonly) NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable value __attribute__((swift_name("value")));
 @end
@@ -544,37 +540,6 @@ __attribute__((swift_name("DefaultPlatformAppConfig")))
 @property void (^ _Nullable onInitCompleted)(id<SSCPlatformApp>) __attribute__((swift_name("onInitCompleted")));
 @property NSString * _Nullable organizationId __attribute__((swift_name("organizationId")));
 @property NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable overrideSettings __attribute__((swift_name("overrideSettings")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
-@protocol SSCKotlinx_serialization_coreSerializationStrategy
-@required
-- (void)serializeEncoder:(id<SSCKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
-@property (readonly) id<SSCKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
-@protocol SSCKotlinx_serialization_coreDeserializationStrategy
-@required
-- (id _Nullable)deserializeDecoder:(id<SSCKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-@property (readonly) id<SSCKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
-@protocol SSCKotlinx_serialization_coreKSerializer <SSCKotlinx_serialization_coreSerializationStrategy, SSCKotlinx_serialization_coreDeserializationStrategy>
-@required
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OrganizationDeserializer")))
-@interface SSCOrganizationDeserializer : SSCBase <SSCKotlinx_serialization_coreKSerializer>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)organizationDeserializer __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SSCOrganizationDeserializer *shared __attribute__((swift_name("shared")));
-- (SSCOrganization *)deserializeDecoder:(id<SSCKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-- (void)serializeEncoder:(id<SSCKotlinx_serialization_coreEncoder>)encoder value:(SSCOrganization *)value __attribute__((swift_name("serialize(encoder:value:)")));
-@property (readonly) id<SSCKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1035,6 +1000,25 @@ __attribute__((swift_name("ContextApiClientCompanion")))
  *   kotlin.jvm.JvmStatic
 */
 - (id<SSCContextApiClient>)createApp:(id<SSCPlatformApp>)app __attribute__((swift_name("create(app:)")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
+@protocol SSCKotlinx_serialization_coreSerializationStrategy
+@required
+- (void)serializeEncoder:(id<SSCKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
+@property (readonly) id<SSCKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
+@protocol SSCKotlinx_serialization_coreDeserializationStrategy
+@required
+- (id _Nullable)deserializeDecoder:(id<SSCKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+@property (readonly) id<SSCKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
+@protocol SSCKotlinx_serialization_coreKSerializer <SSCKotlinx_serialization_coreSerializationStrategy, SSCKotlinx_serialization_coreDeserializationStrategy>
+@required
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_jsonJsonContentPolymorphicSerializer")))
@@ -4153,6 +4137,35 @@ __attribute__((swift_name("Ktor_httpUrl")))
 @property (readonly) NSString * _Nullable user __attribute__((swift_name("user")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/datetime/serializers/TimeZoneSerializer))
+*/
+__attribute__((swift_name("Kotlinx_datetimeTimeZone")))
+@interface SSCKotlinx_datetimeTimeZone : SSCBase
+@property (class, readonly, getter=companion) SSCKotlinx_datetimeTimeZoneCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (SSCKotlinx_datetimeInstant *)toInstant:(SSCKotlinx_datetimeLocalDateTime *)receiver __attribute__((swift_name("toInstant(_:)")));
+- (SSCKotlinx_datetimeLocalDateTime *)toLocalDateTime:(SSCKotlinx_datetimeInstant *)receiver __attribute__((swift_name("toLocalDateTime(_:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonPrimitiveSerializer))
+*/
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonPrimitive")))
+@interface SSCKotlinx_serialization_jsonJsonPrimitive : SSCKotlinx_serialization_jsonJsonElement
+@property (class, readonly, getter=companion) SSCKotlinx_serialization_jsonJsonPrimitiveCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *content __attribute__((swift_name("content")));
+@property (readonly) BOOL isString __attribute__((swift_name("isString")));
+@end
+
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
 @protocol SSCKotlinx_serialization_coreEncoder
 @required
@@ -4292,35 +4305,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
 - (int16_t)decodeShort __attribute__((swift_name("decodeShort()")));
 - (NSString *)decodeString __attribute__((swift_name("decodeString()")));
 @property (readonly) SSCKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/datetime/serializers/TimeZoneSerializer))
-*/
-__attribute__((swift_name("Kotlinx_datetimeTimeZone")))
-@interface SSCKotlinx_datetimeTimeZone : SSCBase
-@property (class, readonly, getter=companion) SSCKotlinx_datetimeTimeZoneCompanion *companion __attribute__((swift_name("companion")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (SSCKotlinx_datetimeInstant *)toInstant:(SSCKotlinx_datetimeLocalDateTime *)receiver __attribute__((swift_name("toInstant(_:)")));
-- (SSCKotlinx_datetimeLocalDateTime *)toLocalDateTime:(SSCKotlinx_datetimeInstant *)receiver __attribute__((swift_name("toLocalDateTime(_:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *id __attribute__((swift_name("id")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonPrimitiveSerializer))
-*/
-__attribute__((swift_name("Kotlinx_serialization_jsonJsonPrimitive")))
-@interface SSCKotlinx_serialization_jsonJsonPrimitive : SSCKotlinx_serialization_jsonJsonElement
-@property (class, readonly, getter=companion) SSCKotlinx_serialization_jsonJsonPrimitiveCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *content __attribute__((swift_name("content")));
-@property (readonly) BOOL isString __attribute__((swift_name("isString")));
 @end
 
 __attribute__((swift_name("KotlinKDeclarationContainer")))
@@ -5100,6 +5084,81 @@ __attribute__((swift_name("Ktor_httpURLProtocol")))
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_datetimeTimeZone.Companion")))
+@interface SSCKotlinx_datetimeTimeZoneCompanion : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCKotlinx_datetimeTimeZoneCompanion *shared __attribute__((swift_name("shared")));
+- (SSCKotlinx_datetimeTimeZone *)currentSystemDefault __attribute__((swift_name("currentSystemDefault()")));
+- (SSCKotlinx_datetimeTimeZone *)ofZoneId:(NSString *)zoneId __attribute__((swift_name("of(zoneId:)")));
+- (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@property (readonly) SSCKotlinx_datetimeFixedOffsetTimeZone *UTC __attribute__((swift_name("UTC")));
+@property (readonly) NSSet<NSString *> *availableZoneIds __attribute__((swift_name("availableZoneIds")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/datetime/serializers/InstantIso8601Serializer))
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_datetimeInstant")))
+@interface SSCKotlinx_datetimeInstant : SSCBase <SSCKotlinComparable>
+@property (class, readonly, getter=companion) SSCKotlinx_datetimeInstantCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(SSCKotlinx_datetimeInstant *)other __attribute__((swift_name("compareTo(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (SSCKotlinx_datetimeInstant *)minusDuration:(int64_t)duration __attribute__((swift_name("minus(duration:)")));
+- (int64_t)minusOther:(SSCKotlinx_datetimeInstant *)other __attribute__((swift_name("minus(other:)")));
+- (SSCKotlinx_datetimeInstant *)plusDuration:(int64_t)duration __attribute__((swift_name("plus(duration:)")));
+- (int64_t)toEpochMilliseconds __attribute__((swift_name("toEpochMilliseconds()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int64_t epochSeconds __attribute__((swift_name("epochSeconds")));
+@property (readonly) int32_t nanosecondsOfSecond __attribute__((swift_name("nanosecondsOfSecond")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/datetime/serializers/LocalDateTimeIso8601Serializer))
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_datetimeLocalDateTime")))
+@interface SSCKotlinx_datetimeLocalDateTime : SSCBase <SSCKotlinComparable>
+- (instancetype)initWithDate:(SSCKotlinx_datetimeLocalDate *)date time:(SSCKotlinx_datetimeLocalTime *)time __attribute__((swift_name("init(date:time:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithYear:(int32_t)year monthNumber:(int32_t)monthNumber dayOfMonth:(int32_t)dayOfMonth hour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second nanosecond:(int32_t)nanosecond __attribute__((swift_name("init(year:monthNumber:dayOfMonth:hour:minute:second:nanosecond:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithYear:(int32_t)year month:(SSCKotlinx_datetimeMonth *)month dayOfMonth:(int32_t)dayOfMonth hour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second nanosecond:(int32_t)nanosecond __attribute__((swift_name("init(year:month:dayOfMonth:hour:minute:second:nanosecond:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SSCKotlinx_datetimeLocalDateTimeCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(SSCKotlinx_datetimeLocalDateTime *)other __attribute__((swift_name("compareTo(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SSCKotlinx_datetimeLocalDate *date __attribute__((swift_name("date")));
+@property (readonly) int32_t dayOfMonth __attribute__((swift_name("dayOfMonth")));
+@property (readonly) SSCKotlinx_datetimeDayOfWeek *dayOfWeek __attribute__((swift_name("dayOfWeek")));
+@property (readonly) int32_t dayOfYear __attribute__((swift_name("dayOfYear")));
+@property (readonly) int32_t hour __attribute__((swift_name("hour")));
+@property (readonly) int32_t minute __attribute__((swift_name("minute")));
+@property (readonly) SSCKotlinx_datetimeMonth *month __attribute__((swift_name("month")));
+@property (readonly) int32_t monthNumber __attribute__((swift_name("monthNumber")));
+@property (readonly) int32_t nanosecond __attribute__((swift_name("nanosecond")));
+@property (readonly) int32_t second __attribute__((swift_name("second")));
+@property (readonly) SSCKotlinx_datetimeLocalTime *time __attribute__((swift_name("time")));
+@property (readonly) int32_t year __attribute__((swift_name("year")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonPrimitive.Companion")))
+@interface SSCKotlinx_serialization_jsonJsonPrimitiveCompanion : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCKotlinx_serialization_jsonJsonPrimitiveCompanion *shared __attribute__((swift_name("shared")));
+- (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
 @protocol SSCKotlinx_serialization_coreCompositeEncoder
 @required
@@ -5181,81 +5240,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinNothing")))
 @interface SSCKotlinNothing : SSCBase
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_datetimeTimeZone.Companion")))
-@interface SSCKotlinx_datetimeTimeZoneCompanion : SSCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SSCKotlinx_datetimeTimeZoneCompanion *shared __attribute__((swift_name("shared")));
-- (SSCKotlinx_datetimeTimeZone *)currentSystemDefault __attribute__((swift_name("currentSystemDefault()")));
-- (SSCKotlinx_datetimeTimeZone *)ofZoneId:(NSString *)zoneId __attribute__((swift_name("of(zoneId:)")));
-- (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@property (readonly) SSCKotlinx_datetimeFixedOffsetTimeZone *UTC __attribute__((swift_name("UTC")));
-@property (readonly) NSSet<NSString *> *availableZoneIds __attribute__((swift_name("availableZoneIds")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/datetime/serializers/InstantIso8601Serializer))
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_datetimeInstant")))
-@interface SSCKotlinx_datetimeInstant : SSCBase <SSCKotlinComparable>
-@property (class, readonly, getter=companion) SSCKotlinx_datetimeInstantCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)compareToOther:(SSCKotlinx_datetimeInstant *)other __attribute__((swift_name("compareTo(other:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (SSCKotlinx_datetimeInstant *)minusDuration:(int64_t)duration __attribute__((swift_name("minus(duration:)")));
-- (int64_t)minusOther:(SSCKotlinx_datetimeInstant *)other __attribute__((swift_name("minus(other:)")));
-- (SSCKotlinx_datetimeInstant *)plusDuration:(int64_t)duration __attribute__((swift_name("plus(duration:)")));
-- (int64_t)toEpochMilliseconds __attribute__((swift_name("toEpochMilliseconds()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int64_t epochSeconds __attribute__((swift_name("epochSeconds")));
-@property (readonly) int32_t nanosecondsOfSecond __attribute__((swift_name("nanosecondsOfSecond")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/datetime/serializers/LocalDateTimeIso8601Serializer))
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_datetimeLocalDateTime")))
-@interface SSCKotlinx_datetimeLocalDateTime : SSCBase <SSCKotlinComparable>
-- (instancetype)initWithDate:(SSCKotlinx_datetimeLocalDate *)date time:(SSCKotlinx_datetimeLocalTime *)time __attribute__((swift_name("init(date:time:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithYear:(int32_t)year monthNumber:(int32_t)monthNumber dayOfMonth:(int32_t)dayOfMonth hour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second nanosecond:(int32_t)nanosecond __attribute__((swift_name("init(year:monthNumber:dayOfMonth:hour:minute:second:nanosecond:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithYear:(int32_t)year month:(SSCKotlinx_datetimeMonth *)month dayOfMonth:(int32_t)dayOfMonth hour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second nanosecond:(int32_t)nanosecond __attribute__((swift_name("init(year:month:dayOfMonth:hour:minute:second:nanosecond:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) SSCKotlinx_datetimeLocalDateTimeCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)compareToOther:(SSCKotlinx_datetimeLocalDateTime *)other __attribute__((swift_name("compareTo(other:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) SSCKotlinx_datetimeLocalDate *date __attribute__((swift_name("date")));
-@property (readonly) int32_t dayOfMonth __attribute__((swift_name("dayOfMonth")));
-@property (readonly) SSCKotlinx_datetimeDayOfWeek *dayOfWeek __attribute__((swift_name("dayOfWeek")));
-@property (readonly) int32_t dayOfYear __attribute__((swift_name("dayOfYear")));
-@property (readonly) int32_t hour __attribute__((swift_name("hour")));
-@property (readonly) int32_t minute __attribute__((swift_name("minute")));
-@property (readonly) SSCKotlinx_datetimeMonth *month __attribute__((swift_name("month")));
-@property (readonly) int32_t monthNumber __attribute__((swift_name("monthNumber")));
-@property (readonly) int32_t nanosecond __attribute__((swift_name("nanosecond")));
-@property (readonly) int32_t second __attribute__((swift_name("second")));
-@property (readonly) SSCKotlinx_datetimeLocalTime *time __attribute__((swift_name("time")));
-@property (readonly) int32_t year __attribute__((swift_name("year")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_serialization_jsonJsonPrimitive.Companion")))
-@interface SSCKotlinx_serialization_jsonJsonPrimitiveCompanion : SSCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SSCKotlinx_serialization_jsonJsonPrimitiveCompanion *shared __attribute__((swift_name("shared")));
-- (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
