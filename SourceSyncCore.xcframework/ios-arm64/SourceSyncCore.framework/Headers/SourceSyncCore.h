@@ -1152,16 +1152,16 @@ __attribute__((swift_name("EffectContent.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("EffectContentActivation")))
 @interface SSCEffectContentActivation : SSCEffectContent
-- (instancetype)initWithContentType:(NSString *)contentType activationId:(int64_t)activationId instance:(SSCInstance *)instance additionalProperties:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)additionalProperties __attribute__((swift_name("init(contentType:activationId:instance:additionalProperties:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithContentType:(NSString *)contentType activationId:(int32_t)activationId instance:(SSCInstance *)instance additionalProperties:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)additionalProperties __attribute__((swift_name("init(contentType:activationId:instance:additionalProperties:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (instancetype)initWithSeen0:(int32_t)seen0 serializationConstructorMarker:(id _Nullable)serializationConstructorMarker __attribute__((swift_name("init(seen0:serializationConstructorMarker:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) SSCEffectContentActivationCompanion *companion __attribute__((swift_name("companion")));
-- (SSCEffectContentActivation *)doCopyContentType:(NSString *)contentType activationId:(int64_t)activationId instance:(SSCInstance *)instance additionalProperties:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)additionalProperties __attribute__((swift_name("doCopy(contentType:activationId:instance:additionalProperties:)")));
+- (SSCEffectContentActivation *)doCopyContentType:(NSString *)contentType activationId:(int32_t)activationId instance:(SSCInstance *)instance additionalProperties:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)additionalProperties __attribute__((swift_name("doCopy(contentType:activationId:instance:additionalProperties:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int64_t activationId __attribute__((swift_name("activationId")));
+@property (readonly) int32_t activationId __attribute__((swift_name("activationId")));
 @property (readonly) NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *additionalProperties __attribute__((swift_name("additionalProperties")));
 
 /**
@@ -3539,7 +3539,7 @@ __attribute__((swift_name("ActivationResolver")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)resolveActivationId:(int64_t)activationId completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("resolve(activationId:completionHandler:)")));
+- (void)resolveActivationId:(int32_t)activationId completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("resolve(activationId:completionHandler:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3561,7 +3561,7 @@ __attribute__((swift_name("DefaultActivationResolver")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)resolveActivationId:(int64_t)activationId completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("resolve(activationId:completionHandler:)")));
+- (void)resolveActivationId:(int32_t)activationId completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("resolve(activationId:completionHandler:)")));
 @end
 
 __attribute__((swift_name("SourceApiClient")))
@@ -3572,7 +3572,7 @@ __attribute__((swift_name("SourceApiClient")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getActivationId:(NSString *)id completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getActivation(id:completionHandler:)")));
+- (void)getActivationId:(int32_t)id completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getActivation(id:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -3602,7 +3602,7 @@ __attribute__((swift_name("DefaultSourceApiClient")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getActivationId:(NSString *)id completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getActivation(id:completionHandler:)")));
+- (void)getActivationId:(int32_t)id completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getActivation(id:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
