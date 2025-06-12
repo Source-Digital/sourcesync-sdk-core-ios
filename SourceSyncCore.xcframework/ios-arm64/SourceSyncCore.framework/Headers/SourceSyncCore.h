@@ -3569,7 +3569,7 @@ __attribute__((swift_name("SourceApiClient")))
 @required
 
 /**
- * @note This method converts instances of CancellationException to errors.
+ * @note This method converts instances of KMPException, CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getActivationId:(int32_t)id completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getActivation(id:completionHandler:)")));
@@ -3599,7 +3599,7 @@ __attribute__((swift_name("DefaultSourceApiClient")))
 - (instancetype)initWithApp:(id<SSCPlatformApp>)app __attribute__((swift_name("init(app:)"))) __attribute__((objc_designated_initializer));
 
 /**
- * @note This method converts instances of CancellationException to errors.
+ * @note This method converts instances of KMPException, CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getActivationId:(int32_t)id completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getActivation(id:completionHandler:)")));
@@ -3651,6 +3651,16 @@ __attribute__((swift_name("DefaultSourceApiClientPlatformResponseCompanion")))
 @property (class, readonly, getter=shared) SSCDefaultSourceApiClientPlatformResponseCompanion *shared __attribute__((swift_name("shared")));
 - (id<SSCKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(SSCKotlinArray<id<SSCKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
 - (id<SSCKotlinx_serialization_coreKSerializer>)serializerTypeSerial0:(id<SSCKotlinx_serialization_coreKSerializer>)typeSerial0 __attribute__((swift_name("serializer(typeSerial0:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KMPException")))
+@interface SSCKMPException : SSCKotlinException
+- (instancetype)initWithMessage:(NSString *)message cause:(SSCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithCause:(SSCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @end
 
 __attribute__((objc_subclassing_restricted))
