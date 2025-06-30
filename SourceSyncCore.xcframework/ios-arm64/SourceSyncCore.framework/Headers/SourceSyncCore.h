@@ -651,9 +651,9 @@ __attribute__((swift_name("PlatformPulsePlugin")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Activation")))
 @interface SSCActivation : SSCBase
-- (instancetype)initWithId:(SSCKotlinx_serialization_jsonJsonPrimitive * _Nullable)id externalId:(SSCLong * _Nullable)externalId name:(NSString * _Nullable)name source:(NSString * _Nullable)source uuid:(NSString * _Nullable)uuid instances:(NSArray<SSCInstance *> * _Nullable)instances data:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)data settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings template:(NSArray<SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)template_ version:(SSCInt * _Nullable)version previewImage:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)previewImage populated:(SSCBoolean * _Nullable)populated type:(NSString * _Nullable)type __attribute__((swift_name("init(id:externalId:name:source:uuid:instances:data:settings:template:version:previewImage:populated:type:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(SSCKotlinx_serialization_jsonJsonPrimitive * _Nullable)id externalId:(NSString * _Nullable)externalId name:(NSString * _Nullable)name source:(NSString * _Nullable)source uuid:(NSString * _Nullable)uuid instances:(NSArray<SSCInstance *> * _Nullable)instances data:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)data settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings template:(NSArray<SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)template_ version:(SSCInt * _Nullable)version previewImage:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)previewImage populated:(SSCBoolean * _Nullable)populated type:(NSString * _Nullable)type __attribute__((swift_name("init(id:externalId:name:source:uuid:instances:data:settings:template:version:previewImage:populated:type:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SSCActivationCompanion *companion __attribute__((swift_name("companion")));
-- (SSCActivation *)doCopyId:(SSCKotlinx_serialization_jsonJsonPrimitive * _Nullable)id externalId:(SSCLong * _Nullable)externalId name:(NSString * _Nullable)name source:(NSString * _Nullable)source uuid:(NSString * _Nullable)uuid instances:(NSArray<SSCInstance *> * _Nullable)instances data:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)data settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings template:(NSArray<SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)template_ version:(SSCInt * _Nullable)version previewImage:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)previewImage populated:(SSCBoolean * _Nullable)populated type:(NSString * _Nullable)type __attribute__((swift_name("doCopy(id:externalId:name:source:uuid:instances:data:settings:template:version:previewImage:populated:type:)")));
+- (SSCActivation *)doCopyId:(SSCKotlinx_serialization_jsonJsonPrimitive * _Nullable)id externalId:(NSString * _Nullable)externalId name:(NSString * _Nullable)name source:(NSString * _Nullable)source uuid:(NSString * _Nullable)uuid instances:(NSArray<SSCInstance *> * _Nullable)instances data:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)data settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings template:(NSArray<SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)template_ version:(SSCInt * _Nullable)version previewImage:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)previewImage populated:(SSCBoolean * _Nullable)populated type:(NSString * _Nullable)type __attribute__((swift_name("doCopy(id:externalId:name:source:uuid:instances:data:settings:template:version:previewImage:populated:type:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSString *)getDataJsonString __attribute__((swift_name("getDataJsonString()")));
 - (NSString *)getSettingsJsonString __attribute__((swift_name("getSettingsJsonString()")));
@@ -664,7 +664,7 @@ __attribute__((swift_name("Activation")))
 - (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable data __attribute__((swift_name("data")));
-@property (readonly) SSCLong * _Nullable externalId __attribute__((swift_name("externalId")));
+@property (readonly) NSString * _Nullable externalId __attribute__((swift_name("externalId")));
 @property (readonly) SSCKotlinx_serialization_jsonJsonPrimitive * _Nullable id __attribute__((swift_name("id")));
 @property NSArray<SSCInstance *> * _Nullable instances __attribute__((swift_name("instances")));
 @property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
@@ -1152,16 +1152,16 @@ __attribute__((swift_name("EffectContent.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("EffectContentActivation")))
 @interface SSCEffectContentActivation : SSCEffectContent
-- (instancetype)initWithContentType:(NSString *)contentType activationId:(int32_t)activationId instance:(SSCInstance *)instance additionalProperties:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)additionalProperties __attribute__((swift_name("init(contentType:activationId:instance:additionalProperties:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithContentType:(NSString *)contentType activationId:(NSString *)activationId instance:(SSCInstance *)instance additionalProperties:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)additionalProperties __attribute__((swift_name("init(contentType:activationId:instance:additionalProperties:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
 - (instancetype)initWithSeen0:(int32_t)seen0 serializationConstructorMarker:(id _Nullable)serializationConstructorMarker __attribute__((swift_name("init(seen0:serializationConstructorMarker:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) SSCEffectContentActivationCompanion *companion __attribute__((swift_name("companion")));
-- (SSCEffectContentActivation *)doCopyContentType:(NSString *)contentType activationId:(int32_t)activationId instance:(SSCInstance *)instance additionalProperties:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)additionalProperties __attribute__((swift_name("doCopy(contentType:activationId:instance:additionalProperties:)")));
+- (SSCEffectContentActivation *)doCopyContentType:(NSString *)contentType activationId:(NSString *)activationId instance:(SSCInstance *)instance additionalProperties:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)additionalProperties __attribute__((swift_name("doCopy(contentType:activationId:instance:additionalProperties:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t activationId __attribute__((swift_name("activationId")));
+@property (readonly) NSString *activationId __attribute__((swift_name("activationId")));
 @property (readonly) NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *additionalProperties __attribute__((swift_name("additionalProperties")));
 
 /**
@@ -2445,13 +2445,13 @@ __attribute__((swift_name("JsonDataTrack.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Distribution")))
 @interface SSCDistribution : SSCBase
-- (instancetype)initWithId:(SSCLong * _Nullable)id name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("init(id:name:settings:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString * _Nullable)id name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("init(id:name:settings:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SSCDistributionCompanion *companion __attribute__((swift_name("companion")));
-- (SSCDistribution *)doCopyId:(SSCLong * _Nullable)id name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("doCopy(id:name:settings:)")));
+- (SSCDistribution *)doCopyId:(NSString * _Nullable)id name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("doCopy(id:name:settings:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) SSCLong * _Nullable id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
 @property (readonly) NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable settings __attribute__((swift_name("settings")));
 @end
@@ -2469,13 +2469,13 @@ __attribute__((swift_name("Distribution.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DistributionIdentifier")))
 @interface SSCDistributionIdentifier : SSCBase
-- (instancetype)initWithId:(SSCLong * _Nullable)id clientId:(NSString * _Nullable)clientId __attribute__((swift_name("init(id:clientId:)"))) __attribute__((objc_designated_initializer));
-- (SSCDistributionIdentifier *)doCopyId:(SSCLong * _Nullable)id clientId:(NSString * _Nullable)clientId __attribute__((swift_name("doCopy(id:clientId:)")));
+- (instancetype)initWithId:(NSString * _Nullable)id clientId:(NSString * _Nullable)clientId __attribute__((swift_name("init(id:clientId:)"))) __attribute__((objc_designated_initializer));
+- (SSCDistributionIdentifier *)doCopyId:(NSString * _Nullable)id clientId:(NSString * _Nullable)clientId __attribute__((swift_name("doCopy(id:clientId:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property NSString * _Nullable clientId __attribute__((swift_name("clientId")));
-@property SSCLong * _Nullable id __attribute__((swift_name("id")));
+@property NSString * _Nullable id __attribute__((swift_name("id")));
 @end
 
 __attribute__((swift_name("ExperienceIdentifier")))
@@ -2664,13 +2664,13 @@ __attribute__((swift_name("ExperienceIndexData.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Production")))
 @interface SSCProduction : SSCBase
-- (instancetype)initWithId:(SSCLong * _Nullable)id name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("init(id:name:settings:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString * _Nullable)id name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("init(id:name:settings:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SSCProductionCompanion *companion __attribute__((swift_name("companion")));
-- (SSCProduction *)doCopyId:(SSCLong * _Nullable)id name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("doCopy(id:name:settings:)")));
+- (SSCProduction *)doCopyId:(NSString * _Nullable)id name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("doCopy(id:name:settings:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) SSCLong * _Nullable id __attribute__((swift_name("id")));
+@property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
 @property (readonly) NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable settings __attribute__((swift_name("settings")));
 @end
@@ -2688,12 +2688,12 @@ __attribute__((swift_name("Production.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ProductionIdentifier")))
 @interface SSCProductionIdentifier : SSCBase
-- (instancetype)initWithId:(SSCLong * _Nullable)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer));
-- (SSCProductionIdentifier *)doCopyId:(SSCLong * _Nullable)id __attribute__((swift_name("doCopy(id:)")));
+- (instancetype)initWithId:(NSString * _Nullable)id __attribute__((swift_name("init(id:)"))) __attribute__((objc_designated_initializer));
+- (SSCProductionIdentifier *)doCopyId:(NSString * _Nullable)id __attribute__((swift_name("doCopy(id:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property SSCLong * _Nullable id __attribute__((swift_name("id")));
+@property NSString * _Nullable id __attribute__((swift_name("id")));
 @end
 
 
@@ -3539,7 +3539,7 @@ __attribute__((swift_name("ActivationResolver")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)resolveActivationId:(int32_t)activationId completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("resolve(activationId:completionHandler:)")));
+- (void)resolveActivationId:(NSString *)activationId completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("resolve(activationId:completionHandler:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3561,7 +3561,7 @@ __attribute__((swift_name("DefaultActivationResolver")))
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)resolveActivationId:(int32_t)activationId completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("resolve(activationId:completionHandler:)")));
+- (void)resolveActivationId:(NSString *)activationId completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("resolve(activationId:completionHandler:)")));
 @end
 
 __attribute__((swift_name("SourceApiClient")))
@@ -3572,7 +3572,7 @@ __attribute__((swift_name("SourceApiClient")))
  * @note This method converts instances of KMPException, CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getActivationId:(int32_t)id completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getActivation(id:completionHandler:)")));
+- (void)getActivationId:(NSString *)id completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getActivation(id:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -3602,7 +3602,7 @@ __attribute__((swift_name("DefaultSourceApiClient")))
  * @note This method converts instances of KMPException, CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getActivationId:(int32_t)id completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getActivation(id:completionHandler:)")));
+- (void)getActivationId:(NSString *)id completionHandler:(void (^)(SSCActivation * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getActivation(id:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
