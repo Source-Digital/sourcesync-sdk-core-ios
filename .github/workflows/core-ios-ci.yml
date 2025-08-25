@@ -105,8 +105,10 @@ jobs:
         id: framework_size
         run: |
           FRAMEWORK_SIZE=$(du -sh SourceSyncCore.xcframework | cut -f1)
-          FRAMEWORK_SIZE_BYTES=$(du -sb SourceSyncCore.xcframework | cut -f1)
-          FRAMEWORK_SIZE_MB=$(echo "scale=2; $FRAMEWORK_SIZE_BYTES / 1024 / 1024" | bc)
+          # Use find and stat for cross-platform byte calculation
+          FRAMEWORK_SIZE_BYTES=$(find SourceSyncCore.xcframework -type f -exec stat -f%z {} \; | awk '{sum += $1} END {print sum}')
+          # Use awk for math instead of bc (more portable)
+          FRAMEWORK_SIZE_MB=$(echo "$FRAMEWORK_SIZE_BYTES" | awk '{printf "%.2f", $1 / 1024 / 1024}')
           
           echo "size_human=$FRAMEWORK_SIZE" >> $GITHUB_OUTPUT
           echo "size_mb=$FRAMEWORK_SIZE_MB" >> $GITHUB_OUTPUT
