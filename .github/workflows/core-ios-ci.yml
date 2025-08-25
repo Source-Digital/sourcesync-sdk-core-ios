@@ -1,0 +1,262 @@
+name: Core iOS CI/CD
+
+on:
+  push:
+    branches: [main, develop, release/*]
+    tags: ['ios-v*']
+    paths:
+      - 'SourceSyncCore.xcframework/**'
+      - '.github/workflows/core-ios-ci.yml'
+  pull_request:
+    branches: [main, develop]
+    paths:
+      - 'SourceSyncCore.xcframework/**'
+      - '.github/workflows/core-ios-ci.yml'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  validate-framework:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Select Xcode version
+        run: sudo xcode-select -s /Applications/Xcode_15.4.app/Contents/Developer
+
+      - name: Validate XCFramework structure
+        run: |
+          echo "Validating XCFramework structure..."
+          if [ ! -d "SourceSyncCore.xcframework" ]; then
+            echo "❌ XCFramework directory not found"
+            exit 1
+          fi
+          
+          echo "✅ XCFramework directory exists"
+          
+          # Check required platforms
+          REQUIRED_PLATFORMS=("ios-arm64" "ios-arm64_x86_64-simulator" "tvos-arm64" "tvos-arm64_x86_64-simulator")
+          
+          for platform in "${REQUIRED_PLATFORMS[@]}"; do
+            if [ ! -d "SourceSyncCore.xcframework/$platform" ]; then
+              echo "❌ Missing platform: $platform"
+              exit 1
+            fi
+            echo "✅ Found platform: $platform"
+          done
+
+      - name: Verify framework binaries
+        run: |
+          echo "Verifying framework binaries..."
+          
+          # Check each platform's binary
+          for platform_dir in SourceSyncCore.xcframework/*/; do
+            platform=$(basename "$platform_dir")
+            binary_path="$platform_dir/SourceSyncCore.framework/SourceSyncCore"
+            
+            if [ ! -f "$binary_path" ]; then
+              echo "❌ Binary not found for platform: $platform"
+              exit 1
+            fi
+            
+            echo "✅ Binary exists for platform: $platform"
+            
+            # Get binary info
+            file "$binary_path" || true
+            lipo -info "$binary_path" 2>/dev/null || true
+          done
+
+      - name: Extract version info
+        id: version_info
+        run: |
+          # Extract version from XCFramework Info.plist if available
+          FRAMEWORK_VERSION="unknown"
+          BUNDLE_VERSION="unknown"
+          
+          # Try to get version from one of the framework's Info.plist
+          INFO_PLIST="SourceSyncCore.xcframework/ios-arm64/SourceSyncCore.framework/Info.plist"
+          if [ -f "$INFO_PLIST" ]; then
+            FRAMEWORK_VERSION=$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" "$INFO_PLIST" 2>/dev/null || echo "unknown")
+            BUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c "Print :CFBundleVersion" "$INFO_PLIST" 2>/dev/null || echo "unknown")
+          fi
+          
+          echo "framework_version=$FRAMEWORK_VERSION" >> $GITHUB_OUTPUT
+          echo "bundle_version=$BUNDLE_VERSION" >> $GITHUB_OUTPUT
+          echo "commit_sha=${GITHUB_SHA:0:7}" >> $GITHUB_OUTPUT
+
+      - name: Calculate framework size
+        id: framework_size
+        run: |
+          FRAMEWORK_SIZE=$(du -sh SourceSyncCore.xcframework | cut -f1)
+          FRAMEWORK_SIZE_BYTES=$(du -sb SourceSyncCore.xcframework | cut -f1)
+          FRAMEWORK_SIZE_MB=$(echo "scale=2; $FRAMEWORK_SIZE_BYTES / 1024 / 1024" | bc)
+          
+          echo "size_human=$FRAMEWORK_SIZE" >> $GITHUB_OUTPUT
+          echo "size_mb=$FRAMEWORK_SIZE_MB" >> $GITHUB_OUTPUT
+
+      - name: Create framework archive
+        run: |
+          # Create a zip archive of the framework
+          zip -r SourceSyncCore-xcframework.zip SourceSyncCore.xcframework
+          
+          # Create a tarball as well
+          tar -czf SourceSyncCore-xcframework.tar.gz SourceSyncCore.xcframework
+
+      - name: Upload framework archives
+        uses: actions/upload-artifact@v4
+        with:
+          name: sourcesync-core-ios-framework
+          path: |
+            SourceSyncCore-xcframework.zip
+            SourceSyncCore-xcframework.tar.gz
+          retention-days: ${{ github.event_name == 'pull_request' && 7 || 30 }}
+
+  pr-comment:
+    needs: [validate-framework]
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Download framework artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: sourcesync-core-ios-framework
+          path: ./artifacts
+
+      - name: Get artifact info
+        id: artifact_info
+        run: |
+          ZIP_SIZE=$(stat -c%s "./artifacts/SourceSyncCore-xcframework.zip")
+          ZIP_SIZE_MB=$(echo "scale=2; $ZIP_SIZE / 1024 / 1024" | bc)
+          echo "zip_size_mb=$ZIP_SIZE_MB" >> $GITHUB_OUTPUT
+          echo "commit_sha=${GITHUB_SHA:0:7}" >> $GITHUB_OUTPUT
+
+      - name: Find existing comment
+        uses: peter-evans/find-comment@v3
+        id: find_comment
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: '📱 Core iOS Framework Build'
+
+      - name: Create or update PR comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ steps.find_comment.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          edit-mode: replace
+          body: |
+            ## 📱 Core iOS Framework Build
+
+            🔨 **Build Status:** ✅ Success  
+            📦 **Framework Size:** ${{ steps.artifact_info.outputs.zip_size_mb }} MB (zipped)  
+            🔄 **Commit:** `${{ steps.artifact_info.outputs.commit_sha }}`  
+            📅 **Built:** $(date -u +"%Y-%m-%d %H:%M UTC")
+
+            ### Download Links
+            - 📦 [XCFramework Archive](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) - Click "Artifacts" section
+
+            ### Supported Platforms
+            - 📱 iOS (arm64)
+            - 📱 iOS Simulator (arm64, x86_64)
+            - 📺 tvOS (arm64)
+            - 📺 tvOS Simulator (arm64, x86_64)
+
+            > 💡 **Note:** Framework will be available for 7 days. Download from the GitHub Actions artifacts section.
+
+  create-release:
+    needs: [validate-framework]
+    if: startsWith(github.ref, 'refs/tags/ios-v')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get version from tag
+        id: get_version
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/ios-v}
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "tag_name=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+
+      - name: Generate release notes
+        id: release_notes
+        run: |
+          echo "NOTES<<EOF" >> $GITHUB_OUTPUT
+          echo "## SourceSync Core iOS Framework v${{ steps.get_version.outputs.version }}" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "### Changes" >> $GITHUB_OUTPUT
+          # Get commits since last iOS release tag
+          LAST_TAG=$(git describe --tags --match "ios-v*" --abbrev=0 HEAD^ 2>/dev/null || echo "")
+          if [ -n "$LAST_TAG" ]; then
+            git log --pretty=format:"- %s (%h)" $LAST_TAG..HEAD >> $GITHUB_OUTPUT
+          else
+            echo "- Initial Core iOS Framework release" >> $GITHUB_OUTPUT
+          fi
+          echo "" >> $GITHUB_OUTPUT
+          echo "### Supported Platforms" >> $GITHUB_OUTPUT
+          echo "- iOS (arm64)" >> $GITHUB_OUTPUT
+          echo "- iOS Simulator (arm64, x86_64)" >> $GITHUB_OUTPUT
+          echo "- tvOS (arm64)" >> $GITHUB_OUTPUT
+          echo "- tvOS Simulator (arm64, x86_64)" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "### Installation" >> $GITHUB_OUTPUT
+          echo "Download the XCFramework and integrate it into your iOS/tvOS project." >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Download framework artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: sourcesync-core-ios-framework
+          path: ./release-artifacts
+
+      - name: Rename artifacts with version
+        run: |
+          VERSION=${{ steps.get_version.outputs.version }}
+          mv ./release-artifacts/SourceSyncCore-xcframework.zip ./release-artifacts/SourceSyncCore-ios-v$VERSION.zip
+          mv ./release-artifacts/SourceSyncCore-xcframework.tar.gz ./release-artifacts/SourceSyncCore-ios-v$VERSION.tar.gz
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.get_version.outputs.tag_name }}
+          name: "Core iOS v${{ steps.get_version.outputs.version }}"
+          body: ${{ steps.release_notes.outputs.NOTES }}
+          files: |
+            ./release-artifacts/SourceSyncCore-ios-v${{ steps.get_version.outputs.version }}.zip
+            ./release-artifacts/SourceSyncCore-ios-v${{ steps.get_version.outputs.version }}.tar.gz
+          draft: false
+          prerelease: false
+
+  main-branch-artifacts:
+    needs: [validate-framework]
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download framework artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: sourcesync-core-ios-framework
+          path: ./latest-artifacts
+
+      - name: Rename artifacts with timestamp and branch
+        run: |
+          TIMESTAMP=$(date +"%Y%m%d-%H%M")
+          BRANCH_NAME=${GITHUB_REF#refs/heads/}
+          mv ./latest-artifacts/SourceSyncCore-xcframework.zip ./latest-artifacts/SourceSyncCore-ios-$BRANCH_NAME-$TIMESTAMP.zip
+          mv ./latest-artifacts/SourceSyncCore-xcframework.tar.gz ./latest-artifacts/SourceSyncCore-ios-$BRANCH_NAME-$TIMESTAMP.tar.gz
+
+      - name: Upload latest artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: sourcesync-core-ios-latest-${{ github.ref_name }}
+          path: ./latest-artifacts/*
+          retention-days: 90
