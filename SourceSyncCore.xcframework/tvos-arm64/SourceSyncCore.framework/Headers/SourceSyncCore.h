@@ -443,7 +443,9 @@ __attribute__((swift_name("AppKeyPayload")))
 - (SSCAppKeyPayload *)doCopyValue:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)value organization:(NSString * _Nullable)organization legacyOrganizationId:(NSString * _Nullable)legacyOrganizationId name:(NSString * _Nullable)name settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("doCopy(value:organization:legacyOrganizationId:name:settings:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (SSCInt * _Nullable)getContextFrequency __attribute__((swift_name("getContextFrequency()")));
+- (NSString * _Nullable)getDefaultPropertyId __attribute__((swift_name("getDefaultPropertyId()")));
 - (SSCOrganization * _Nullable)getOrganizationObject __attribute__((swift_name("getOrganizationObject()")));
+- (SSCKotlinx_serialization_jsonJsonElement * _Nullable)getSettingsValuePath:(NSString *)path __attribute__((swift_name("getSettingsValue(path:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable legacyOrganizationId __attribute__((swift_name("legacyOrganizationId")));
@@ -636,17 +638,18 @@ __attribute__((swift_name("GetPlatformPulseConfig")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)getPlatformPulseConfig __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SSCGetPlatformPulseConfig *shared __attribute__((swift_name("shared")));
-- (SSCPlatformPulseConfig *)pulseConfigIsMobileDevice:(BOOL)isMobileDevice __attribute__((swift_name("pulseConfig(isMobileDevice:)")));
+- (SSCPlatformPulseConfig *)pulseConfigIsMobileDevice:(BOOL)isMobileDevice keyPayload:(SSCAppKeyPayload *)keyPayload __attribute__((swift_name("pulseConfig(isMobileDevice:keyPayload:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PlatformPulseConfig")))
 @interface SSCPlatformPulseConfig : SSCBase
-- (instancetype)initWithPulseVersion:(NSString *)pulseVersion screenName:(NSString * _Nullable)screenName timezone:(SSCKotlinx_datetimeTimeZone *)timezone deviceInfo:(SSCDeviceInfo *)deviceInfo utmParameters:(SSCUtmParameters *)utmParameters isMobileDevice:(BOOL)isMobileDevice sessionId:(NSString *)sessionId __attribute__((swift_name("init(pulseVersion:screenName:timezone:deviceInfo:utmParameters:isMobileDevice:sessionId:)"))) __attribute__((objc_designated_initializer));
-- (SSCPlatformPulseConfig *)doCopyPulseVersion:(NSString *)pulseVersion screenName:(NSString * _Nullable)screenName timezone:(SSCKotlinx_datetimeTimeZone *)timezone deviceInfo:(SSCDeviceInfo *)deviceInfo utmParameters:(SSCUtmParameters *)utmParameters isMobileDevice:(BOOL)isMobileDevice sessionId:(NSString *)sessionId __attribute__((swift_name("doCopy(pulseVersion:screenName:timezone:deviceInfo:utmParameters:isMobileDevice:sessionId:)")));
+- (instancetype)initWithPulseVersion:(NSString *)pulseVersion screenName:(NSString * _Nullable)screenName timezone:(SSCKotlinx_datetimeTimeZone *)timezone deviceInfo:(SSCDeviceInfo *)deviceInfo utmParameters:(SSCUtmParameters *)utmParameters isMobileDevice:(BOOL)isMobileDevice sessionId:(NSString *)sessionId appKeyPayload:(SSCAppKeyPayload *)appKeyPayload __attribute__((swift_name("init(pulseVersion:screenName:timezone:deviceInfo:utmParameters:isMobileDevice:sessionId:appKeyPayload:)"))) __attribute__((objc_designated_initializer));
+- (SSCPlatformPulseConfig *)doCopyPulseVersion:(NSString *)pulseVersion screenName:(NSString * _Nullable)screenName timezone:(SSCKotlinx_datetimeTimeZone *)timezone deviceInfo:(SSCDeviceInfo *)deviceInfo utmParameters:(SSCUtmParameters *)utmParameters isMobileDevice:(BOOL)isMobileDevice sessionId:(NSString *)sessionId appKeyPayload:(SSCAppKeyPayload *)appKeyPayload __attribute__((swift_name("doCopy(pulseVersion:screenName:timezone:deviceInfo:utmParameters:isMobileDevice:sessionId:appKeyPayload:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SSCAppKeyPayload *appKeyPayload __attribute__((swift_name("appKeyPayload")));
 @property (readonly) SSCDeviceInfo *deviceInfo __attribute__((swift_name("deviceInfo")));
 @property (readonly) BOOL isMobileDevice __attribute__((swift_name("isMobileDevice")));
 @property (readonly) NSString *pulseVersion __attribute__((swift_name("pulseVersion")));
@@ -784,6 +787,7 @@ __attribute__((swift_name("BaseContent")))
 - (void)getMetadataStart:(int64_t)start duration:(int64_t)duration completionHandler:(void (^)(SSCMetadata * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getMetadata(start:duration:completionHandler:)")));
 @property (readonly) id<SSCBaseContentConfig> config __attribute__((swift_name("config")));
 @property SSCEnvironment *environment __attribute__((swift_name("environment")));
+@property (readonly) id<SSCPlatformApp> platformApp __attribute__((swift_name("platformApp")));
 @end
 
 __attribute__((swift_name("BaseContentConfig")))
