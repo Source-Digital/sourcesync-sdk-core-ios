@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class SSCKotlinx_coroutines_coreCoroutineDispatcher, SSCKotlinThrowable, SSCDefaultPulseConfig, SSCTrackEvent, SSCKotlinx_serialization_jsonJsonElement, SSCKotlinArray<T>, SSCKotlinException, SSCKotlinRuntimeException, SSCPulseException, SSCPulseConfigCompanion, SSCPulseFactory, SSCPulse, SSCTrackEventCompanion, SSCKotlinEnumCompanion, SSCKotlinEnum<E>, SSCTrackEventType, SSCUtmParametersCompanion, SSCUtmParameters, SSCAppGroupIdentifier, SSCAppKeyPayloadCompanion, SSCAppKeyPayload, SSCOrganization, SSCKtor_client_coreHttpClient, SSCKotlinx_serialization_jsonJson, SSCDefaultPlatformAppStatus, SSCPlatformApiUrlsMap, SSCKtor_httpUrl, SSCEnvType, SSCPlatformApiUrlsMapCompanion, SSCPlatformAppConfigCompanion, SSCPlatformAppFactory, SSCGetPlatformPulseConfig, SSCPlatformPulseConfig, SSCKotlinx_datetimeTimeZone, SSCDeviceInfo, SSCKotlinx_serialization_jsonJsonPrimitive, SSCInstance, SSCActivationCompanion, SSCActivation, SSCActivationInterval, SSCDataTrackQuery, SSCEffect, SSCDefaultSourceApiClient, SSCExperienceIndexData, SSCMetadata, SSCEnvironment, SSCBaseContent, SSCGetContentConfig, SSCContent, SSCContentFactory, SSCDistributionIdentifier, SSCProductionIdentifier, SSCHorizontalAlignmentCompanion, SSCHorizontalAlignment, SSCTimeWindow, SSCPositioning, SSCInstanceCompanion, SSCVerticalAlignment, SSCPositionAlignmentCompanion, SSCPositionAlignment, SSCPositioningCompanion, SSCTimeWindowCompanion, SSCVerticalAlignmentCompanion, SSCContextMomentInterval, SSCContextCompanion, SSCDefaultContext, SSCContextMomentIntervalCompanion, SSCEffectsResponse, SSCContextApiClientCompanion, SSCKotlinx_serialization_jsonJsonContentPolymorphicSerializer<T>, SSCContextSerializer, SSCTimeWindowContext, SSCDefaultContextCompanion, SSCStrategy, SSCEffectContent, SSCEffectCompanion, SSCEffectContentCompanion, SSCEffectContentActivationCompanion, SSCEffectContentActivation, SSCEffectContentActivationResolvedCompanion, SSCEffectContentActivationResolved, SSCEffectContentUnknownCompanion, SSCEffectContentUnknown, SSCEffectContentUnknownSerializer, SSCEffectsResponseCompanion, SSCStrategyCompanion, SSCTimeWindowContextCompanion, SSCAudienceCompanion, SSCAudience, SSCDeviceCompanion, SSCDevice, SSCDistribution, SSCProduction, SSCMedia, SSCUser, SSCEnvironmentCompanion, SSCLocationCompanion, SSCLocation, SSCMediaCompanion, SSCUserCompanion, SSCCategoryItemCompanion, SSCCategoryItem, SSCChapterItemCompanion, SSCChapterItem, SSCContentSafetyCategoryItemCompanion, SSCContentSafetyCategoryItem, SSCKeywordItemCompanion, SSCKeywordItem, SSCTranscriptItem, SSCSentimentItem, SSCMetadataCompanion, SSCSentimentItemCompanion, SSCTranscriptItemCompanion, SSCDataTrackDefaults, SSCDataTrackCompanion, SSCDataTrackDefaultsCompanion, SSCDataTrackImplCompanion, SSCDataTrackIndexItem, SSCDataTrackIndexCompanion, SSCDataTrackIndex, SSCDataTrackIndexItemCompanion, SSCDataTrackItemRefs, SSCDataTrackItemCompanion, SSCDataTrackItemImplCompanion, SSCDataTrackItemImpl<TData>, SSCDataTrackItemRefsCompanion, SSCDataTrackStandardCategoryCompanion, SSCDataTrackStandardCategory, SSCDataTrackStandardCategoryContentSafetyCompanion, SSCDataTrackStandardCategoryContentSafety, SSCDataTrackStandardCategoryContentSafetyDataItemCompanion, SSCDataTrackStandardCategoryContentSafetyDataItem, SSCDataTrackStandardCategoryDataItemCompanion, SSCDataTrackStandardCategoryDataItem, SSCDataTrackStandardChapterCompanion, SSCDataTrackStandardChapter, SSCDataTrackStandardChapterDataCompanion, SSCDataTrackStandardChapterData, SSCDataTrackStandardKeywordCompanion, SSCDataTrackStandardKeyword, SSCDataTrackStandardKeywordDataItemCompanion, SSCDataTrackStandardKeywordDataItem, SSCDataTrackStandardSentimentCompanion, SSCDataTrackStandardSentiment, SSCDataTrackStandardSentimentDataCompanion, SSCDataTrackStandardSentimentData, SSCDataTrackStandardTranscriptCompanion, SSCDataTrackStandardTranscript, SSCDataTrackStandardTranscriptDataCompanion, SSCDataTrackStandardTranscriptData, SSCDoubleToLongSerializer, SSCJsonDataTrackCompanion, SSCJsonDataTrack, SSCActivationPositionCompanion, SSCActivationPosition, SSCActivationViewCompanion, SSCActivationView, SSCDimensionConfig, SSCComponentSizingCompanion, SSCComponentSizing, SSCDimensionConfigCompanion, SSCDimensionTypeCompanion, SSCDimensionType, SSCDistributionCompanion, SSCPositioning_, SSCSizing, SSCDistributionSettingsCompanion, SSCDistributionSettings, SSCExperienceIdentifier, SSCExperienceIdentifierDistributionId, SSCExperienceIdentifierProductionId, SSCResourceLayers, SSCExperienceIndexConfigContent, SSCExperienceIndexConfigCompanion, SSCExperienceIndexConfig, SSCExperienceIndexConfigCoverContent, SSCExperienceIndexConfigContentCompanion, SSCExperienceIndexConfigCoverContentCompanion, SSCExperienceIndexDataBuild, SSCResourceInfo, SSCExperienceIndexDataCompanion, SSCExperienceIndexDataBuildCompanion, SSCPositioning_Companion, SSCProductionCompanion, SSCResourceInfoCompanion, SSCResourceLayersCompanion, SSCResourceSettingsCompanion, SSCResourceSettings, SSCSizingCompanion, SSCMediaIdentifier, SSCMediaIdentifierResolvedCompanion, SSCMediaIdentifierResolved, SSCMediaIdentifierResolvedExtMediaId, SSCMediaIdentifierResolvedMediaId, SSCCdnDataTrackApiClientCompanion, SSCMomentState, SSCDefaultMomentOptions, SSCTimeInterval, SSCMomentCompanion, SSCMomentPluginEvent, SSCMomentPluginHook, SSCPluginCore<E, H>, SSCCdnDataTrackApiClient, SSCMomentApiClientMediaResponse, SSCMomentApiClientMediaResponseCompanion, SSCMomentSelectorCompanion, SSCMomentApiClient, SSCDataTrackTreeNodeData<T>, SSCTimeIntervalCompanion, SSCMomentPluginEventContextUpdated, SSCMomentPluginEventError, SSCMomentPluginHookContextCreate, SSCMomentPluginHookContextCreateAfter, SSCMomentPluginHookContextUpdate, SSCMomentPluginHookDataTracksReceived, SSCMomentPluginHookDataTracksRequest, SSCStandardDataTracksToContextPluginCompanion, SSCTransformContext<TDataTrackItem, TDataTrack>, SSCDataTrackCache, SSCBaseDataTrackClient, SSCKacheInMemoryKache<K, V>, SSCDataTrackIntervalTree, SSCDataTrackCacheOptions, SSCDataTrackIntervalTreeOptions, SSCStaticIntervalTreeSearchOptions, SSCDataTrackTreeNode<T>, SSCMediaIdentifierResolverCompanion, SSCOrganizationCompanion, SSCDefaultSourceApiClientPlatformResponseCompanion, SSCDefaultSourceApiClientPlatformResponse<TData>, SSCCoreUUID, SSCPlatformUUIDCompanion, SSCStaticIntervalTreeCompanion, SSCStaticIntervalTree<T>, SSCPluginCoreCompanion, SSCPluginCorePluginCoreCompanion, SSCKotlinByteArray, SSCKermitLogger, SSCKtor_client_coreHttpClientConfig<T>, SSCKotlinAbstractCoroutineContextElement, SSCKotlinx_coroutines_coreCoroutineDispatcherKey, SSCKotlinIllegalStateException, SSCKotlinx_serialization_jsonJsonElementCompanion, SSCKtor_client_coreHttpClientEngineConfig, SSCKtor_eventsEvents, SSCKtor_client_coreHttpReceivePipeline, SSCKtor_client_coreHttpRequestPipeline, SSCKtor_client_coreHttpResponsePipeline, SSCKtor_client_coreHttpSendPipeline, SSCKotlinx_serialization_coreSerializersModule, SSCKotlinx_serialization_jsonJsonDefault, SSCKotlinx_serialization_jsonJsonConfiguration, SSCKtor_httpUrlCompanion, SSCKtor_httpURLProtocol, SSCKotlinx_datetimeTimeZoneCompanion, SSCKotlinx_datetimeInstant, SSCKotlinx_datetimeLocalDateTime, SSCKotlinx_serialization_jsonJsonPrimitiveCompanion, SSCKotlinx_serialization_coreSerialKind, SSCKotlinNothing, SSCKacheKacheKeys<K>, SSCKotlinCancellationException, SSCKotlinByteIterator, SSCKermit_coreSeverity, SSCKermit_coreBaseLogger, SSCKermitLoggerCompanion, SSCKotlinAbstractCoroutineContextKey<B, E>, SSCKtor_client_coreHttpRequestData, SSCKtor_client_coreHttpResponseData, SSCKtor_client_coreProxyConfig, SSCKtor_utilsAttributeKey<T>, SSCKtor_eventsEventDefinition<T>, SSCKtor_utilsPipelinePhase, SSCKtor_utilsPipeline<TSubject, TContext>, SSCKtor_client_coreHttpReceivePipelinePhases, SSCKtor_client_coreHttpResponse, SSCKotlinUnit, SSCKtor_client_coreHttpRequestPipelinePhases, SSCKtor_client_coreHttpRequestBuilder, SSCKtor_client_coreHttpResponsePipelinePhases, SSCKtor_client_coreHttpResponseContainer, SSCKtor_client_coreHttpClientCall, SSCKtor_client_coreHttpSendPipelinePhases, SSCKotlinx_serialization_jsonClassDiscriminatorMode, SSCKtor_httpURLProtocolCompanion, SSCKotlinx_datetimeFixedOffsetTimeZone, SSCKotlinx_datetimeInstantCompanion, SSCKotlinx_datetimeLocalDate, SSCKotlinx_datetimeLocalTime, SSCKotlinx_datetimeMonth, SSCKotlinx_datetimeLocalDateTimeCompanion, SSCKotlinx_datetimeDayOfWeek, SSCKermit_coreLogWriter, SSCKtor_httpHttpMethod, SSCKtor_httpOutgoingContent, SSCKtor_httpHttpStatusCode, SSCKtor_utilsGMTDate, SSCKtor_httpHttpProtocolVersion, SSCKtor_utilsTypeInfo, SSCKtor_httpHeadersBuilder, SSCKtor_client_coreHttpRequestBuilderCompanion, SSCKtor_httpURLBuilder, SSCKtor_client_coreHttpClientCallCompanion, SSCKotlinx_datetimeUtcOffset, SSCKotlinx_datetimeFixedOffsetTimeZoneCompanion, SSCKotlinx_datetimeLocalDateCompanion, SSCKotlinx_datetimeLocalTimeCompanion, SSCKtor_httpHttpMethodCompanion, SSCKtor_httpContentType, SSCKtor_httpHttpStatusCodeCompanion, SSCKtor_utilsWeekDay, SSCKtor_utilsMonth, SSCKtor_utilsGMTDateCompanion, SSCKtor_httpHttpProtocolVersionCompanion, SSCKtor_utilsStringValuesBuilderImpl, SSCKtor_httpURLBuilderCompanion, SSCKotlinx_datetimeUtcOffsetCompanion, SSCKotlinx_datetimePadding, SSCKotlinx_datetimeDayOfWeekNames, SSCKotlinx_datetimeMonthNames, SSCKtor_httpHeaderValueParam, SSCKtor_httpHeaderValueWithParametersCompanion, SSCKtor_httpHeaderValueWithParameters, SSCKtor_httpContentTypeCompanion, SSCKtor_utilsWeekDayCompanion, SSCKtor_utilsMonthCompanion, SSCKotlinKTypeProjection, SSCKotlinx_io_coreBuffer, SSCKotlinx_datetimeDayOfWeekNamesCompanion, SSCKotlinx_datetimeMonthNamesCompanion, SSCKotlinKVariance, SSCKotlinKTypeProjectionCompanion;
+@class SSCKotlinx_coroutines_coreCoroutineDispatcher, SSCKotlinThrowable, SSCDefaultPulseConfig, SSCTrackEvent, SSCKotlinx_serialization_jsonJsonElement, SSCKotlinArray<T>, SSCKotlinException, SSCKotlinRuntimeException, SSCPulseException, SSCPulseConfigCompanion, SSCPulseFactory, SSCPulse, SSCTrackEventCompanion, SSCKotlinEnumCompanion, SSCKotlinEnum<E>, SSCTrackEventType, SSCUtmParametersCompanion, SSCUtmParameters, SSCAppGroupIdentifier, SSCAppKeyPayloadCompanion, SSCAppKeyPayload, SSCOrganization, SSCKtor_client_coreHttpClient, SSCKotlinx_serialization_jsonJson, SSCDefaultPlatformAppStatus, SSCPlatformApiUrlsMap, SSCKtor_httpUrl, SSCEnvType, SSCPlatformApiUrlsMapCompanion, SSCPlatformAppConfigCompanion, SSCPlatformAppFactory, SSCGetPlatformPulseConfig, SSCPlatformPulseConfig, SSCKotlinx_datetimeTimeZone, SSCDeviceInfo, SSCKotlinx_serialization_jsonJsonPrimitive, SSCInstance, SSCActivationCompanion, SSCActivation, SSCPositionMode, SSCPositionAlignment, SSCOutsidePositioning, SSCActivationDetailsPositioningCompanion, SSCActivationDetailsPositioning, SSCActivationInterval, SSCDataTrackQuery, SSCEffect, SSCDefaultSourceApiClient, SSCExperienceIndexData, SSCMetadata, SSCEnvironment, SSCBaseContent, SSCGetContentConfig, SSCContent, SSCContentFactory, SSCDistributionIdentifier, SSCProductionIdentifier, SSCTimeWindow, SSCPositioning, SSCInstanceCompanion, SSCOutsidePositionTypeCompanion, SSCOutsidePositionType, SSCOutsidePositioningCompanion, SSCPositionAlignmentCompanion, SSCPositionModeCompanion, SSCPositioningCompanion, SSCTimeWindowCompanion, SSCContextMomentInterval, SSCContextCompanion, SSCDefaultContext, SSCContextMomentIntervalCompanion, SSCEffectsResponse, SSCContextApiClientCompanion, SSCKotlinx_serialization_jsonJsonContentPolymorphicSerializer<T>, SSCContextSerializer, SSCTimeWindowContext, SSCDefaultContextCompanion, SSCStrategy, SSCEffectContent, SSCEffectCompanion, SSCEffectContentCompanion, SSCEffectContentActivationCompanion, SSCEffectContentActivation, SSCEffectContentActivationResolvedCompanion, SSCEffectContentActivationResolved, SSCEffectContentUnknownCompanion, SSCEffectContentUnknown, SSCEffectContentUnknownSerializer, SSCEffectsResponseCompanion, SSCStrategyCompanion, SSCTimeWindowContextCompanion, SSCAudienceCompanion, SSCAudience, SSCDeviceCompanion, SSCDevice, SSCDistribution, SSCProduction, SSCMedia, SSCUser, SSCEnvironmentCompanion, SSCLocationCompanion, SSCLocation, SSCMediaCompanion, SSCUserCompanion, SSCContextConnectionManager, SSCKtor_client_coreDefaultClientWebSocketSession, SSCCategoryItemCompanion, SSCCategoryItem, SSCChapterItemCompanion, SSCChapterItem, SSCContentSafetyCategoryItemCompanion, SSCContentSafetyCategoryItem, SSCKeywordItemCompanion, SSCKeywordItem, SSCTranscriptItem, SSCSentimentItem, SSCMetadataCompanion, SSCSentimentItemCompanion, SSCTranscriptItemCompanion, SSCDataTrackDefaults, SSCDataTrackCompanion, SSCDataTrackDefaultsCompanion, SSCDataTrackImplCompanion, SSCDataTrackIndexItem, SSCDataTrackIndexCompanion, SSCDataTrackIndex, SSCDataTrackIndexItemCompanion, SSCDataTrackItemRefs, SSCDataTrackItemCompanion, SSCDataTrackItemImplCompanion, SSCDataTrackItemImpl<TData>, SSCDataTrackItemRefsCompanion, SSCDataTrackStandardCategoryCompanion, SSCDataTrackStandardCategory, SSCDataTrackStandardCategoryContentSafetyCompanion, SSCDataTrackStandardCategoryContentSafety, SSCDataTrackStandardCategoryContentSafetyDataItemCompanion, SSCDataTrackStandardCategoryContentSafetyDataItem, SSCDataTrackStandardCategoryDataItemCompanion, SSCDataTrackStandardCategoryDataItem, SSCDataTrackStandardChapterCompanion, SSCDataTrackStandardChapter, SSCDataTrackStandardChapterDataCompanion, SSCDataTrackStandardChapterData, SSCDataTrackStandardKeywordCompanion, SSCDataTrackStandardKeyword, SSCDataTrackStandardKeywordDataItemCompanion, SSCDataTrackStandardKeywordDataItem, SSCDataTrackStandardSentimentCompanion, SSCDataTrackStandardSentiment, SSCDataTrackStandardSentimentDataCompanion, SSCDataTrackStandardSentimentData, SSCDataTrackStandardTranscriptCompanion, SSCDataTrackStandardTranscript, SSCDataTrackStandardTranscriptDataCompanion, SSCDataTrackStandardTranscriptData, SSCDoubleToLongSerializer, SSCJsonDataTrackCompanion, SSCJsonDataTrack, SSCActivationPositionCompanion, SSCActivationPosition, SSCActivationViewCompanion, SSCActivationView, SSCDimensionConfig, SSCComponentSizingCompanion, SSCComponentSizing, SSCDimensionConfigCompanion, SSCDimensionTypeCompanion, SSCDimensionType, SSCDistributionCompanion, SSCPositioning_, SSCSizing, SSCDistributionSettingsCompanion, SSCDistributionSettings, SSCExperienceIdentifier, SSCExperienceIdentifierDistributionId, SSCExperienceIdentifierProductionId, SSCResourceLayers, SSCExperienceIndexConfigContent, SSCExperienceIndexConfigCompanion, SSCExperienceIndexConfig, SSCExperienceIndexConfigCoverContent, SSCExperienceIndexConfigContentCompanion, SSCExperienceIndexConfigCoverContentCompanion, SSCExperienceIndexDataBuild, SSCResourceInfo, SSCExperienceIndexDataCompanion, SSCExperienceIndexDataBuildCompanion, SSCPositioning_Companion, SSCProductionCompanion, SSCResourceInfoCompanion, SSCResourceLayersCompanion, SSCResourceSettingsCompanion, SSCResourceSettings, SSCSizingCompanion, SSCMediaIdentifier, SSCMediaIdentifierResolvedCompanion, SSCMediaIdentifierResolved, SSCMediaIdentifierResolvedExtMediaId, SSCMediaIdentifierResolvedMediaId, SSCCdnDataTrackApiClientCompanion, SSCMomentState, SSCDefaultMomentOptions, SSCTimeInterval, SSCMomentCompanion, SSCMomentPluginEvent, SSCMomentPluginHook, SSCPluginCore<E, H>, SSCCdnDataTrackApiClient, SSCMomentApiClientMediaResponse, SSCMomentApiClientMediaResponseCompanion, SSCMomentSelectorCompanion, SSCMomentApiClient, SSCDataTrackTreeNodeData<T>, SSCTimeIntervalCompanion, SSCMomentPluginEventContextUpdated, SSCMomentPluginEventError, SSCMomentPluginHookContextCreate, SSCMomentPluginHookContextCreateAfter, SSCMomentPluginHookContextUpdate, SSCMomentPluginHookDataTracksReceived, SSCMomentPluginHookDataTracksRequest, SSCStandardDataTracksToContextPluginCompanion, SSCTransformContext<TDataTrackItem, TDataTrack>, SSCDataTrackCache, SSCBaseDataTrackClient, SSCKacheInMemoryKache<K, V>, SSCDataTrackIntervalTree, SSCDataTrackCacheOptions, SSCDataTrackIntervalTreeOptions, SSCStaticIntervalTreeSearchOptions, SSCDataTrackTreeNode<T>, SSCMediaIdentifierResolverCompanion, SSCOrganizationCompanion, SSCDefaultSourceApiClientPlatformResponseCompanion, SSCDefaultSourceApiClientPlatformResponse<TData>, SSCCoreUUID, SSCPlatformUUIDCompanion, SSCStaticIntervalTreeCompanion, SSCStaticIntervalTree<T>, SSCPluginCoreCompanion, SSCPluginCorePluginCoreCompanion, SSCKotlinByteArray, SSCKermitLogger, SSCKtor_client_coreHttpClientConfig<T>, SSCKotlinAbstractCoroutineContextElement, SSCKotlinx_coroutines_coreCoroutineDispatcherKey, SSCKotlinIllegalStateException, SSCKotlinx_serialization_jsonJsonElementCompanion, SSCKtor_client_coreHttpClientEngineConfig, SSCKtor_eventsEvents, SSCKtor_client_coreHttpReceivePipeline, SSCKtor_client_coreHttpRequestPipeline, SSCKtor_client_coreHttpResponsePipeline, SSCKtor_client_coreHttpSendPipeline, SSCKotlinx_serialization_coreSerializersModule, SSCKotlinx_serialization_jsonJsonDefault, SSCKotlinx_serialization_jsonJsonConfiguration, SSCKtor_httpUrlCompanion, SSCKtor_httpURLProtocol, SSCKotlinx_datetimeTimeZoneCompanion, SSCKotlinx_datetimeInstant, SSCKotlinx_datetimeLocalDateTime, SSCKotlinx_serialization_jsonJsonPrimitiveCompanion, SSCKotlinx_serialization_coreSerialKind, SSCKotlinNothing, SSCKtor_client_coreHttpClientCall, SSCKtor_websocketsFrame, SSCKotlinCancellationException, SSCKacheKacheKeys<K>, SSCKotlinByteIterator, SSCKermit_coreSeverity, SSCKermit_coreBaseLogger, SSCKermitLoggerCompanion, SSCKotlinAbstractCoroutineContextKey<B, E>, SSCKtor_client_coreHttpRequestData, SSCKtor_client_coreHttpResponseData, SSCKtor_client_coreProxyConfig, SSCKtor_utilsAttributeKey<T>, SSCKtor_eventsEventDefinition<T>, SSCKtor_utilsPipelinePhase, SSCKtor_utilsPipeline<TSubject, TContext>, SSCKtor_client_coreHttpReceivePipelinePhases, SSCKtor_client_coreHttpResponse, SSCKotlinUnit, SSCKtor_client_coreHttpRequestPipelinePhases, SSCKtor_client_coreHttpRequestBuilder, SSCKtor_client_coreHttpResponsePipelinePhases, SSCKtor_client_coreHttpResponseContainer, SSCKtor_client_coreHttpSendPipelinePhases, SSCKotlinx_serialization_jsonClassDiscriminatorMode, SSCKtor_httpURLProtocolCompanion, SSCKotlinx_datetimeFixedOffsetTimeZone, SSCKotlinx_datetimeInstantCompanion, SSCKotlinx_datetimeLocalDate, SSCKotlinx_datetimeLocalTime, SSCKotlinx_datetimeMonth, SSCKotlinx_datetimeLocalDateTimeCompanion, SSCKotlinx_datetimeDayOfWeek, SSCKtor_client_coreHttpClientCallCompanion, SSCKtor_utilsTypeInfo, SSCKtor_websocketsFrameCompanion, SSCKtor_websocketsFrameType, SSCKtor_websocketsWebSocketExtensionHeader, SSCKermit_coreLogWriter, SSCKtor_httpHttpMethod, SSCKtor_httpOutgoingContent, SSCKtor_httpHttpStatusCode, SSCKtor_utilsGMTDate, SSCKtor_httpHttpProtocolVersion, SSCKtor_httpHeadersBuilder, SSCKtor_client_coreHttpRequestBuilderCompanion, SSCKtor_httpURLBuilder, SSCKotlinx_datetimeUtcOffset, SSCKotlinx_datetimeFixedOffsetTimeZoneCompanion, SSCKotlinx_datetimeLocalDateCompanion, SSCKotlinx_datetimeLocalTimeCompanion, SSCKtor_websocketsFrameTypeCompanion, SSCKtor_httpHttpMethodCompanion, SSCKtor_httpContentType, SSCKtor_httpHttpStatusCodeCompanion, SSCKtor_utilsWeekDay, SSCKtor_utilsMonth, SSCKtor_utilsGMTDateCompanion, SSCKtor_httpHttpProtocolVersionCompanion, SSCKtor_utilsStringValuesBuilderImpl, SSCKtor_httpURLBuilderCompanion, SSCKotlinx_datetimeUtcOffsetCompanion, SSCKotlinx_datetimePadding, SSCKotlinx_datetimeDayOfWeekNames, SSCKotlinx_datetimeMonthNames, SSCKotlinKTypeProjection, SSCKotlinx_io_coreBuffer, SSCKtor_httpHeaderValueParam, SSCKtor_httpHeaderValueWithParametersCompanion, SSCKtor_httpHeaderValueWithParameters, SSCKtor_httpContentTypeCompanion, SSCKtor_utilsWeekDayCompanion, SSCKtor_utilsMonthCompanion, SSCKotlinx_datetimeDayOfWeekNamesCompanion, SSCKotlinx_datetimeMonthNamesCompanion, SSCKotlinKVariance, SSCKotlinKTypeProjectionCompanion;
 
-@protocol SSCPulsePlugin, SSCPulseConfig, SSCKotlinAutoCloseable, SSCKotlinComparable, SSCKotlinx_serialization_coreKSerializer, SSCPlatformApp, SSCKtor_ioCloseable, SSCPlatformAppConfig, SSCEffectsSource, SSCMomentSelector, SSCContextApiClient, SSCActivationResolver, SSCBaseContentConfig, SSCContext, SSCIContentFactory, SSCMomentPlugin, SSCDataTrackClient, SSCPlatformMomentConfig, SSCKotlinx_serialization_coreEncoder, SSCKotlinx_serialization_coreSerialDescriptor, SSCKotlinx_serialization_coreSerializationStrategy, SSCKotlinx_serialization_coreDecoder, SSCKotlinx_serialization_coreDeserializationStrategy, SSCKotlinKClass, SSCMetadataItem, SSCDataTrackItem, SSCDataTrack, SSCMoment, SSCPluginEvent, SSCPluginHook, SSCPlugin, SSCKotlinx_coroutines_coreDeferred, SSCSourceApiClient, SSCKotlinSuspendFunction1, SSCKotlinCoroutineContextKey, SSCKotlinCoroutineContextElement, SSCKotlinCoroutineContext, SSCKotlinContinuation, SSCKotlinContinuationInterceptor, SSCKotlinx_coroutines_coreRunnable, SSCKotlinIterator, SSCKotlinx_coroutines_coreCoroutineScope, SSCKtor_client_coreHttpClientEngine, SSCKtor_client_coreHttpClientEngineCapability, SSCKtor_utilsAttributes, SSCKotlinx_serialization_coreSerialFormat, SSCKotlinx_serialization_coreStringFormat, SSCKtor_httpParameters, SSCKotlinx_serialization_coreCompositeEncoder, SSCKotlinAnnotation, SSCKotlinx_serialization_coreCompositeDecoder, SSCKotlinKDeclarationContainer, SSCKotlinKAnnotatedElement, SSCKotlinKClassifier, SSCKacheObjectKache, SSCKotlinx_coroutines_coreSelectClause1, SSCKotlinx_coroutines_coreChildHandle, SSCKotlinx_coroutines_coreChildJob, SSCKotlinx_coroutines_coreDisposableHandle, SSCKotlinx_coroutines_coreJob, SSCKotlinSequence, SSCKotlinx_coroutines_coreSelectClause0, SSCKotlinFunction, SSCKermit_coreLoggerConfig, SSCKermit_coreMutableLoggerConfig, SSCKtor_client_coreHttpClientPlugin, SSCKotlinSuspendFunction2, SSCKotlinx_serialization_coreSerializersModuleCollector, SSCKotlinx_serialization_jsonJsonNamingStrategy, SSCKotlinMapEntry, SSCKtor_utilsStringValues, SSCKotlinx_coroutines_coreSelectInstance, SSCKotlinx_coroutines_coreSelectClause, SSCKotlinx_coroutines_coreParentJob, SSCKtor_httpHeaders, SSCKtor_httpHttpMessage, SSCKtor_ioByteReadChannel, SSCKtor_httpHttpMessageBuilder, SSCKtor_client_coreHttpRequest, SSCKotlinx_datetimeDateTimeFormat, SSCKotlinx_datetimeDateTimeFormatBuilderWithDateTime, SSCKotlinKType, SSCKotlinx_io_coreSource, SSCKtor_utilsStringValuesBuilder, SSCKtor_httpParametersBuilder, SSCKotlinAppendable, SSCKotlinx_datetimeDateTimeFormatBuilderWithDate, SSCKotlinx_datetimeDateTimeFormatBuilderWithTime, SSCKotlinx_datetimeDateTimeFormatBuilder, SSCKotlinx_io_coreRawSink, SSCKotlinx_io_coreRawSource, SSCKotlinx_datetimeDateTimeFormatBuilderWithUtcOffset, SSCKotlinx_io_coreSink;
+@protocol SSCPulsePlugin, SSCPulseConfig, SSCKotlinAutoCloseable, SSCKotlinComparable, SSCKotlinx_serialization_coreKSerializer, SSCPlatformApp, SSCKtor_ioCloseable, SSCPlatformAppConfig, SSCEffectsSource, SSCMomentSelector, SSCContextApiClient, SSCActivationResolver, SSCBaseContentConfig, SSCContext, SSCIContentFactory, SSCMomentPlugin, SSCDataTrackClient, SSCPlatformMomentConfig, SSCKotlinx_serialization_coreEncoder, SSCKotlinx_serialization_coreSerialDescriptor, SSCKotlinx_serialization_coreSerializationStrategy, SSCKotlinx_serialization_coreDecoder, SSCKotlinx_serialization_coreDeserializationStrategy, SSCKotlinKClass, SSCKotlinx_coroutines_coreChannel, SSCMetadataItem, SSCDataTrackItem, SSCDataTrack, SSCMoment, SSCPluginEvent, SSCPluginHook, SSCPlugin, SSCKotlinx_coroutines_coreDeferred, SSCSourceApiClient, SSCKotlinSuspendFunction1, SSCKotlinCoroutineContextKey, SSCKotlinCoroutineContextElement, SSCKotlinCoroutineContext, SSCKotlinContinuation, SSCKotlinContinuationInterceptor, SSCKotlinx_coroutines_coreRunnable, SSCKotlinIterator, SSCKotlinx_coroutines_coreCoroutineScope, SSCKtor_client_coreHttpClientEngine, SSCKtor_client_coreHttpClientEngineCapability, SSCKtor_utilsAttributes, SSCKotlinx_serialization_coreSerialFormat, SSCKotlinx_serialization_coreStringFormat, SSCKtor_httpParameters, SSCKotlinx_serialization_coreCompositeEncoder, SSCKotlinAnnotation, SSCKotlinx_serialization_coreCompositeDecoder, SSCKotlinKDeclarationContainer, SSCKotlinKAnnotatedElement, SSCKotlinKClassifier, SSCKtor_websocketsWebSocketExtension, SSCKotlinx_coroutines_coreReceiveChannel, SSCKotlinx_coroutines_coreSendChannel, SSCKtor_websocketsWebSocketSession, SSCKtor_client_coreClientWebSocketSession, SSCKtor_websocketsDefaultWebSocketSession, SSCKotlinx_coroutines_coreSelectClause2, SSCKotlinx_coroutines_coreChannelIterator, SSCKotlinx_coroutines_coreSelectClause1, SSCKacheObjectKache, SSCKotlinx_coroutines_coreChildHandle, SSCKotlinx_coroutines_coreChildJob, SSCKotlinx_coroutines_coreDisposableHandle, SSCKotlinx_coroutines_coreJob, SSCKotlinSequence, SSCKotlinx_coroutines_coreSelectClause0, SSCKotlinFunction, SSCKermit_coreLoggerConfig, SSCKermit_coreMutableLoggerConfig, SSCKtor_client_coreHttpClientPlugin, SSCKotlinSuspendFunction2, SSCKotlinx_serialization_coreSerializersModuleCollector, SSCKotlinx_serialization_jsonJsonNamingStrategy, SSCKotlinMapEntry, SSCKtor_utilsStringValues, SSCKtor_ioByteReadChannel, SSCKtor_client_coreHttpRequest, SSCKtor_websocketsWebSocketExtensionFactory, SSCKotlinx_coroutines_coreSelectInstance, SSCKotlinx_coroutines_coreSelectClause, SSCKotlinx_coroutines_coreParentJob, SSCKtor_httpHeaders, SSCKtor_httpHttpMessage, SSCKtor_httpHttpMessageBuilder, SSCKotlinx_datetimeDateTimeFormat, SSCKotlinx_datetimeDateTimeFormatBuilderWithDateTime, SSCKotlinKType, SSCKotlinx_io_coreSource, SSCKtor_utilsStringValuesBuilder, SSCKtor_httpParametersBuilder, SSCKotlinAppendable, SSCKotlinx_datetimeDateTimeFormatBuilderWithDate, SSCKotlinx_datetimeDateTimeFormatBuilderWithTime, SSCKotlinx_datetimeDateTimeFormatBuilder, SSCKotlinx_io_coreRawSink, SSCKotlinx_io_coreRawSource, SSCKotlinx_datetimeDateTimeFormatBuilderWithUtcOffset, SSCKotlinx_io_coreSink;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -726,6 +726,35 @@ __attribute__((swift_name("Activation.Companion")))
 - (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ActivationDetailsPositioning")))
+@interface SSCActivationDetailsPositioning : SSCBase
+- (instancetype)initWithMode:(SSCPositionMode *)mode inside:(SSCPositionAlignment * _Nullable)inside outside:(SSCOutsidePositioning * _Nullable)outside __attribute__((swift_name("init(mode:inside:outside:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SSCActivationDetailsPositioningCompanion *companion __attribute__((swift_name("companion")));
+- (SSCActivationDetailsPositioning *)doCopyMode:(SSCPositionMode *)mode inside:(SSCPositionAlignment * _Nullable)inside outside:(SSCOutsidePositioning * _Nullable)outside __attribute__((swift_name("doCopy(mode:inside:outside:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property SSCPositionAlignment * _Nullable inside __attribute__((swift_name("inside")));
+@property SSCPositionMode *mode __attribute__((swift_name("mode")));
+@property SSCOutsidePositioning * _Nullable outside __attribute__((swift_name("outside")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ActivationDetailsPositioning.Companion")))
+@interface SSCActivationDetailsPositioningCompanion : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCActivationDetailsPositioningCompanion *shared __attribute__((swift_name("shared")));
+- (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ActivationInterval")))
 @interface SSCActivationInterval : SSCBase
@@ -896,48 +925,18 @@ __attribute__((swift_name("GetContentConfig")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("HorizontalAlignment")))
-@interface SSCHorizontalAlignment : SSCKotlinEnum<SSCHorizontalAlignment *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) SSCHorizontalAlignmentCompanion *companion __attribute__((swift_name("companion")));
-@property (class, readonly) SSCHorizontalAlignment *left __attribute__((swift_name("left")));
-@property (class, readonly) SSCHorizontalAlignment *center __attribute__((swift_name("center")));
-@property (class, readonly) SSCHorizontalAlignment *right __attribute__((swift_name("right")));
-+ (SSCKotlinArray<SSCHorizontalAlignment *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<SSCHorizontalAlignment *> *entries __attribute__((swift_name("entries")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("HorizontalAlignment.Companion")))
-@interface SSCHorizontalAlignmentCompanion : SSCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SSCHorizontalAlignmentCompanion *shared __attribute__((swift_name("shared")));
-- (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-- (id<SSCKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(SSCKotlinArray<id<SSCKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Instance")))
 @interface SSCInstance : SSCBase
-- (instancetype)initWithId:(SSCKotlinx_serialization_jsonJsonPrimitive * _Nullable)id name:(NSString * _Nullable)name position:(NSString * _Nullable)position when:(SSCTimeWindow * _Nullable)when positioning:(SSCPositioning * _Nullable)positioning settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("init(id:name:position:when:positioning:settings:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(SSCKotlinx_serialization_jsonJsonPrimitive * _Nullable)id name:(NSString * _Nullable)name position:(NSString * _Nullable)position when:(SSCTimeWindow * _Nullable)when positioning:(SSCPositioning *)positioning settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("init(id:name:position:when:positioning:settings:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SSCInstanceCompanion *companion __attribute__((swift_name("companion")));
-- (SSCInstance *)doCopyId:(SSCKotlinx_serialization_jsonJsonPrimitive * _Nullable)id name:(NSString * _Nullable)name position:(NSString * _Nullable)position when:(SSCTimeWindow * _Nullable)when positioning:(SSCPositioning * _Nullable)positioning settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("doCopy(id:name:position:when:positioning:settings:)")));
+- (SSCInstance *)doCopyId:(SSCKotlinx_serialization_jsonJsonPrimitive * _Nullable)id name:(NSString * _Nullable)name position:(NSString * _Nullable)position when:(SSCTimeWindow * _Nullable)when positioning:(SSCPositioning *)positioning settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings __attribute__((swift_name("doCopy(id:name:position:when:positioning:settings:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) SSCKotlinx_serialization_jsonJsonPrimitive * _Nullable id __attribute__((swift_name("id")));
 @property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
 @property (readonly) NSString * _Nullable position __attribute__((swift_name("position")));
-@property (readonly) SSCPositioning * _Nullable positioning __attribute__((swift_name("positioning")));
+@property (readonly) SSCPositioning *positioning __attribute__((swift_name("positioning")));
 @property (readonly) NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable settings __attribute__((swift_name("settings")));
 @property (readonly) SSCTimeWindow * _Nullable when __attribute__((swift_name("when")));
 @end
@@ -958,11 +957,70 @@ __attribute__((swift_name("Instance.Companion")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OutsidePositionType")))
+@interface SSCOutsidePositionType : SSCKotlinEnum<SSCOutsidePositionType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) SSCOutsidePositionTypeCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) SSCOutsidePositionType *left __attribute__((swift_name("left")));
+@property (class, readonly) SSCOutsidePositionType *right __attribute__((swift_name("right")));
+@property (class, readonly) SSCOutsidePositionType *bottom __attribute__((swift_name("bottom")));
+@property (class, readonly) SSCOutsidePositionType *mixed __attribute__((swift_name("mixed")));
+@property (class, readonly) SSCOutsidePositionType *both __attribute__((swift_name("both")));
++ (SSCKotlinArray<SSCOutsidePositionType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<SSCOutsidePositionType *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OutsidePositionType.Companion")))
+@interface SSCOutsidePositionTypeCompanion : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCOutsidePositionTypeCompanion *shared __attribute__((swift_name("shared")));
+- (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<SSCKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(SSCKotlinArray<id<SSCKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OutsidePositioning")))
+@interface SSCOutsidePositioning : SSCBase
+- (instancetype)initWithType:(SSCOutsidePositionType *)type __attribute__((swift_name("init(type:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SSCOutsidePositioningCompanion *companion __attribute__((swift_name("companion")));
+- (SSCOutsidePositioning *)doCopyType:(SSCOutsidePositionType *)type __attribute__((swift_name("doCopy(type:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property SSCOutsidePositionType *type __attribute__((swift_name("type")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OutsidePositioning.Companion")))
+@interface SSCOutsidePositioningCompanion : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCOutsidePositioningCompanion *shared __attribute__((swift_name("shared")));
+- (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PositionAlignment")))
 @interface SSCPositionAlignment : SSCBase
-- (instancetype)initWithHorizontalAlignment:(SSCHorizontalAlignment * _Nullable)horizontalAlignment verticalAlignment:(SSCVerticalAlignment * _Nullable)verticalAlignment __attribute__((swift_name("init(horizontalAlignment:verticalAlignment:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithHorizontalAlignment:(NSString *)horizontalAlignment verticalAlignment:(NSString *)verticalAlignment __attribute__((swift_name("init(horizontalAlignment:verticalAlignment:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SSCPositionAlignmentCompanion *companion __attribute__((swift_name("companion")));
-- (SSCPositionAlignment *)doCopyHorizontalAlignment:(SSCHorizontalAlignment * _Nullable)horizontalAlignment verticalAlignment:(SSCVerticalAlignment * _Nullable)verticalAlignment __attribute__((swift_name("doCopy(horizontalAlignment:verticalAlignment:)")));
+- (SSCPositionAlignment *)doCopyHorizontalAlignment:(NSString *)horizontalAlignment verticalAlignment:(NSString *)verticalAlignment __attribute__((swift_name("doCopy(horizontalAlignment:verticalAlignment:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -971,13 +1029,13 @@ __attribute__((swift_name("PositionAlignment")))
  * @note annotations
  *   kotlinx.serialization.SerialName(value="horizontal-alignment")
 */
-@property (readonly) SSCHorizontalAlignment * _Nullable horizontalAlignment __attribute__((swift_name("horizontalAlignment")));
+@property NSString *horizontalAlignment __attribute__((swift_name("horizontalAlignment")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.SerialName(value="vertical-alignment")
 */
-@property (readonly) SSCVerticalAlignment * _Nullable verticalAlignment __attribute__((swift_name("verticalAlignment")));
+@property NSString *verticalAlignment __attribute__((swift_name("verticalAlignment")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -996,16 +1054,45 @@ __attribute__((swift_name("PositionAlignment.Companion")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PositionMode")))
+@interface SSCPositionMode : SSCKotlinEnum<SSCPositionMode *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) SSCPositionModeCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) SSCPositionMode *inside __attribute__((swift_name("inside")));
+@property (class, readonly) SSCPositionMode *outside __attribute__((swift_name("outside")));
++ (SSCKotlinArray<SSCPositionMode *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<SSCPositionMode *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PositionMode.Companion")))
+@interface SSCPositionModeCompanion : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCPositionModeCompanion *shared __attribute__((swift_name("shared")));
+- (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<SSCKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(SSCKotlinArray<id<SSCKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Positioning")))
 @interface SSCPositioning : SSCBase
-- (instancetype)initWithActivationPreview:(SSCPositionAlignment * _Nullable)activationPreview activationDetails:(SSCPositionAlignment * _Nullable)activationDetails __attribute__((swift_name("init(activationPreview:activationDetails:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithActivationPreview:(SSCPositionAlignment *)activationPreview activationDetails:(SSCActivationDetailsPositioning *)activationDetails __attribute__((swift_name("init(activationPreview:activationDetails:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SSCPositioningCompanion *companion __attribute__((swift_name("companion")));
-- (SSCPositioning *)doCopyActivationPreview:(SSCPositionAlignment * _Nullable)activationPreview activationDetails:(SSCPositionAlignment * _Nullable)activationDetails __attribute__((swift_name("doCopy(activationPreview:activationDetails:)")));
+- (SSCPositioning *)doCopyActivationPreview:(SSCPositionAlignment *)activationPreview activationDetails:(SSCActivationDetailsPositioning *)activationDetails __attribute__((swift_name("doCopy(activationPreview:activationDetails:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) SSCPositionAlignment * _Nullable activationDetails __attribute__((swift_name("activationDetails")));
-@property (readonly) SSCPositionAlignment * _Nullable activationPreview __attribute__((swift_name("activationPreview")));
+@property SSCActivationDetailsPositioning *activationDetails __attribute__((swift_name("activationDetails")));
+@property SSCPositionAlignment *activationPreview __attribute__((swift_name("activationPreview")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1044,36 +1131,6 @@ __attribute__((swift_name("TimeWindow.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SSCTimeWindowCompanion *shared __attribute__((swift_name("shared")));
 - (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("VerticalAlignment")))
-@interface SSCVerticalAlignment : SSCKotlinEnum<SSCVerticalAlignment *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) SSCVerticalAlignmentCompanion *companion __attribute__((swift_name("companion")));
-@property (class, readonly) SSCVerticalAlignment *top __attribute__((swift_name("top")));
-@property (class, readonly) SSCVerticalAlignment *center __attribute__((swift_name("center")));
-@property (class, readonly) SSCVerticalAlignment *bottom __attribute__((swift_name("bottom")));
-+ (SSCKotlinArray<SSCVerticalAlignment *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<SSCVerticalAlignment *> *entries __attribute__((swift_name("entries")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("VerticalAlignment.Companion")))
-@interface SSCVerticalAlignmentCompanion : SSCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SSCVerticalAlignmentCompanion *shared __attribute__((swift_name("shared")));
-- (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-- (id<SSCKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(SSCKotlinArray<id<SSCKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
 @end
 
 
@@ -1161,6 +1218,20 @@ __attribute__((swift_name("ContextApiClientCompanion")))
  *   kotlin.jvm.JvmStatic
 */
 - (id<SSCContextApiClient>)createApp:(id<SSCPlatformApp>)app __attribute__((swift_name("create(app:)")));
+
+/**
+ * @note annotations
+ *   kotlin.jvm.JvmStatic
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)initializeApp:(id<SSCPlatformApp>)app completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("initialize(app:completionHandler:)")));
+
+/**
+ * @note annotations
+ *   kotlin.jvm.JvmStatic
+*/
+- (void)shutdown __attribute__((swift_name("shutdown()")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
@@ -1712,6 +1783,40 @@ __attribute__((swift_name("User.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SSCUserCompanion *shared __attribute__((swift_name("shared")));
 - (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ContextConnectionManager")))
+@interface SSCContextConnectionManager : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)contextConnectionManager __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCContextConnectionManager *shared __attribute__((swift_name("shared")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getWebSocketSessionWithCompletionHandler:(void (^)(SSCKtor_client_coreDefaultClientWebSocketSession * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getWebSocketSession(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)initializeApp:(id<SSCPlatformApp>)app completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("initialize(app:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)registerMessageChannelWithCompletionHandler:(void (^)(id<SSCKotlinx_coroutines_coreChannel> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("registerMessageChannel(completionHandler:)")));
+- (void)shutdown __attribute__((swift_name("shutdown()")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)unregisterMessageChannelChannel:(id<SSCKotlinx_coroutines_coreChannel>)channel completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("unregisterMessageChannel(channel:completionHandler:)")));
 @end
 
 __attribute__((swift_name("MetadataItem")))
@@ -4759,6 +4864,143 @@ __attribute__((swift_name("KotlinKClass")))
 @property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
 @end
 
+__attribute__((swift_name("Ktor_websocketsWebSocketSession")))
+@protocol SSCKtor_websocketsWebSocketSession <SSCKotlinx_coroutines_coreCoroutineScope>
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)flushWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("flush(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)sendFrame:(SSCKtor_websocketsFrame *)frame completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("send(frame:completionHandler:)")));
+- (void)terminate __attribute__((swift_name("terminate()"))) __attribute__((unavailable("Use cancel() instead.")));
+@property (readonly) NSArray<id<SSCKtor_websocketsWebSocketExtension>> *extensions __attribute__((swift_name("extensions")));
+@property (readonly) id<SSCKotlinx_coroutines_coreReceiveChannel> incoming __attribute__((swift_name("incoming")));
+@property BOOL masking __attribute__((swift_name("masking")));
+@property int64_t maxFrameSize __attribute__((swift_name("maxFrameSize")));
+@property (readonly) id<SSCKotlinx_coroutines_coreSendChannel> outgoing __attribute__((swift_name("outgoing")));
+@end
+
+__attribute__((swift_name("Ktor_client_coreClientWebSocketSession")))
+@protocol SSCKtor_client_coreClientWebSocketSession <SSCKtor_websocketsWebSocketSession>
+@required
+@property (readonly) SSCKtor_client_coreHttpClientCall *call __attribute__((swift_name("call")));
+@end
+
+__attribute__((swift_name("Ktor_websocketsDefaultWebSocketSession")))
+@protocol SSCKtor_websocketsDefaultWebSocketSession <SSCKtor_websocketsWebSocketSession>
+@required
+- (void)startNegotiatedExtensions:(NSArray<id<SSCKtor_websocketsWebSocketExtension>> *)negotiatedExtensions __attribute__((swift_name("start(negotiatedExtensions:)")));
+@property (readonly) id<SSCKotlinx_coroutines_coreDeferred> closeReason __attribute__((swift_name("closeReason")));
+@property int64_t pingIntervalMillis __attribute__((swift_name("pingIntervalMillis")));
+@property int64_t timeoutMillis __attribute__((swift_name("timeoutMillis")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreDefaultClientWebSocketSession")))
+@interface SSCKtor_client_coreDefaultClientWebSocketSession : SSCBase <SSCKtor_client_coreClientWebSocketSession, SSCKtor_websocketsDefaultWebSocketSession>
+- (instancetype)initWithCall:(SSCKtor_client_coreHttpClientCall *)call delegate:(id<SSCKtor_websocketsDefaultWebSocketSession>)delegate __attribute__((swift_name("init(call:delegate:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)flushWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("flush(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)sendFrame:(SSCKtor_websocketsFrame *)frame completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("send(frame:completionHandler:)")));
+- (void)startNegotiatedExtensions:(NSArray<id<SSCKtor_websocketsWebSocketExtension>> *)negotiatedExtensions __attribute__((swift_name("start(negotiatedExtensions:)")));
+- (void)terminate __attribute__((swift_name("terminate()"))) __attribute__((unavailable("Use cancel() instead.")));
+@property (readonly) SSCKtor_client_coreHttpClientCall *call __attribute__((swift_name("call")));
+@property (readonly) id<SSCKotlinx_coroutines_coreDeferred> closeReason __attribute__((swift_name("closeReason")));
+@property (readonly) id<SSCKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@property (readonly) NSArray<id<SSCKtor_websocketsWebSocketExtension>> *extensions __attribute__((swift_name("extensions")));
+@property (readonly) id<SSCKotlinx_coroutines_coreReceiveChannel> incoming __attribute__((swift_name("incoming")));
+@property BOOL masking __attribute__((swift_name("masking")));
+@property int64_t maxFrameSize __attribute__((swift_name("maxFrameSize")));
+@property (readonly) id<SSCKotlinx_coroutines_coreSendChannel> outgoing __attribute__((swift_name("outgoing")));
+@property int64_t pingIntervalMillis __attribute__((swift_name("pingIntervalMillis")));
+@property int64_t timeoutMillis __attribute__((swift_name("timeoutMillis")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSendChannel")))
+@protocol SSCKotlinx_coroutines_coreSendChannel
+@required
+- (BOOL)closeCause:(SSCKotlinThrowable * _Nullable)cause __attribute__((swift_name("close(cause:)")));
+- (void)invokeOnCloseHandler:(void (^)(SSCKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnClose(handler:)")));
+- (BOOL)offerElement:(id _Nullable)element __attribute__((swift_name("offer(element:)"))) __attribute__((unavailable("Deprecated in the favour of 'trySend' method")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)sendElement:(id _Nullable)element completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("send(element:completionHandler:)")));
+- (id _Nullable)trySendElement:(id _Nullable)element __attribute__((swift_name("trySend(element:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.DelicateCoroutinesApi
+*/
+@property (readonly) BOOL isClosedForSend __attribute__((swift_name("isClosedForSend")));
+@property (readonly) id<SSCKotlinx_coroutines_coreSelectClause2> onSend __attribute__((swift_name("onSend")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreReceiveChannel")))
+@protocol SSCKotlinx_coroutines_coreReceiveChannel
+@required
+- (void)cancelCause:(SSCKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (id<SSCKotlinx_coroutines_coreChannelIterator>)iterator __attribute__((swift_name("iterator()")));
+- (id _Nullable)poll __attribute__((swift_name("poll()"))) __attribute__((unavailable("Deprecated in the favour of 'tryReceive'. Please note that the provided replacement does not rethrow channel's close cause as 'poll' did, for the precise replacement please refer to the 'poll' documentation")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)receiveWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("receive(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)receiveCatchingWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("receiveCatching(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)receiveOrNullWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("receiveOrNull(completionHandler:)"))) __attribute__((unavailable("Deprecated in favor of 'receiveCatching'. Please note that the provided replacement does not rethrow channel's close cause as 'receiveOrNull' did, for the detailed replacement please refer to the 'receiveOrNull' documentation")));
+- (id _Nullable)tryReceive __attribute__((swift_name("tryReceive()")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.DelicateCoroutinesApi
+*/
+@property (readonly) BOOL isClosedForReceive __attribute__((swift_name("isClosedForReceive")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
+@property (readonly) id<SSCKotlinx_coroutines_coreSelectClause1> onReceive __attribute__((swift_name("onReceive")));
+@property (readonly) id<SSCKotlinx_coroutines_coreSelectClause1> onReceiveCatching __attribute__((swift_name("onReceiveCatching")));
+@property (readonly) id<SSCKotlinx_coroutines_coreSelectClause1> onReceiveOrNull __attribute__((swift_name("onReceiveOrNull"))) __attribute__((unavailable("Deprecated in favor of onReceiveCatching extension")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChannel")))
+@protocol SSCKotlinx_coroutines_coreChannel <SSCKotlinx_coroutines_coreSendChannel, SSCKotlinx_coroutines_coreReceiveChannel>
+@required
+@end
+
 __attribute__((swift_name("KacheObjectKache")))
 @protocol SSCKacheObjectKache
 @required
@@ -5661,16 +5903,66 @@ __attribute__((swift_name("KotlinNothing")))
 @interface SSCKotlinNothing : SSCBase
 @end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KacheKacheKeys")))
-@interface SSCKacheKacheKeys<K> : SSCBase
-- (instancetype)initWithKeys:(NSSet<id> *)keys underCreationKeys:(NSSet<id> *)underCreationKeys __attribute__((swift_name("init(keys:underCreationKeys:)"))) __attribute__((objc_designated_initializer));
-- (SSCKacheKacheKeys<K> *)doCopyKeys:(NSSet<id> *)keys underCreationKeys:(NSSet<id> *)underCreationKeys __attribute__((swift_name("doCopy(keys:underCreationKeys:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
+__attribute__((swift_name("Ktor_client_coreHttpClientCall")))
+@interface SSCKtor_client_coreHttpClientCall : SSCBase <SSCKotlinx_coroutines_coreCoroutineScope>
+- (instancetype)initWithClient:(SSCKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithClient:(SSCKtor_client_coreHttpClient *)client requestData:(SSCKtor_client_coreHttpRequestData *)requestData responseData:(SSCKtor_client_coreHttpResponseData *)responseData __attribute__((swift_name("init(client:requestData:responseData:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SSCKtor_client_coreHttpClientCallCompanion *companion __attribute__((swift_name("companion")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)bodyInfo:(SSCKtor_utilsTypeInfo *)info completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("body(info:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)bodyNullableInfo:(SSCKtor_utilsTypeInfo *)info completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("bodyNullable(info:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)getResponseContentWithCompletionHandler:(void (^)(id<SSCKtor_ioByteReadChannel> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getResponseContent(completionHandler:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSSet<id> *keys __attribute__((swift_name("keys")));
-@property (readonly) NSSet<id> *underCreationKeys __attribute__((swift_name("underCreationKeys")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) BOOL allowDoubleReceive __attribute__((swift_name("allowDoubleReceive")));
+@property (readonly) id<SSCKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) SSCKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
+@property (readonly) id<SSCKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@property id<SSCKtor_client_coreHttpRequest> request __attribute__((swift_name("request")));
+@property SSCKtor_client_coreHttpResponse *response __attribute__((swift_name("response")));
+@end
+
+__attribute__((swift_name("Ktor_websocketsFrame")))
+@interface SSCKtor_websocketsFrame : SSCBase
+@property (class, readonly, getter=companion) SSCKtor_websocketsFrameCompanion *companion __attribute__((swift_name("companion")));
+- (SSCKtor_websocketsFrame *)doCopy __attribute__((swift_name("doCopy()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SSCKotlinByteArray *data __attribute__((swift_name("data")));
+@property (readonly) id<SSCKotlinx_coroutines_coreDisposableHandle> disposableHandle __attribute__((swift_name("disposableHandle")));
+@property (readonly) BOOL fin __attribute__((swift_name("fin")));
+@property (readonly) SSCKtor_websocketsFrameType *frameType __attribute__((swift_name("frameType")));
+@property (readonly) BOOL rsv1 __attribute__((swift_name("rsv1")));
+@property (readonly) BOOL rsv2 __attribute__((swift_name("rsv2")));
+@property (readonly) BOOL rsv3 __attribute__((swift_name("rsv3")));
+@end
+
+__attribute__((swift_name("Ktor_websocketsWebSocketExtension")))
+@protocol SSCKtor_websocketsWebSocketExtension
+@required
+- (BOOL)clientNegotiationNegotiatedProtocols:(NSArray<SSCKtor_websocketsWebSocketExtensionHeader *> *)negotiatedProtocols __attribute__((swift_name("clientNegotiation(negotiatedProtocols:)")));
+- (SSCKtor_websocketsFrame *)processIncomingFrameFrame:(SSCKtor_websocketsFrame *)frame __attribute__((swift_name("processIncomingFrame(frame:)")));
+- (SSCKtor_websocketsFrame *)processOutgoingFrameFrame:(SSCKtor_websocketsFrame *)frame __attribute__((swift_name("processOutgoingFrame(frame:)")));
+- (NSArray<SSCKtor_websocketsWebSocketExtensionHeader *> *)serverNegotiationRequestedProtocols:(NSArray<SSCKtor_websocketsWebSocketExtensionHeader *> *)requestedProtocols __attribute__((swift_name("serverNegotiation(requestedProtocols:)")));
+@property (readonly) id<SSCKtor_websocketsWebSocketExtensionFactory> factory __attribute__((swift_name("factory")));
+@property (readonly) NSArray<SSCKtor_websocketsWebSocketExtensionHeader *> *protocols __attribute__((swift_name("protocols")));
 @end
 
 
@@ -5687,9 +5979,38 @@ __attribute__((swift_name("Kotlinx_coroutines_coreSelectClause")))
 @property (readonly) void (^regFunc)(id, id<SSCKotlinx_coroutines_coreSelectInstance>, id _Nullable) __attribute__((swift_name("regFunc")));
 @end
 
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause2")))
+@protocol SSCKotlinx_coroutines_coreSelectClause2 <SSCKotlinx_coroutines_coreSelectClause>
+@required
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChannelIterator")))
+@protocol SSCKotlinx_coroutines_coreChannelIterator
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)hasNextWithCompletionHandler:(void (^)(SSCBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("hasNext(completionHandler:)")));
+- (id _Nullable)next __attribute__((swift_name("next()")));
+@end
+
 __attribute__((swift_name("Kotlinx_coroutines_coreSelectClause1")))
 @protocol SSCKotlinx_coroutines_coreSelectClause1 <SSCKotlinx_coroutines_coreSelectClause>
 @required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KacheKacheKeys")))
+@interface SSCKacheKacheKeys<K> : SSCBase
+- (instancetype)initWithKeys:(NSSet<id> *)keys underCreationKeys:(NSSet<id> *)underCreationKeys __attribute__((swift_name("init(keys:underCreationKeys:)"))) __attribute__((objc_designated_initializer));
+- (SSCKacheKacheKeys<K> *)doCopyKeys:(NSSet<id> *)keys underCreationKeys:(NSSet<id> *)underCreationKeys __attribute__((swift_name("doCopy(keys:underCreationKeys:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSSet<id> *keys __attribute__((swift_name("keys")));
+@property (readonly) NSSet<id> *underCreationKeys __attribute__((swift_name("underCreationKeys")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
@@ -6001,43 +6322,6 @@ __attribute__((swift_name("Ktor_client_coreHttpResponseContainer")))
 @property (readonly) id response __attribute__((swift_name("response")));
 @end
 
-__attribute__((swift_name("Ktor_client_coreHttpClientCall")))
-@interface SSCKtor_client_coreHttpClientCall : SSCBase <SSCKotlinx_coroutines_coreCoroutineScope>
-- (instancetype)initWithClient:(SSCKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithClient:(SSCKtor_client_coreHttpClient *)client requestData:(SSCKtor_client_coreHttpRequestData *)requestData responseData:(SSCKtor_client_coreHttpResponseData *)responseData __attribute__((swift_name("init(client:requestData:responseData:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) SSCKtor_client_coreHttpClientCallCompanion *companion __attribute__((swift_name("companion")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)bodyInfo:(SSCKtor_utilsTypeInfo *)info completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("body(info:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)bodyNullableInfo:(SSCKtor_utilsTypeInfo *)info completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("bodyNullable(info:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)getResponseContentWithCompletionHandler:(void (^)(id<SSCKtor_ioByteReadChannel> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getResponseContent(completionHandler:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) BOOL allowDoubleReceive __attribute__((swift_name("allowDoubleReceive")));
-@property (readonly) id<SSCKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
-@property (readonly) SSCKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
-@property (readonly) id<SSCKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
-@property id<SSCKtor_client_coreHttpRequest> request __attribute__((swift_name("request")));
-@property SSCKtor_client_coreHttpResponse *response __attribute__((swift_name("response")));
-@end
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_client_coreHttpSendPipeline.Phases")))
 @interface SSCKtor_client_coreHttpSendPipelinePhases : SSCBase
@@ -6245,6 +6529,100 @@ __attribute__((swift_name("Kotlinx_datetimeDayOfWeek")))
 @property (class, readonly) NSArray<SSCKotlinx_datetimeDayOfWeek *> *entries __attribute__((swift_name("entries")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpClientCall.Companion")))
+@interface SSCKtor_client_coreHttpClientCallCompanion : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCKtor_client_coreHttpClientCallCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsTypeInfo")))
+@interface SSCKtor_utilsTypeInfo : SSCBase
+- (instancetype)initWithType:(id<SSCKotlinKClass>)type kotlinType:(id<SSCKotlinKType> _Nullable)kotlinType __attribute__((swift_name("init(type:kotlinType:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithType:(id<SSCKotlinKClass>)type reifiedType:(id<SSCKotlinKType>)reifiedType kotlinType:(id<SSCKotlinKType> _Nullable)kotlinType __attribute__((swift_name("init(type:reifiedType:kotlinType:)"))) __attribute__((objc_designated_initializer)) __attribute__((deprecated("Use constructor without reifiedType parameter.")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<SSCKotlinKType> _Nullable kotlinType __attribute__((swift_name("kotlinType")));
+@property (readonly) id<SSCKotlinKClass> type __attribute__((swift_name("type")));
+@end
+
+__attribute__((swift_name("Ktor_ioByteReadChannel")))
+@protocol SSCKtor_ioByteReadChannel
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)awaitContentMin:(int32_t)min completionHandler:(void (^)(SSCBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("awaitContent(min:completionHandler:)")));
+- (void)cancelCause_:(SSCKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(cause_:)")));
+@property (readonly) SSCKotlinThrowable * _Nullable closedCause __attribute__((swift_name("closedCause")));
+@property (readonly) BOOL isClosedForRead __attribute__((swift_name("isClosedForRead")));
+@property (readonly) id<SSCKotlinx_io_coreSource> readBuffer __attribute__((swift_name("readBuffer")));
+@end
+
+__attribute__((swift_name("Ktor_client_coreHttpRequest")))
+@protocol SSCKtor_client_coreHttpRequest <SSCKtor_httpHttpMessage, SSCKotlinx_coroutines_coreCoroutineScope>
+@required
+@property (readonly) id<SSCKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) SSCKtor_client_coreHttpClientCall *call __attribute__((swift_name("call")));
+@property (readonly) SSCKtor_httpOutgoingContent *content __attribute__((swift_name("content")));
+@property (readonly) SSCKtor_httpHttpMethod *method __attribute__((swift_name("method")));
+@property (readonly) SSCKtor_httpUrl *url __attribute__((swift_name("url")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_websocketsFrame.Companion")))
+@interface SSCKtor_websocketsFrameCompanion : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCKtor_websocketsFrameCompanion *shared __attribute__((swift_name("shared")));
+- (SSCKtor_websocketsFrame *)byTypeFin:(BOOL)fin frameType:(SSCKtor_websocketsFrameType *)frameType data:(SSCKotlinByteArray *)data rsv1:(BOOL)rsv1 rsv2:(BOOL)rsv2 rsv3:(BOOL)rsv3 __attribute__((swift_name("byType(fin:frameType:data:rsv1:rsv2:rsv3:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_websocketsFrameType")))
+@interface SSCKtor_websocketsFrameType : SSCKotlinEnum<SSCKtor_websocketsFrameType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) SSCKtor_websocketsFrameTypeCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) SSCKtor_websocketsFrameType *text __attribute__((swift_name("text")));
+@property (class, readonly) SSCKtor_websocketsFrameType *binary __attribute__((swift_name("binary")));
+@property (class, readonly) SSCKtor_websocketsFrameType *close __attribute__((swift_name("close")));
+@property (class, readonly) SSCKtor_websocketsFrameType *ping __attribute__((swift_name("ping")));
+@property (class, readonly) SSCKtor_websocketsFrameType *pong __attribute__((swift_name("pong")));
++ (SSCKotlinArray<SSCKtor_websocketsFrameType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<SSCKtor_websocketsFrameType *> *entries __attribute__((swift_name("entries")));
+@property (readonly) BOOL controlFrame __attribute__((swift_name("controlFrame")));
+@property (readonly) int32_t opcode __attribute__((swift_name("opcode")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_websocketsWebSocketExtensionHeader")))
+@interface SSCKtor_websocketsWebSocketExtensionHeader : SSCBase
+- (instancetype)initWithName:(NSString *)name parameters:(NSArray<NSString *> *)parameters __attribute__((swift_name("init(name:parameters:)"))) __attribute__((objc_designated_initializer));
+- (id<SSCKotlinSequence>)parseParameters __attribute__((swift_name("parseParameters()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSArray<NSString *> *parameters __attribute__((swift_name("parameters")));
+@end
+
+__attribute__((swift_name("Ktor_websocketsWebSocketExtensionFactory")))
+@protocol SSCKtor_websocketsWebSocketExtensionFactory
+@required
+- (id<SSCKtor_websocketsWebSocketExtension>)installConfig:(void (^)(id))config __attribute__((swift_name("install(config:)")));
+@property (readonly) SSCKtor_utilsAttributeKey<id<SSCKtor_websocketsWebSocketExtension>> *key __attribute__((swift_name("key")));
+@property (readonly) BOOL rsv1 __attribute__((swift_name("rsv1")));
+@property (readonly) BOOL rsv2 __attribute__((swift_name("rsv2")));
+@property (readonly) BOOL rsv3 __attribute__((swift_name("rsv3")));
+@end
+
 
 /**
  * @note annotations
@@ -6367,33 +6745,6 @@ __attribute__((swift_name("Ktor_httpHttpProtocolVersion")))
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsTypeInfo")))
-@interface SSCKtor_utilsTypeInfo : SSCBase
-- (instancetype)initWithType:(id<SSCKotlinKClass>)type kotlinType:(id<SSCKotlinKType> _Nullable)kotlinType __attribute__((swift_name("init(type:kotlinType:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithType:(id<SSCKotlinKClass>)type reifiedType:(id<SSCKotlinKType>)reifiedType kotlinType:(id<SSCKotlinKType> _Nullable)kotlinType __attribute__((swift_name("init(type:reifiedType:kotlinType:)"))) __attribute__((objc_designated_initializer)) __attribute__((deprecated("Use constructor without reifiedType parameter.")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) id<SSCKotlinKType> _Nullable kotlinType __attribute__((swift_name("kotlinType")));
-@property (readonly) id<SSCKotlinKClass> type __attribute__((swift_name("type")));
-@end
-
-__attribute__((swift_name("Ktor_ioByteReadChannel")))
-@protocol SSCKtor_ioByteReadChannel
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)awaitContentMin:(int32_t)min completionHandler:(void (^)(SSCBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("awaitContent(min:completionHandler:)")));
-- (void)cancelCause_:(SSCKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(cause_:)")));
-@property (readonly) SSCKotlinThrowable * _Nullable closedCause __attribute__((swift_name("closedCause")));
-@property (readonly) BOOL isClosedForRead __attribute__((swift_name("isClosedForRead")));
-@property (readonly) id<SSCKotlinx_io_coreSource> readBuffer __attribute__((swift_name("readBuffer")));
-@end
-
 __attribute__((swift_name("Ktor_utilsStringValuesBuilder")))
 @protocol SSCKtor_utilsStringValuesBuilder
 @required
@@ -6509,25 +6860,6 @@ __attribute__((swift_name("Ktor_httpURLBuilder")))
 @property NSString * _Nullable user __attribute__((swift_name("user")));
 @end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpClientCall.Companion")))
-@interface SSCKtor_client_coreHttpClientCallCompanion : SSCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SSCKtor_client_coreHttpClientCallCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("Ktor_client_coreHttpRequest")))
-@protocol SSCKtor_client_coreHttpRequest <SSCKtor_httpHttpMessage, SSCKotlinx_coroutines_coreCoroutineScope>
-@required
-@property (readonly) id<SSCKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
-@property (readonly) SSCKtor_client_coreHttpClientCall *call __attribute__((swift_name("call")));
-@property (readonly) SSCKtor_httpOutgoingContent *content __attribute__((swift_name("content")));
-@property (readonly) SSCKtor_httpHttpMethod *method __attribute__((swift_name("method")));
-@property (readonly) SSCKtor_httpUrl *url __attribute__((swift_name("url")));
-@end
-
 
 /**
  * @note annotations
@@ -6625,6 +6957,63 @@ __attribute__((swift_name("Kotlinx_datetimeDateTimeFormatBuilderWithDateTime")))
 @protocol SSCKotlinx_datetimeDateTimeFormatBuilderWithDateTime <SSCKotlinx_datetimeDateTimeFormatBuilderWithDate, SSCKotlinx_datetimeDateTimeFormatBuilderWithTime>
 @required
 - (void)dateTimeFormat:(id<SSCKotlinx_datetimeDateTimeFormat>)format __attribute__((swift_name("dateTime(format:)")));
+@end
+
+__attribute__((swift_name("KotlinKType")))
+@protocol SSCKotlinKType
+@required
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.1")
+*/
+@property (readonly) NSArray<SSCKotlinKTypeProjection *> *arguments __attribute__((swift_name("arguments")));
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.1")
+*/
+@property (readonly) id<SSCKotlinKClassifier> _Nullable classifier __attribute__((swift_name("classifier")));
+@property (readonly) BOOL isMarkedNullable __attribute__((swift_name("isMarkedNullable")));
+@end
+
+__attribute__((swift_name("Kotlinx_io_coreRawSource")))
+@protocol SSCKotlinx_io_coreRawSource <SSCKotlinAutoCloseable>
+@required
+- (int64_t)readAtMostToSink:(SSCKotlinx_io_coreBuffer *)sink byteCount:(int64_t)byteCount __attribute__((swift_name("readAtMostTo(sink:byteCount:)")));
+@end
+
+__attribute__((swift_name("Kotlinx_io_coreSource")))
+@protocol SSCKotlinx_io_coreSource <SSCKotlinx_io_coreRawSource>
+@required
+- (BOOL)exhausted __attribute__((swift_name("exhausted()")));
+- (id<SSCKotlinx_io_coreSource>)peek __attribute__((swift_name("peek()")));
+- (int32_t)readAtMostToSink:(SSCKotlinByteArray *)sink startIndex:(int32_t)startIndex endIndex:(int32_t)endIndex __attribute__((swift_name("readAtMostTo(sink:startIndex:endIndex:)")));
+- (int8_t)readByte __attribute__((swift_name("readByte()")));
+- (int32_t)readInt __attribute__((swift_name("readInt()")));
+- (int64_t)readLong __attribute__((swift_name("readLong()")));
+- (int16_t)readShort __attribute__((swift_name("readShort()")));
+- (void)readToSink:(id<SSCKotlinx_io_coreRawSink>)sink byteCount:(int64_t)byteCount __attribute__((swift_name("readTo(sink:byteCount:)")));
+- (BOOL)requestByteCount:(int64_t)byteCount __attribute__((swift_name("request(byteCount:)")));
+- (void)requireByteCount:(int64_t)byteCount __attribute__((swift_name("require(byteCount:)")));
+- (void)skipByteCount:(int64_t)byteCount __attribute__((swift_name("skip(byteCount:)")));
+- (int64_t)transferToSink:(id<SSCKotlinx_io_coreRawSink>)sink __attribute__((swift_name("transferTo(sink:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.io.InternalIoApi
+*/
+@property (readonly) SSCKotlinx_io_coreBuffer *buffer __attribute__((swift_name("buffer")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_websocketsFrameType.Companion")))
+@interface SSCKtor_websocketsFrameTypeCompanion : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCKtor_websocketsFrameTypeCompanion *shared __attribute__((swift_name("shared")));
+- (SSCKtor_websocketsFrameType * _Nullable)getOpcode:(int32_t)opcode __attribute__((swift_name("get(opcode:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -6809,53 +7198,6 @@ __attribute__((swift_name("Ktor_httpHttpProtocolVersion.Companion")))
 @property (readonly) SSCKtor_httpHttpProtocolVersion *SPDY_3 __attribute__((swift_name("SPDY_3")));
 @end
 
-__attribute__((swift_name("KotlinKType")))
-@protocol SSCKotlinKType
-@required
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.1")
-*/
-@property (readonly) NSArray<SSCKotlinKTypeProjection *> *arguments __attribute__((swift_name("arguments")));
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.1")
-*/
-@property (readonly) id<SSCKotlinKClassifier> _Nullable classifier __attribute__((swift_name("classifier")));
-@property (readonly) BOOL isMarkedNullable __attribute__((swift_name("isMarkedNullable")));
-@end
-
-__attribute__((swift_name("Kotlinx_io_coreRawSource")))
-@protocol SSCKotlinx_io_coreRawSource <SSCKotlinAutoCloseable>
-@required
-- (int64_t)readAtMostToSink:(SSCKotlinx_io_coreBuffer *)sink byteCount:(int64_t)byteCount __attribute__((swift_name("readAtMostTo(sink:byteCount:)")));
-@end
-
-__attribute__((swift_name("Kotlinx_io_coreSource")))
-@protocol SSCKotlinx_io_coreSource <SSCKotlinx_io_coreRawSource>
-@required
-- (BOOL)exhausted __attribute__((swift_name("exhausted()")));
-- (id<SSCKotlinx_io_coreSource>)peek __attribute__((swift_name("peek()")));
-- (int32_t)readAtMostToSink:(SSCKotlinByteArray *)sink startIndex:(int32_t)startIndex endIndex:(int32_t)endIndex __attribute__((swift_name("readAtMostTo(sink:startIndex:endIndex:)")));
-- (int8_t)readByte __attribute__((swift_name("readByte()")));
-- (int32_t)readInt __attribute__((swift_name("readInt()")));
-- (int64_t)readLong __attribute__((swift_name("readLong()")));
-- (int16_t)readShort __attribute__((swift_name("readShort()")));
-- (void)readToSink:(id<SSCKotlinx_io_coreRawSink>)sink byteCount:(int64_t)byteCount __attribute__((swift_name("readTo(sink:byteCount:)")));
-- (BOOL)requestByteCount:(int64_t)byteCount __attribute__((swift_name("request(byteCount:)")));
-- (void)requireByteCount:(int64_t)byteCount __attribute__((swift_name("require(byteCount:)")));
-- (void)skipByteCount:(int64_t)byteCount __attribute__((swift_name("skip(byteCount:)")));
-- (int64_t)transferToSink:(id<SSCKotlinx_io_coreRawSink>)sink __attribute__((swift_name("transferTo(sink:)")));
-
-/**
- * @note annotations
- *   kotlinx.io.InternalIoApi
-*/
-@property (readonly) SSCKotlinx_io_coreBuffer *buffer __attribute__((swift_name("buffer")));
-@end
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_httpURLBuilder.Companion")))
 @interface SSCKtor_httpURLBuilderCompanion : SSCBase
@@ -6926,63 +7268,6 @@ __attribute__((swift_name("Kotlinx_datetimeMonthNames")))
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSArray<NSString *> *names __attribute__((swift_name("names")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHeaderValueParam")))
-@interface SSCKtor_httpHeaderValueParam : SSCBase
-- (instancetype)initWithName:(NSString *)name value:(NSString *)value __attribute__((swift_name("init(name:value:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithName:(NSString *)name value:(NSString *)value escapeValue:(BOOL)escapeValue __attribute__((swift_name("init(name:value:escapeValue:)"))) __attribute__((objc_designated_initializer));
-- (SSCKtor_httpHeaderValueParam *)doCopyName:(NSString *)name value:(NSString *)value escapeValue:(BOOL)escapeValue __attribute__((swift_name("doCopy(name:value:escapeValue:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL escapeValue __attribute__((swift_name("escapeValue")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHeaderValueWithParameters.Companion")))
-@interface SSCKtor_httpHeaderValueWithParametersCompanion : SSCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SSCKtor_httpHeaderValueWithParametersCompanion *shared __attribute__((swift_name("shared")));
-- (id _Nullable)parseValue:(NSString *)value init:(id _Nullable (^)(NSString *, NSArray<SSCKtor_httpHeaderValueParam *> *))init __attribute__((swift_name("parse(value:init:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpContentType.Companion")))
-@interface SSCKtor_httpContentTypeCompanion : SSCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SSCKtor_httpContentTypeCompanion *shared __attribute__((swift_name("shared")));
-- (SSCKtor_httpContentType *)parseValue:(NSString *)value __attribute__((swift_name("parse(value:)")));
-@property (readonly) SSCKtor_httpContentType *Any __attribute__((swift_name("Any")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsWeekDay.Companion")))
-@interface SSCKtor_utilsWeekDayCompanion : SSCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SSCKtor_utilsWeekDayCompanion *shared __attribute__((swift_name("shared")));
-- (SSCKtor_utilsWeekDay *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
-- (SSCKtor_utilsWeekDay *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsMonth.Companion")))
-@interface SSCKtor_utilsMonthCompanion : SSCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) SSCKtor_utilsMonthCompanion *shared __attribute__((swift_name("shared")));
-- (SSCKtor_utilsMonth *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
-- (SSCKtor_utilsMonth *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
 @end
 
 
@@ -7082,6 +7367,63 @@ __attribute__((swift_name("Kotlinx_io_coreBuffer")))
 */
 @property (readonly) SSCKotlinx_io_coreBuffer *buffer __attribute__((swift_name("buffer")));
 @property (readonly) int64_t size __attribute__((swift_name("size")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHeaderValueParam")))
+@interface SSCKtor_httpHeaderValueParam : SSCBase
+- (instancetype)initWithName:(NSString *)name value:(NSString *)value __attribute__((swift_name("init(name:value:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithName:(NSString *)name value:(NSString *)value escapeValue:(BOOL)escapeValue __attribute__((swift_name("init(name:value:escapeValue:)"))) __attribute__((objc_designated_initializer));
+- (SSCKtor_httpHeaderValueParam *)doCopyName:(NSString *)name value:(NSString *)value escapeValue:(BOOL)escapeValue __attribute__((swift_name("doCopy(name:value:escapeValue:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL escapeValue __attribute__((swift_name("escapeValue")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHeaderValueWithParameters.Companion")))
+@interface SSCKtor_httpHeaderValueWithParametersCompanion : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCKtor_httpHeaderValueWithParametersCompanion *shared __attribute__((swift_name("shared")));
+- (id _Nullable)parseValue:(NSString *)value init:(id _Nullable (^)(NSString *, NSArray<SSCKtor_httpHeaderValueParam *> *))init __attribute__((swift_name("parse(value:init:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpContentType.Companion")))
+@interface SSCKtor_httpContentTypeCompanion : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCKtor_httpContentTypeCompanion *shared __attribute__((swift_name("shared")));
+- (SSCKtor_httpContentType *)parseValue:(NSString *)value __attribute__((swift_name("parse(value:)")));
+@property (readonly) SSCKtor_httpContentType *Any __attribute__((swift_name("Any")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsWeekDay.Companion")))
+@interface SSCKtor_utilsWeekDayCompanion : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCKtor_utilsWeekDayCompanion *shared __attribute__((swift_name("shared")));
+- (SSCKtor_utilsWeekDay *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
+- (SSCKtor_utilsWeekDay *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsMonth.Companion")))
+@interface SSCKtor_utilsMonthCompanion : SSCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SSCKtor_utilsMonthCompanion *shared __attribute__((swift_name("shared")));
+- (SSCKtor_utilsMonth *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
+- (SSCKtor_utilsMonth *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
 @end
 
 __attribute__((swift_name("Kotlinx_datetimeDateTimeFormatBuilderWithUtcOffset")))
