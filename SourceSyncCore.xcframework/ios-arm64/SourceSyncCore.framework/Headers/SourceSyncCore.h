@@ -8,7 +8,7 @@
 
 @class SSCKotlinx_coroutines_coreCoroutineDispatcher, SSCKotlinThrowable, SSCDefaultPulseConfig, SSCTrackEvent, SSCKotlinx_serialization_jsonJsonElement, SSCKotlinArray<T>, SSCKotlinException, SSCKotlinRuntimeException, SSCPulseException, SSCPulseConfigCompanion, SSCPulseFactory, SSCPulse, SSCTrackEventCompanion, SSCKotlinEnumCompanion, SSCKotlinEnum<E>, SSCTrackEventType, SSCUtmParametersCompanion, SSCUtmParameters, SSCAppGroupIdentifier, SSCAppKeyPayloadCompanion, SSCAppKeyPayload, SSCOrganization, SSCKtor_client_coreHttpClient, SSCKotlinx_serialization_jsonJson, SSCDefaultPlatformAppStatus, SSCPlatformApiUrlsMap, SSCKtor_httpUrl, SSCEnvType, SSCOrganizationCompanion, SSCPlatformApiUrlsMapCompanion, SSCPlatformAppConfigCompanion, SSCPlatformAppFactory, SSCGetPlatformPulseConfig, SSCPlatformPulseConfig, SSCKotlinx_datetimeTimeZone, SSCDeviceInfo, SSCKotlinx_serialization_jsonJsonPrimitive, SSCInstance, SSCActivationCompanion, SSCActivation, SSCPositionMode, SSCPositionAlignment, SSCOutsidePositioning, SSCActivationDetailsPositioningCompanion, SSCActivationDetailsPositioning, SSCActivationInterval, SSCDataTrackQuery, SSCEffect, SSCDefaultSourceApiClient, SSCExperienceIndexData, SSCMetadata, SSCEnvironment, SSCBaseContent, SSCGetContentConfig, SSCContent, SSCContentFactory, SSCDistributionIdentifier, SSCProductionIdentifier, SSCTimeWindow, SSCPositioning, SSCInstanceCompanion, SSCOutsidePositionTypeCompanion, SSCOutsidePositionType, SSCOutsidePositioningCompanion, SSCPositionAlignmentCompanion, SSCPositionModeCompanion, SSCPositioningCompanion, SSCTimeWindowCompanion, SSCContextMomentInterval, SSCContextCompanion, SSCDefaultContext, SSCContextMomentIntervalCompanion, SSCEffectsResponse, SSCContextApiClientCompanion, SSCKotlinx_serialization_jsonJsonContentPolymorphicSerializer<T>, SSCContextSerializer, SSCTimeWindowContext, SSCDefaultContextCompanion, SSCStrategy, SSCEffectContent, SSCEffectCompanion, SSCEffectContentCompanion, SSCEffectContentActivationCompanion, SSCEffectContentActivation, SSCEffectContentActivationResolvedCompanion, SSCEffectContentActivationResolved, SSCEffectContentUnknownCompanion, SSCEffectContentUnknown, SSCEffectContentUnknownSerializer, SSCEffectsResponseCompanion, SSCStrategyCompanion, SSCTimeWindowContextCompanion, SSCAudienceCompanion, SSCAudience, SSCDeviceCompanion, SSCDevice, SSCDistribution, SSCProduction, SSCMedia, SSCUser, SSCEnvironmentCompanion, SSCLocationCompanion, SSCLocation, SSCMediaCompanion, SSCUserCompanion, SSCCategoryItemCompanion, SSCCategoryItem, SSCChapterItemCompanion, SSCChapterItem, SSCContentSafetyCategoryItemCompanion, SSCContentSafetyCategoryItem, SSCKeywordItemCompanion, SSCKeywordItem, SSCTranscriptItem, SSCSentimentItem, SSCMetadataCompanion, SSCSentimentItemCompanion, SSCTranscriptItemCompanion, SSCDataTrackDefaults, SSCDataTrackCompanion, SSCDataTrackDefaultsCompanion, SSCDataTrackImplCompanion, SSCDataTrackIndexItem, SSCDataTrackIndexCompanion, SSCDataTrackIndex, SSCDataTrackIndexItemCompanion, SSCDataTrackItemRefs, SSCDataTrackItemCompanion, SSCDataTrackItemImplCompanion, SSCDataTrackItemImpl<TData>, SSCDataTrackItemRefsCompanion, SSCDataTrackStandardCategoryCompanion, SSCDataTrackStandardCategory, SSCDataTrackStandardCategoryContentSafetyCompanion, SSCDataTrackStandardCategoryContentSafety, SSCDataTrackStandardCategoryContentSafetyDataItemCompanion, SSCDataTrackStandardCategoryContentSafetyDataItem, SSCDataTrackStandardCategoryDataItemCompanion, SSCDataTrackStandardCategoryDataItem, SSCDataTrackStandardChapterCompanion, SSCDataTrackStandardChapter, SSCDataTrackStandardChapterDataCompanion, SSCDataTrackStandardChapterData, SSCDataTrackStandardKeywordCompanion, SSCDataTrackStandardKeyword, SSCDataTrackStandardKeywordDataItemCompanion, SSCDataTrackStandardKeywordDataItem, SSCDataTrackStandardSentimentCompanion, SSCDataTrackStandardSentiment, SSCDataTrackStandardSentimentDataCompanion, SSCDataTrackStandardSentimentData, SSCDataTrackStandardTranscriptCompanion, SSCDataTrackStandardTranscript, SSCDataTrackStandardTranscriptDataCompanion, SSCDataTrackStandardTranscriptData, SSCDoubleToLongSerializer, SSCJsonDataTrackCompanion, SSCJsonDataTrack, SSCActivationPositionCompanion, SSCActivationPosition, SSCActivationViewCompanion, SSCActivationView, SSCDimensionConfig, SSCComponentSizingCompanion, SSCComponentSizing, SSCDimensionConfigCompanion, SSCDimensionTypeCompanion, SSCDimensionType, SSCDistributionCompanion, SSCPositioning_, SSCSizing, SSCDistributionSettingsCompanion, SSCDistributionSettings, SSCExperienceIdentifier, SSCExperienceIdentifierDistributionId, SSCExperienceIdentifierProductionId, SSCResourceLayers, SSCExperienceIndexConfigContent, SSCExperienceIndexConfigCompanion, SSCExperienceIndexConfig, SSCExperienceIndexConfigCoverContent, SSCExperienceIndexConfigContentCompanion, SSCExperienceIndexConfigCoverContentCompanion, SSCExperienceIndexDataBuild, SSCResourceInfo, SSCExperienceIndexDataCompanion, SSCExperienceIndexDataBuildCompanion, SSCPositioning_Companion, SSCProductionCompanion, SSCResourceInfoCompanion, SSCResourceLayersCompanion, SSCResourceSettingsCompanion, SSCResourceSettings, SSCSizingCompanion, SSCAppInitializeState, SSCAppInitializeStateError, SSCAppInitializeStateLoading, SSCAppInitializeStateNotInitialized, SSCAppInitializeStateSuccess, SSCContentParams, SSCContentInfo, SSCPulseConfig, SSCSourceSyncFactory, SSCSourceSyncManagerCompanion, SSCViewSession, SSCSourceSyncManager, SSCWebSocketConnectionManager, SSCKtor_client_coreDefaultClientWebSocketSession, SSCMediaIdentifier, SSCMediaIdentifierResolvedCompanion, SSCMediaIdentifierResolved, SSCMediaIdentifierResolvedExtMediaId, SSCMediaIdentifierResolvedMediaId, SSCCdnDataTrackApiClientCompanion, SSCMomentState, SSCDefaultMomentOptions, SSCTimeInterval, SSCMomentCompanion, SSCMomentPluginEvent, SSCMomentPluginHook, SSCPluginCore<E, H>, SSCCdnDataTrackApiClient, SSCMomentApiClientMediaResponse, SSCMomentApiClientMediaResponseCompanion, SSCMomentSelectorCompanion, SSCMomentApiClient, SSCDataTrackTreeNodeData<T>, SSCTimeIntervalCompanion, SSCMomentPluginEventContextUpdated, SSCMomentPluginEventError, SSCMomentPluginHookContextCreate, SSCMomentPluginHookContextCreateAfter, SSCMomentPluginHookContextUpdate, SSCMomentPluginHookDataTracksReceived, SSCMomentPluginHookDataTracksRequest, SSCStandardDataTracksToContextPluginCompanion, SSCTransformContext<TDataTrackItem, TDataTrack>, SSCDataTrackCache, SSCBaseDataTrackClient, SSCKacheInMemoryKache<K, V>, SSCDataTrackIntervalTree, SSCDataTrackCacheOptions, SSCDataTrackIntervalTreeOptions, SSCStaticIntervalTreeSearchOptions, SSCDataTrackTreeNode<T>, SSCMediaIdentifierResolverCompanion, SSCDefaultSourceApiClientPlatformResponseCompanion, SSCDefaultSourceApiClientPlatformResponse<TData>, SSCCoreUUID, SSCPlatformUUIDCompanion, SSCStaticIntervalTreeCompanion, SSCStaticIntervalTree<T>, SSCPluginCoreCompanion, SSCPluginCorePluginCoreCompanion, SSCKotlinByteArray, SSCKermitLogger, SSCKtor_client_coreHttpClientConfig<T>, SSCKotlinAbstractCoroutineContextElement, SSCKotlinx_coroutines_coreCoroutineDispatcherKey, SSCKotlinIllegalStateException, SSCKotlinx_serialization_jsonJsonElementCompanion, SSCKtor_client_coreHttpClientEngineConfig, SSCKtor_eventsEvents, SSCKtor_client_coreHttpReceivePipeline, SSCKtor_client_coreHttpRequestPipeline, SSCKtor_client_coreHttpResponsePipeline, SSCKtor_client_coreHttpSendPipeline, SSCKotlinx_serialization_coreSerializersModule, SSCKotlinx_serialization_jsonJsonDefault, SSCKotlinx_serialization_jsonJsonConfiguration, SSCKtor_httpUrlCompanion, SSCKtor_httpURLProtocol, SSCKotlinx_datetimeTimeZoneCompanion, SSCKotlinx_datetimeInstant, SSCKotlinx_datetimeLocalDateTime, SSCKotlinx_serialization_jsonJsonPrimitiveCompanion, SSCKotlinx_serialization_coreSerialKind, SSCKotlinNothing, SSCKtor_client_coreHttpClientCall, SSCKtor_websocketsFrame, SSCKotlinCancellationException, SSCKacheKacheKeys<K>, SSCKotlinByteIterator, SSCKermit_coreSeverity, SSCKermit_coreBaseLogger, SSCKermitLoggerCompanion, SSCKotlinAbstractCoroutineContextKey<B, E>, SSCKtor_client_coreHttpRequestData, SSCKtor_client_coreHttpResponseData, SSCKtor_client_coreProxyConfig, SSCKtor_utilsAttributeKey<T>, SSCKtor_eventsEventDefinition<T>, SSCKtor_utilsPipelinePhase, SSCKtor_utilsPipeline<TSubject, TContext>, SSCKtor_client_coreHttpReceivePipelinePhases, SSCKtor_client_coreHttpResponse, SSCKotlinUnit, SSCKtor_client_coreHttpRequestPipelinePhases, SSCKtor_client_coreHttpRequestBuilder, SSCKtor_client_coreHttpResponsePipelinePhases, SSCKtor_client_coreHttpResponseContainer, SSCKtor_client_coreHttpSendPipelinePhases, SSCKotlinx_serialization_jsonClassDiscriminatorMode, SSCKtor_httpURLProtocolCompanion, SSCKotlinx_datetimeFixedOffsetTimeZone, SSCKotlinx_datetimeInstantCompanion, SSCKotlinx_datetimeLocalDate, SSCKotlinx_datetimeLocalTime, SSCKotlinx_datetimeMonth, SSCKotlinx_datetimeLocalDateTimeCompanion, SSCKotlinx_datetimeDayOfWeek, SSCKtor_client_coreHttpClientCallCompanion, SSCKtor_utilsTypeInfo, SSCKtor_websocketsFrameCompanion, SSCKtor_websocketsFrameType, SSCKtor_websocketsWebSocketExtensionHeader, SSCKermit_coreLogWriter, SSCKtor_httpHttpMethod, SSCKtor_httpOutgoingContent, SSCKtor_httpHttpStatusCode, SSCKtor_utilsGMTDate, SSCKtor_httpHttpProtocolVersion, SSCKtor_httpHeadersBuilder, SSCKtor_client_coreHttpRequestBuilderCompanion, SSCKtor_httpURLBuilder, SSCKotlinx_datetimeUtcOffset, SSCKotlinx_datetimeFixedOffsetTimeZoneCompanion, SSCKotlinx_datetimeLocalDateCompanion, SSCKotlinx_datetimeLocalTimeCompanion, SSCKtor_websocketsFrameTypeCompanion, SSCKtor_httpHttpMethodCompanion, SSCKtor_httpContentType, SSCKtor_httpHttpStatusCodeCompanion, SSCKtor_utilsWeekDay, SSCKtor_utilsMonth, SSCKtor_utilsGMTDateCompanion, SSCKtor_httpHttpProtocolVersionCompanion, SSCKtor_utilsStringValuesBuilderImpl, SSCKtor_httpURLBuilderCompanion, SSCKotlinx_datetimeUtcOffsetCompanion, SSCKotlinx_datetimePadding, SSCKotlinx_datetimeDayOfWeekNames, SSCKotlinx_datetimeMonthNames, SSCKotlinKTypeProjection, SSCKotlinx_io_coreBuffer, SSCKtor_httpHeaderValueParam, SSCKtor_httpHeaderValueWithParametersCompanion, SSCKtor_httpHeaderValueWithParameters, SSCKtor_httpContentTypeCompanion, SSCKtor_utilsWeekDayCompanion, SSCKtor_utilsMonthCompanion, SSCKotlinx_datetimeDayOfWeekNamesCompanion, SSCKotlinx_datetimeMonthNamesCompanion, SSCKotlinKVariance, SSCKotlinKTypeProjectionCompanion;
 
-@protocol SSCPulsePlugin, SSCPulseConfig, SSCKotlinAutoCloseable, SSCKotlinComparable, SSCKotlinx_serialization_coreKSerializer, SSCPlatformApp, SSCKtor_ioCloseable, SSCPlatformAppConfig, SSCEffectsSource, SSCMomentSelector, SSCContextApiClient, SSCActivationResolver, SSCBaseContentConfig, SSCContext, SSCIContentFactory, SSCMomentPlugin, SSCDataTrackClient, SSCPlatformMomentConfig, SSCKotlinx_serialization_coreEncoder, SSCKotlinx_serialization_coreSerialDescriptor, SSCKotlinx_serialization_coreSerializationStrategy, SSCKotlinx_serialization_coreDecoder, SSCKotlinx_serialization_coreDeserializationStrategy, SSCKotlinKClass, SSCMetadataItem, SSCDataTrackItem, SSCDataTrack, SSCPulseInitializationCallback, SSCViewSessionCallback, SSCApplicationInitializationCallback, SSCActivationsCallback, SSCTrackingCallback, SSCKotlinx_coroutines_coreStateFlow, SSCKotlinx_coroutines_coreChannel, SSCMoment, SSCPluginEvent, SSCPluginHook, SSCPlugin, SSCKotlinx_coroutines_coreDeferred, SSCSourceApiClient, SSCKotlinSuspendFunction1, SSCKotlinCoroutineContextKey, SSCKotlinCoroutineContextElement, SSCKotlinCoroutineContext, SSCKotlinContinuation, SSCKotlinContinuationInterceptor, SSCKotlinx_coroutines_coreRunnable, SSCKotlinIterator, SSCKotlinx_coroutines_coreCoroutineScope, SSCKtor_client_coreHttpClientEngine, SSCKtor_client_coreHttpClientEngineCapability, SSCKtor_utilsAttributes, SSCKotlinx_serialization_coreSerialFormat, SSCKotlinx_serialization_coreStringFormat, SSCKtor_httpParameters, SSCKotlinx_serialization_coreCompositeEncoder, SSCKotlinAnnotation, SSCKotlinx_serialization_coreCompositeDecoder, SSCKotlinKDeclarationContainer, SSCKotlinKAnnotatedElement, SSCKotlinKClassifier, SSCKotlinx_coroutines_coreFlowCollector, SSCKotlinx_coroutines_coreFlow, SSCKotlinx_coroutines_coreSharedFlow, SSCKtor_websocketsWebSocketExtension, SSCKotlinx_coroutines_coreReceiveChannel, SSCKotlinx_coroutines_coreSendChannel, SSCKtor_websocketsWebSocketSession, SSCKtor_client_coreClientWebSocketSession, SSCKtor_websocketsDefaultWebSocketSession, SSCKotlinx_coroutines_coreSelectClause2, SSCKotlinx_coroutines_coreChannelIterator, SSCKotlinx_coroutines_coreSelectClause1, SSCKacheObjectKache, SSCKotlinx_coroutines_coreChildHandle, SSCKotlinx_coroutines_coreChildJob, SSCKotlinx_coroutines_coreDisposableHandle, SSCKotlinx_coroutines_coreJob, SSCKotlinSequence, SSCKotlinx_coroutines_coreSelectClause0, SSCKotlinFunction, SSCKermit_coreLoggerConfig, SSCKermit_coreMutableLoggerConfig, SSCKtor_client_coreHttpClientPlugin, SSCKotlinSuspendFunction2, SSCKotlinx_serialization_coreSerializersModuleCollector, SSCKotlinx_serialization_jsonJsonNamingStrategy, SSCKotlinMapEntry, SSCKtor_utilsStringValues, SSCKtor_ioByteReadChannel, SSCKtor_client_coreHttpRequest, SSCKtor_websocketsWebSocketExtensionFactory, SSCKotlinx_coroutines_coreSelectInstance, SSCKotlinx_coroutines_coreSelectClause, SSCKotlinx_coroutines_coreParentJob, SSCKtor_httpHeaders, SSCKtor_httpHttpMessage, SSCKtor_httpHttpMessageBuilder, SSCKotlinx_datetimeDateTimeFormat, SSCKotlinx_datetimeDateTimeFormatBuilderWithDateTime, SSCKotlinKType, SSCKotlinx_io_coreSource, SSCKtor_utilsStringValuesBuilder, SSCKtor_httpParametersBuilder, SSCKotlinAppendable, SSCKotlinx_datetimeDateTimeFormatBuilderWithDate, SSCKotlinx_datetimeDateTimeFormatBuilderWithTime, SSCKotlinx_datetimeDateTimeFormatBuilder, SSCKotlinx_io_coreRawSink, SSCKotlinx_io_coreRawSource, SSCKotlinx_datetimeDateTimeFormatBuilderWithUtcOffset, SSCKotlinx_io_coreSink;
+@protocol SSCPulsePlugin, SSCPulseConfig, SSCKotlinAutoCloseable, SSCKotlinComparable, SSCKotlinx_serialization_coreKSerializer, SSCPlatformApp, SSCKtor_ioCloseable, SSCPlatformAppConfig, SSCEffectsSource, SSCMomentSelector, SSCContextApiClient, SSCActivationResolver, SSCBaseContentConfig, SSCContext, SSCIContentFactory, SSCMomentPlugin, SSCDataTrackClient, SSCPlatformMomentConfig, SSCKotlinx_serialization_coreEncoder, SSCKotlinx_serialization_coreSerialDescriptor, SSCKotlinx_serialization_coreSerializationStrategy, SSCKotlinx_serialization_coreDecoder, SSCKotlinx_serialization_coreDeserializationStrategy, SSCKotlinKClass, SSCMetadataItem, SSCDataTrackItem, SSCDataTrack, SSCUnifiedSourceSyncCallback, SSCKotlinx_coroutines_coreStateFlow, SSCKotlinx_coroutines_coreChannel, SSCMoment, SSCPluginEvent, SSCPluginHook, SSCPlugin, SSCKotlinx_coroutines_coreDeferred, SSCSourceApiClient, SSCKotlinSuspendFunction1, SSCKotlinCoroutineContextKey, SSCKotlinCoroutineContextElement, SSCKotlinCoroutineContext, SSCKotlinContinuation, SSCKotlinContinuationInterceptor, SSCKotlinx_coroutines_coreRunnable, SSCKotlinIterator, SSCKotlinx_coroutines_coreCoroutineScope, SSCKtor_client_coreHttpClientEngine, SSCKtor_client_coreHttpClientEngineCapability, SSCKtor_utilsAttributes, SSCKotlinx_serialization_coreSerialFormat, SSCKotlinx_serialization_coreStringFormat, SSCKtor_httpParameters, SSCKotlinx_serialization_coreCompositeEncoder, SSCKotlinAnnotation, SSCKotlinx_serialization_coreCompositeDecoder, SSCKotlinKDeclarationContainer, SSCKotlinKAnnotatedElement, SSCKotlinKClassifier, SSCKotlinx_coroutines_coreFlowCollector, SSCKotlinx_coroutines_coreFlow, SSCKotlinx_coroutines_coreSharedFlow, SSCKtor_websocketsWebSocketExtension, SSCKotlinx_coroutines_coreReceiveChannel, SSCKotlinx_coroutines_coreSendChannel, SSCKtor_websocketsWebSocketSession, SSCKtor_client_coreClientWebSocketSession, SSCKtor_websocketsDefaultWebSocketSession, SSCKotlinx_coroutines_coreSelectClause2, SSCKotlinx_coroutines_coreChannelIterator, SSCKotlinx_coroutines_coreSelectClause1, SSCKacheObjectKache, SSCKotlinx_coroutines_coreChildHandle, SSCKotlinx_coroutines_coreChildJob, SSCKotlinx_coroutines_coreDisposableHandle, SSCKotlinx_coroutines_coreJob, SSCKotlinSequence, SSCKotlinx_coroutines_coreSelectClause0, SSCKotlinFunction, SSCKermit_coreLoggerConfig, SSCKermit_coreMutableLoggerConfig, SSCKtor_client_coreHttpClientPlugin, SSCKotlinSuspendFunction2, SSCKotlinx_serialization_coreSerializersModuleCollector, SSCKotlinx_serialization_jsonJsonNamingStrategy, SSCKotlinMapEntry, SSCKtor_utilsStringValues, SSCKtor_ioByteReadChannel, SSCKtor_client_coreHttpRequest, SSCKtor_websocketsWebSocketExtensionFactory, SSCKotlinx_coroutines_coreSelectInstance, SSCKotlinx_coroutines_coreSelectClause, SSCKotlinx_coroutines_coreParentJob, SSCKtor_httpHeaders, SSCKtor_httpHttpMessage, SSCKtor_httpHttpMessageBuilder, SSCKotlinx_datetimeDateTimeFormat, SSCKotlinx_datetimeDateTimeFormatBuilderWithDateTime, SSCKotlinKType, SSCKotlinx_io_coreSource, SSCKtor_utilsStringValuesBuilder, SSCKtor_httpParametersBuilder, SSCKotlinAppendable, SSCKotlinx_datetimeDateTimeFormatBuilderWithDate, SSCKotlinx_datetimeDateTimeFormatBuilderWithTime, SSCKotlinx_datetimeDateTimeFormatBuilder, SSCKotlinx_io_coreRawSink, SSCKotlinx_io_coreRawSource, SSCKotlinx_datetimeDateTimeFormatBuilderWithUtcOffset, SSCKotlinx_io_coreSink;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -3287,13 +3287,6 @@ __attribute__((swift_name("Sizing.Companion")))
 - (id<SSCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
-__attribute__((swift_name("ActivationsCallback")))
-@protocol SSCActivationsCallback
-@required
-- (void)onErrorMessage:(NSString *)message __attribute__((swift_name("onError(message:)")));
-- (void)onSuccessActivations:(NSArray<SSCActivation *> *)activations __attribute__((swift_name("onSuccess(activations:)")));
-@end
-
 __attribute__((swift_name("AppInitializeState")))
 @interface SSCAppInitializeState : SSCBase
 @end
@@ -3334,13 +3327,6 @@ __attribute__((swift_name("AppInitializeState.Success")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)success __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SSCAppInitializeStateSuccess *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("ApplicationInitializationCallback")))
-@protocol SSCApplicationInitializationCallback
-@required
-- (void)onErrorMessage:(NSString *)message __attribute__((swift_name("onError(message:)")));
-- (void)onSuccess __attribute__((swift_name("onSuccess()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3389,13 +3375,6 @@ __attribute__((swift_name("PulseConfig_")))
 @property (readonly) NSString *userId __attribute__((swift_name("userId")));
 @end
 
-__attribute__((swift_name("PulseInitializationCallback")))
-@protocol SSCPulseInitializationCallback
-@required
-- (void)onErrorMessage:(NSString *)message __attribute__((swift_name("onError(message:)")));
-- (void)onSuccess __attribute__((swift_name("onSuccess()")));
-@end
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SourceSyncFactory")))
 @interface SSCSourceSyncFactory : SSCBase
@@ -3403,9 +3382,9 @@ __attribute__((swift_name("SourceSyncFactory")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)sourceSyncFactory __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SSCSourceSyncFactory *shared __attribute__((swift_name("shared")));
-- (void)configurePulsePulseAppId:(NSString *)pulseAppId pulseUserId:(NSString *)pulseUserId isMobileDevice:(BOOL)isMobileDevice callback:(id<SSCPulseInitializationCallback> _Nullable)callback __attribute__((swift_name("configurePulse(pulseAppId:pulseUserId:isMobileDevice:callback:)")));
-- (void)createViewSessionSessionId:(NSString *)sessionId clientId:(NSString *)clientId contentParams:(SSCContentParams * _Nullable)contentParams callback:(id<SSCViewSessionCallback> _Nullable)callback __attribute__((swift_name("createViewSession(sessionId:clientId:contentParams:callback:)")));
-- (void)initializeApplicationAppKey:(NSString *)appKey envType:(SSCEnvType *)envType tenant:(NSString *)tenant callback:(id<SSCApplicationInitializationCallback> _Nullable)callback __attribute__((swift_name("initializeApplication(appKey:envType:tenant:callback:)")));
+- (void)configurePulsePulseAppId:(NSString *)pulseAppId pulseUserId:(NSString *)pulseUserId isMobileDevice:(BOOL)isMobileDevice callback:(id<SSCUnifiedSourceSyncCallback> _Nullable)callback __attribute__((swift_name("configurePulse(pulseAppId:pulseUserId:isMobileDevice:callback:)")));
+- (void)createViewSessionSessionId:(NSString *)sessionId clientId:(NSString *)clientId contentParams:(SSCContentParams * _Nullable)contentParams callback:(id<SSCUnifiedSourceSyncCallback> _Nullable)callback __attribute__((swift_name("createViewSession(sessionId:clientId:contentParams:callback:)")));
+- (void)initializeApplicationAppKey:(NSString *)appKey envType:(SSCEnvType *)envType tenant:(NSString *)tenant callback:(id<SSCUnifiedSourceSyncCallback> _Nullable)callback __attribute__((swift_name("initializeApplication(appKey:envType:tenant:callback:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3413,8 +3392,8 @@ __attribute__((swift_name("SourceSyncManager")))
 @interface SSCSourceSyncManager : SSCBase <SSCKotlinAutoCloseable>
 @property (class, readonly, getter=companion) SSCSourceSyncManagerCompanion *companion __attribute__((swift_name("companion")));
 - (void)close __attribute__((swift_name("close()")));
-- (void)configurePulsePulseConfig:(SSCPulseConfig *)pulseConfig callback:(id<SSCPulseInitializationCallback> _Nullable)callback __attribute__((swift_name("configurePulse(pulseConfig:callback:)")));
-- (void)createViewSessionSessionId:(NSString *)sessionId clientId:(NSString *)clientId contentParams:(SSCContentParams * _Nullable)contentParams callback:(id<SSCViewSessionCallback> _Nullable)callback __attribute__((swift_name("createViewSession(sessionId:clientId:contentParams:callback:)")));
+- (void)configurePulsePulseConfig:(SSCPulseConfig *)pulseConfig callback:(id<SSCUnifiedSourceSyncCallback> _Nullable)callback __attribute__((swift_name("configurePulse(pulseConfig:callback:)")));
+- (void)createViewSessionSessionId:(NSString *)sessionId clientId:(NSString *)clientId contentParams:(SSCContentParams * _Nullable)contentParams callback:(id<SSCUnifiedSourceSyncCallback> _Nullable)callback __attribute__((swift_name("createViewSession(sessionId:clientId:contentParams:callback:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -3422,7 +3401,7 @@ __attribute__((swift_name("SourceSyncManager")))
 */
 - (void)destroyViewSessionSessionId:(NSString *)sessionId completionHandler:(void (^)(SSCBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("destroyViewSession(sessionId:completionHandler:)")));
 - (BOOL)destroyViewSessionSyncSessionId:(NSString *)sessionId __attribute__((swift_name("destroyViewSessionSync(sessionId:)")));
-- (void)fetchCurrentActivationsSessionId:(NSString *)sessionId currentTime:(int64_t)currentTime interval:(int64_t)interval callback:(id<SSCActivationsCallback>)callback __attribute__((swift_name("fetchCurrentActivations(sessionId:currentTime:interval:callback:)")));
+- (void)fetchCurrentActivationsSessionId:(NSString *)sessionId currentTime:(int64_t)currentTime interval:(int64_t)interval callback:(id<SSCUnifiedSourceSyncCallback>)callback __attribute__((swift_name("fetchCurrentActivations(sessionId:currentTime:interval:callback:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -3437,12 +3416,12 @@ __attribute__((swift_name("SourceSyncManager")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getViewSessionSessionId:(NSString *)sessionId completionHandler:(void (^)(SSCViewSession * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getViewSession(sessionId:completionHandler:)")));
-- (void)initializeApplicationAppKey:(NSString *)appKey envType:(SSCEnvType *)envType tenant:(NSString *)tenant callback:(id<SSCApplicationInitializationCallback> _Nullable)callback __attribute__((swift_name("initializeApplication(appKey:envType:tenant:callback:)")));
+- (void)initializeApplicationAppKey:(NSString *)appKey envType:(SSCEnvType *)envType tenant:(NSString *)tenant callback:(id<SSCUnifiedSourceSyncCallback> _Nullable)callback __attribute__((swift_name("initializeApplication(appKey:envType:tenant:callback:)")));
 - (BOOL)isAppReady __attribute__((swift_name("isAppReady()")));
 - (BOOL)isPulseReady __attribute__((swift_name("isPulseReady()")));
-- (void)trackCustomEventSessionId:(NSString *)sessionId eventType:(NSString *)eventType data:(NSDictionary<NSString *, NSString *> *)data callback:(id<SSCTrackingCallback> _Nullable)callback __attribute__((swift_name("trackCustomEvent(sessionId:eventType:data:callback:)")));
-- (void)trackEventSessionId:(NSString *)sessionId eventType:(SSCTrackEventType *)eventType activationId:(NSString * _Nullable)activationId activationName:(NSString * _Nullable)activationName mediaTime:(SSCLong * _Nullable)mediaTime callback:(id<SSCTrackingCallback> _Nullable)callback __attribute__((swift_name("trackEvent(sessionId:eventType:activationId:activationName:mediaTime:callback:)")));
-- (void)updateViewSessionClientIdSessionId:(NSString *)sessionId newClientId:(NSString *)newClientId callback:(id<SSCViewSessionCallback> _Nullable)callback __attribute__((swift_name("updateViewSessionClientId(sessionId:newClientId:callback:)")));
+- (void)trackCustomEventSessionId:(NSString *)sessionId eventType:(NSString *)eventType data:(NSDictionary<NSString *, NSString *> *)data callback:(id<SSCUnifiedSourceSyncCallback> _Nullable)callback __attribute__((swift_name("trackCustomEvent(sessionId:eventType:data:callback:)")));
+- (void)trackEventSessionId:(NSString *)sessionId eventType:(SSCTrackEventType *)eventType activationId:(NSString * _Nullable)activationId activationName:(NSString * _Nullable)activationName mediaTime:(SSCLong * _Nullable)mediaTime callback:(id<SSCUnifiedSourceSyncCallback> _Nullable)callback __attribute__((swift_name("trackEvent(sessionId:eventType:activationId:activationName:mediaTime:callback:)")));
+- (void)updateViewSessionClientIdSessionId:(NSString *)sessionId newClientId:(NSString *)newClientId callback:(id<SSCUnifiedSourceSyncCallback> _Nullable)callback __attribute__((swift_name("updateViewSessionClientId(sessionId:newClientId:callback:)")));
 @property (readonly) id<SSCKotlinx_coroutines_coreStateFlow> appInitializeState __attribute__((swift_name("appInitializeState")));
 @end
 
@@ -3462,11 +3441,11 @@ __attribute__((swift_name("SourceSyncManager.Companion")))
 - (SSCSourceSyncManager *)getInstanceSync __attribute__((swift_name("getInstanceSync()")));
 @end
 
-__attribute__((swift_name("TrackingCallback")))
-@protocol SSCTrackingCallback
+__attribute__((swift_name("UnifiedSourceSyncCallback")))
+@protocol SSCUnifiedSourceSyncCallback
 @required
 - (void)onErrorMessage:(NSString *)message __attribute__((swift_name("onError(message:)")));
-- (void)onSuccess __attribute__((swift_name("onSuccess()")));
+- (void)onSuccessResult:(id _Nullable)result __attribute__((swift_name("onSuccess(result:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3482,13 +3461,6 @@ __attribute__((swift_name("ViewSession")))
 @property (readonly) SSCContentParams *contentParams __attribute__((swift_name("contentParams")));
 @property (readonly) SSCExperienceIndexData * _Nullable indexData __attribute__((swift_name("indexData")));
 @property (readonly) NSString *sessionId __attribute__((swift_name("sessionId")));
-@end
-
-__attribute__((swift_name("ViewSessionCallback")))
-@protocol SSCViewSessionCallback
-@required
-- (void)onErrorMessage:(NSString *)message __attribute__((swift_name("onError(message:)")));
-- (void)onSuccessViewSession:(SSCViewSession *)viewSession __attribute__((swift_name("onSuccess(viewSession:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -4396,6 +4368,16 @@ __attribute__((swift_name("SourceApiClientSourceApiClientException")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ActivationDataException")))
+@interface SSCActivationDataException : SSCKotlinException
+- (instancetype)initWithMessage:(NSString *)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (instancetype)initWithCause:(SSCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(SSCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CoreUUID")))
 @interface SSCCoreUUID : SSCBase
 + (instancetype)alloc __attribute__((unavailable));
@@ -4545,6 +4527,12 @@ __attribute__((swift_name("PluginCorePluginInitializationException")))
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(SSCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @end
 
+@interface SSCActivation (Extensions)
+- (NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)getDetailsData __attribute__((swift_name("getDetailsData()")));
+- (NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)getPreviewData __attribute__((swift_name("getPreviewData()")));
+- (BOOL)shouldShowPlaybackPosition:(int64_t)playbackPosition __attribute__((swift_name("shouldShow(playbackPosition:)")));
+@end
+
 @interface SSCGetContentConfig (Extensions)
 - (void)addEffectsSourceSource:(id<SSCEffectsSource>)source __attribute__((swift_name("addEffectsSource(source:)")));
 - (SSCExperienceIdentifier * _Nullable)getExperienceIdentifier __attribute__((swift_name("getExperienceIdentifier()")));
@@ -4575,6 +4563,8 @@ __attribute__((swift_name("DeviceInfo_appleKt")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ExtensionsKt")))
 @interface SSCExtensionsKt : SSCBase
++ (NSArray<id> *)toList:(NSArray<SSCKotlinx_serialization_jsonJsonElement *> *)receiver __attribute__((swift_name("toList(_:)")));
++ (NSDictionary<NSString *, id> *)toMuteMap:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)receiver __attribute__((swift_name("toMuteMap(_:)")));
 + (NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)trimString:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)receiver __attribute__((swift_name("trimString(_:)")));
 @end
 
