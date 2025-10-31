@@ -716,11 +716,14 @@ __attribute__((swift_name("Activation")))
 - (SSCActivation *)doCopyId:(SSCKotlinx_serialization_jsonJsonPrimitive * _Nullable)id externalId:(NSString * _Nullable)externalId name:(NSString * _Nullable)name source:(NSString * _Nullable)source uuid:(NSString * _Nullable)uuid instances:(NSArray<SSCInstance *> * _Nullable)instances data:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)data settings:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)settings template:(NSArray<SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)template_ version:(SSCInt * _Nullable)version previewImage:(NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)previewImage populated:(SSCBoolean * _Nullable)populated type:(NSString * _Nullable)type __attribute__((swift_name("doCopy(id:externalId:name:source:uuid:instances:data:settings:template:version:previewImage:populated:type:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSString *)getDataJsonString __attribute__((swift_name("getDataJsonString()")));
+- (NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)getDetailsData __attribute__((swift_name("getDetailsData()")));
+- (NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)getPreviewData __attribute__((swift_name("getPreviewData()")));
 - (NSString *)getSettingsJsonString __attribute__((swift_name("getSettingsJsonString()")));
 - (NSDictionary<NSString *, id> *)getSettingsMap __attribute__((swift_name("getSettingsMap()")));
 - (NSString *)getTemplateJsonString __attribute__((swift_name("getTemplateJsonString()")));
 - (NSArray<NSDictionary<NSString *, id> *> *)getTemplateList __attribute__((swift_name("getTemplateList()")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (BOOL)shouldShowPlaybackPosition:(int64_t)playbackPosition __attribute__((swift_name("shouldShow(playbackPosition:)")));
 - (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable data __attribute__((swift_name("data")));
@@ -4368,16 +4371,6 @@ __attribute__((swift_name("SourceApiClientSourceApiClientException")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ActivationDataException")))
-@interface SSCActivationDataException : SSCKotlinException
-- (instancetype)initWithMessage:(NSString *)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (instancetype)initWithCause:(SSCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(SSCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@end
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CoreUUID")))
 @interface SSCCoreUUID : SSCBase
 + (instancetype)alloc __attribute__((unavailable));
@@ -4525,12 +4518,6 @@ __attribute__((swift_name("PluginCorePluginInitializationException")))
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithCause:(SSCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(SSCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@end
-
-@interface SSCActivation (Extensions)
-- (NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)getDetailsData __attribute__((swift_name("getDetailsData()")));
-- (NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)getPreviewData __attribute__((swift_name("getPreviewData()")));
-- (BOOL)shouldShowPlaybackPosition:(int64_t)playbackPosition __attribute__((swift_name("shouldShow(playbackPosition:)")));
 @end
 
 @interface SSCGetContentConfig (Extensions)
