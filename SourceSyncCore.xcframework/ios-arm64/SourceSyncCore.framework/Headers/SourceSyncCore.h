@@ -718,6 +718,7 @@ __attribute__((swift_name("Activation")))
 - (NSString *)getDataJsonString __attribute__((swift_name("getDataJsonString()")));
 - (NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)getDetailsData __attribute__((swift_name("getDetailsData()")));
 - (NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> *)getPreviewData __attribute__((swift_name("getPreviewData()")));
+- (NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable)getSettingsJsonObject __attribute__((swift_name("getSettingsJsonObject()")));
 - (NSString *)getSettingsJsonString __attribute__((swift_name("getSettingsJsonString()")));
 - (NSDictionary<NSString *, id> *)getSettingsMap __attribute__((swift_name("getSettingsMap()")));
 - (NSString *)getTemplateJsonString __attribute__((swift_name("getTemplateJsonString()")));
