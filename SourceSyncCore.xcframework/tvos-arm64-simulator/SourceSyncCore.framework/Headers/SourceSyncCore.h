@@ -724,6 +724,8 @@ __attribute__((swift_name("Activation")))
 - (NSString *)getTemplateJsonString __attribute__((swift_name("getTemplateJsonString()")));
 - (NSArray<NSDictionary<NSString *, id> *> *)getTemplateList __attribute__((swift_name("getTemplateList()")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)serializeDetailsToJsonString __attribute__((swift_name("serializeDetailsToJsonString()")));
+- (NSString *)serializePreviewToJsonString __attribute__((swift_name("serializePreviewToJsonString()")));
 - (BOOL)shouldShowPlaybackPosition:(int64_t)playbackPosition __attribute__((swift_name("shouldShow(playbackPosition:)")));
 - (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
 - (NSString *)description __attribute__((swift_name("description()")));
