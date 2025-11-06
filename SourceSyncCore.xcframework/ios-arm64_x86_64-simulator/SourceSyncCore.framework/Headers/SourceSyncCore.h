@@ -726,7 +726,7 @@ __attribute__((swift_name("Activation")))
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)serializeDetailsToJsonString __attribute__((swift_name("serializeDetailsToJsonString()")));
 - (NSString *)serializePreviewToJsonString __attribute__((swift_name("serializePreviewToJsonString()")));
-- (BOOL)shouldShowPlaybackPosition:(int64_t)playbackPosition __attribute__((swift_name("shouldShow(playbackPosition:)")));
+- (BOOL)shouldShowPlaybackPosition:(int64_t)playbackPosition onShowResult:(void (^)(SSCLong *, SSCLong *))onShowResult __attribute__((swift_name("shouldShow(playbackPosition:onShowResult:)")));
 - (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSDictionary<NSString *, SSCKotlinx_serialization_jsonJsonElement *> * _Nullable data __attribute__((swift_name("data")));
