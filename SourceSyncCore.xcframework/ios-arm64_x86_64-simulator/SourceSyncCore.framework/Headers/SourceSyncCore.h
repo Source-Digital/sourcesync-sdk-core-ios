@@ -700,6 +700,7 @@ __attribute__((swift_name("PlatformPulsePlugin")))
 @property NSString *appId __attribute__((swift_name("appId")));
 @property (readonly) NSArray<NSString *> *baseUrls __attribute__((swift_name("baseUrls")));
 @property (readonly) SSCPlatformPulseConfig *config __attribute__((swift_name("config")));
+@property SSCKtor_client_coreHttpClient *(^httpClientProvider)(void) __attribute__((swift_name("httpClientProvider")));
 @property NSString * _Nullable userId __attribute__((swift_name("userId")));
 @end
 
@@ -3422,7 +3423,7 @@ __attribute__((swift_name("SourceSyncManager")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getViewSessionSessionId:(NSString *)sessionId completionHandler:(void (^)(SSCViewSession * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getViewSession(sessionId:completionHandler:)")));
-- (void)initializeApplicationAppKey:(NSString *)appKey envType:(SSCEnvType *)envType tenant:(NSString *)tenant callback:(id<SSCUnifiedSourceSyncCallback> _Nullable)callback __attribute__((swift_name("initializeApplication(appKey:envType:tenant:callback:)")));
+- (void)initializeApplicationAppKey:(NSString *)appKey envType:(SSCEnvType *)envType tenant:(NSString * _Nullable)tenant callback:(id<SSCUnifiedSourceSyncCallback> _Nullable)callback __attribute__((swift_name("initializeApplication(appKey:envType:tenant:callback:)")));
 - (BOOL)isAppReady __attribute__((swift_name("isAppReady()")));
 - (BOOL)isPulseReady __attribute__((swift_name("isPulseReady()")));
 - (void)trackCustomEventSessionId:(NSString *)sessionId eventType:(NSString *)eventType data:(NSDictionary<NSString *, NSString *> *)data callback:(id<SSCUnifiedSourceSyncCallback> _Nullable)callback __attribute__((swift_name("trackCustomEvent(sessionId:eventType:data:callback:)")));
